@@ -1,5 +1,74 @@
 [
   {
+    "snapshot_id": "c6207c88d8754a44bafc2bcc2cec2859",
+    "fetched_at_utc": "2026-07-16T17:40:02.334635+00:00",
+    "fetched_at_mountain": "2026-07-16T11:40:02.334635-06:00",
+    "primary_source": "parlayapi",
+    "source_status": "ok",
+    "event_count": 1,
+    "bookmaker_count": 1,
+    "draftkings_event_count": 0,
+    "tt_elite_event_count": 0,
+    "events_found": true,
+    "source_coverage_note": null,
+    "events": [
+      {
+        "source": "parlayapi",
+        "source_event_id": "5380620bf230682f343dedb55cd4d89a",
+        "sport_key": "table_tennis",
+        "sport_title": "Table Tennis",
+        "league": "Table Tennis",
+        "commence_time_utc": "2026-07-16T18:05:00Z",
+        "commence_time_mountain": "2026-07-16T12:05:00-06:00",
+        "home_team": "Valerii Lukianevych",
+        "away_team": "Vadym Melnyk",
+        "bookmakers": [
+          {
+            "bookmaker_key": "bovada",
+            "bookmaker_name": "Bovada",
+            "bookmaker_last_update": "2026-07-16T17:39:58Z",
+            "source_provider": "parlayapi",
+            "outcomes": [
+              {
+                "outcome_name": "Valerii Lukianevych",
+                "decimal_price": 1.345,
+                "american_price": -290
+              },
+              {
+                "outcome_name": "Vadym Melnyk",
+                "decimal_price": 3.1,
+                "american_price": 210
+              }
+            ]
+          }
+        ],
+        "bookmaker_count": 1,
+        "draftkings": null,
+        "consensus": null,
+        "source_reference_price": {
+          "label": "source_reference_price",
+          "bookmaker_key": "bovada",
+          "bookmaker_name": "Bovada",
+          "provider": "parlayapi",
+          "outcomes": [
+            {
+              "outcome_name": "Valerii Lukianevych",
+              "decimal_price": 1.345,
+              "american_price": -290
+            },
+            {
+              "outcome_name": "Vadym Melnyk",
+              "decimal_price": 3.1,
+              "american_price": 210
+            }
+          ]
+        },
+        "is_tt_elite": false
+      }
+    ],
+    "consensus_note": "single-source feed (Bovada via ParlayAPI): prices labeled source_reference_price, NOT consensus."
+  },
+  {
     "snapshot_id": "743f59780d414a9f94f506eb7a92570c",
     "fetched_at_utc": "2026-07-16T05:40:02.467395+00:00",
     "fetched_at_mountain": "2026-07-15T23:40:02.467395-06:00",
