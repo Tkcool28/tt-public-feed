@@ -1,5 +1,127 @@
 [
   {
+    "snapshot_id": "b813fa5449ca42618f1b1629e3d60f13",
+    "fetched_at_utc": "2026-07-18T05:40:03.362617+00:00",
+    "fetched_at_mountain": "2026-07-17T23:40:03.362617-06:00",
+    "primary_source": "parlayapi",
+    "source_status": "ok",
+    "event_count": 2,
+    "bookmaker_count": 1,
+    "draftkings_event_count": 0,
+    "tt_elite_event_count": 0,
+    "events_found": true,
+    "source_coverage_note": null,
+    "events": [
+      {
+        "source": "parlayapi",
+        "source_event_id": "a501ee975f2d6d0f328ebdecdddbed82",
+        "sport_key": "table_tennis",
+        "sport_title": "Table Tennis",
+        "league": "Table Tennis",
+        "commence_time_utc": "2026-07-18T06:35:00Z",
+        "commence_time_mountain": "2026-07-18T00:35:00-06:00",
+        "home_team": "Ivan Kozachuk",
+        "away_team": "Andrii Zeniuk",
+        "bookmakers": [
+          {
+            "bookmaker_key": "bovada",
+            "bookmaker_name": "Bovada",
+            "bookmaker_last_update": "2026-07-18T05:40:01Z",
+            "source_provider": "parlayapi",
+            "outcomes": [
+              {
+                "outcome_name": "Ivan Kozachuk",
+                "decimal_price": null,
+                "american_price": null
+              },
+              {
+                "outcome_name": "Andrii Zeniuk",
+                "decimal_price": 1.714,
+                "american_price": -140
+              }
+            ]
+          }
+        ],
+        "bookmaker_count": 1,
+        "draftkings": null,
+        "consensus": null,
+        "source_reference_price": {
+          "label": "source_reference_price",
+          "bookmaker_key": "bovada",
+          "bookmaker_name": "Bovada",
+          "provider": "parlayapi",
+          "outcomes": [
+            {
+              "outcome_name": "Ivan Kozachuk",
+              "decimal_price": null,
+              "american_price": null
+            },
+            {
+              "outcome_name": "Andrii Zeniuk",
+              "decimal_price": 1.714,
+              "american_price": -140
+            }
+          ]
+        },
+        "is_tt_elite": false
+      },
+      {
+        "source": "parlayapi",
+        "source_event_id": "073d658f2742ac90214b1568639186f7",
+        "sport_key": "table_tennis",
+        "sport_title": "Table Tennis",
+        "league": "Table Tennis",
+        "commence_time_utc": "2026-07-18T06:30:00Z",
+        "commence_time_mountain": "2026-07-18T00:30:00-06:00",
+        "home_team": "Vitalii Ananiev",
+        "away_team": "Volodymyr Ivnytskyi",
+        "bookmakers": [
+          {
+            "bookmaker_key": "bovada",
+            "bookmaker_name": "Bovada",
+            "bookmaker_last_update": "2026-07-18T05:40:01Z",
+            "source_provider": "parlayapi",
+            "outcomes": [
+              {
+                "outcome_name": "Vitalii Ananiev",
+                "decimal_price": 1.19,
+                "american_price": -526
+              },
+              {
+                "outcome_name": "Volodymyr Ivnytskyi",
+                "decimal_price": 4.5,
+                "american_price": 350
+              }
+            ]
+          }
+        ],
+        "bookmaker_count": 1,
+        "draftkings": null,
+        "consensus": null,
+        "source_reference_price": {
+          "label": "source_reference_price",
+          "bookmaker_key": "bovada",
+          "bookmaker_name": "Bovada",
+          "provider": "parlayapi",
+          "outcomes": [
+            {
+              "outcome_name": "Vitalii Ananiev",
+              "decimal_price": 1.19,
+              "american_price": -526
+            },
+            {
+              "outcome_name": "Volodymyr Ivnytskyi",
+              "decimal_price": 4.5,
+              "american_price": 350
+            }
+          ]
+        },
+        "is_tt_elite": false
+      }
+    ],
+    "consensus_note": "single-source feed (Bovada via ParlayAPI): prices labeled source_reference_price, NOT consensus."
+  },
+  {
     "snapshot_id": "dc939bff6e334f2a84939865cc39f05b",
     "fetched_at_utc": "2026-07-17T17:40:03.311559+00:00",
     "fetched_at_mountain": "2026-07-17T11:40:03.311559-06:00",
