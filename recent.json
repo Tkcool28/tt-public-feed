@@ -1,5 +1,127 @@
 [
   {
+    "snapshot_id": "1db2dd868f754a9aa66e869577ca5658",
+    "fetched_at_utc": "2026-07-19T17:40:02.680922+00:00",
+    "fetched_at_mountain": "2026-07-19T11:40:02.680922-06:00",
+    "primary_source": "parlayapi",
+    "source_status": "ok",
+    "event_count": 2,
+    "bookmaker_count": 1,
+    "draftkings_event_count": 0,
+    "tt_elite_event_count": 0,
+    "events_found": true,
+    "source_coverage_note": null,
+    "events": [
+      {
+        "source": "parlayapi",
+        "source_event_id": "218619a49d22199bae4c1e38452c9951",
+        "sport_key": "table_tennis",
+        "sport_title": "Table Tennis",
+        "league": "Table Tennis",
+        "commence_time_utc": "2026-07-19T19:10:00Z",
+        "commence_time_mountain": "2026-07-19T13:10:00-06:00",
+        "home_team": "Ales Cizek",
+        "away_team": "Jan Skvrna",
+        "bookmakers": [
+          {
+            "bookmaker_key": "bovada",
+            "bookmaker_name": "Bovada",
+            "bookmaker_last_update": "2026-07-19T17:40:00Z",
+            "source_provider": "parlayapi",
+            "outcomes": [
+              {
+                "outcome_name": "Ales Cizek",
+                "decimal_price": 2.6,
+                "american_price": 160
+              },
+              {
+                "outcome_name": "Jan Skvrna",
+                "decimal_price": 1.488,
+                "american_price": -205
+              }
+            ]
+          }
+        ],
+        "bookmaker_count": 1,
+        "draftkings": null,
+        "consensus": null,
+        "source_reference_price": {
+          "label": "source_reference_price",
+          "bookmaker_key": "bovada",
+          "bookmaker_name": "Bovada",
+          "provider": "parlayapi",
+          "outcomes": [
+            {
+              "outcome_name": "Ales Cizek",
+              "decimal_price": 2.6,
+              "american_price": 160
+            },
+            {
+              "outcome_name": "Jan Skvrna",
+              "decimal_price": 1.488,
+              "american_price": -205
+            }
+          ]
+        },
+        "is_tt_elite": false
+      },
+      {
+        "source": "parlayapi",
+        "source_event_id": "bc9cf635eb85c6af640681dffc404e8c",
+        "sport_key": "table_tennis",
+        "sport_title": "Table Tennis",
+        "league": "Table Tennis",
+        "commence_time_utc": "2026-07-19T18:00:00Z",
+        "commence_time_mountain": "2026-07-19T12:00:00-06:00",
+        "home_team": "Richard Wagner",
+        "away_team": "Robin Pacha",
+        "bookmakers": [
+          {
+            "bookmaker_key": "bovada",
+            "bookmaker_name": "Bovada",
+            "bookmaker_last_update": "2026-07-19T17:40:00Z",
+            "source_provider": "parlayapi",
+            "outcomes": [
+              {
+                "outcome_name": "Richard Wagner",
+                "decimal_price": 1.833,
+                "american_price": -120
+              },
+              {
+                "outcome_name": "Robin Pacha",
+                "decimal_price": 1.833,
+                "american_price": -120
+              }
+            ]
+          }
+        ],
+        "bookmaker_count": 1,
+        "draftkings": null,
+        "consensus": null,
+        "source_reference_price": {
+          "label": "source_reference_price",
+          "bookmaker_key": "bovada",
+          "bookmaker_name": "Bovada",
+          "provider": "parlayapi",
+          "outcomes": [
+            {
+              "outcome_name": "Richard Wagner",
+              "decimal_price": 1.833,
+              "american_price": -120
+            },
+            {
+              "outcome_name": "Robin Pacha",
+              "decimal_price": 1.833,
+              "american_price": -120
+            }
+          ]
+        },
+        "is_tt_elite": false
+      }
+    ],
+    "consensus_note": "single-source feed (Bovada via ParlayAPI): prices labeled source_reference_price, NOT consensus."
+  },
+  {
     "snapshot_id": "c3a3e2b99a3c4866877d2f363a4409f0",
     "fetched_at_utc": "2026-07-19T05:40:02.886018+00:00",
     "fetched_at_mountain": "2026-07-18T23:40:02.886018-06:00",

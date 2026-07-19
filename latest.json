@@ -1,10 +1,10 @@
 {
-  "snapshot_id": "c3a3e2b99a3c4866877d2f363a4409f0",
-  "fetched_at_utc": "2026-07-19T05:40:02.886018+00:00",
-  "fetched_at_mountain": "2026-07-18T23:40:02.886018-06:00",
+  "snapshot_id": "1db2dd868f754a9aa66e869577ca5658",
+  "fetched_at_utc": "2026-07-19T17:40:02.680922+00:00",
+  "fetched_at_mountain": "2026-07-19T11:40:02.680922-06:00",
   "primary_source": "parlayapi",
   "source_status": "ok",
-  "event_count": 10,
+  "event_count": 2,
   "bookmaker_count": 1,
   "draftkings_event_count": 0,
   "tt_elite_event_count": 0,
@@ -13,507 +13,30 @@
   "events": [
     {
       "source": "parlayapi",
-      "source_event_id": "8b4e3a5b10cc673948c604a0efb65525",
+      "source_event_id": "218619a49d22199bae4c1e38452c9951",
       "sport_key": "table_tennis",
       "sport_title": "Table Tennis",
       "league": "Table Tennis",
-      "commence_time_utc": "2026-07-19T09:20:00Z",
-      "commence_time_mountain": "2026-07-19T03:20:00-06:00",
-      "home_team": "Bohdan Zaika",
-      "away_team": "Eduard Populovskyi",
+      "commence_time_utc": "2026-07-19T19:10:00Z",
+      "commence_time_mountain": "2026-07-19T13:10:00-06:00",
+      "home_team": "Ales Cizek",
+      "away_team": "Jan Skvrna",
       "bookmakers": [
         {
           "bookmaker_key": "bovada",
           "bookmaker_name": "Bovada",
-          "bookmaker_last_update": "2026-07-19T05:39:59Z",
+          "bookmaker_last_update": "2026-07-19T17:40:00Z",
           "source_provider": "parlayapi",
           "outcomes": [
             {
-              "outcome_name": "Bohdan Zaika",
-              "decimal_price": 2.35,
-              "american_price": 135
-            },
-            {
-              "outcome_name": "Eduard Populovskyi",
-              "decimal_price": null,
-              "american_price": null
-            }
-          ]
-        }
-      ],
-      "bookmaker_count": 1,
-      "draftkings": null,
-      "consensus": null,
-      "source_reference_price": {
-        "label": "source_reference_price",
-        "bookmaker_key": "bovada",
-        "bookmaker_name": "Bovada",
-        "provider": "parlayapi",
-        "outcomes": [
-          {
-            "outcome_name": "Bohdan Zaika",
-            "decimal_price": 2.35,
-            "american_price": 135
-          },
-          {
-            "outcome_name": "Eduard Populovskyi",
-            "decimal_price": null,
-            "american_price": null
-          }
-        ]
-      },
-      "is_tt_elite": false
-    },
-    {
-      "source": "parlayapi",
-      "source_event_id": "74dc5baf73f55c0a895705cf200028d5",
-      "sport_key": "table_tennis",
-      "sport_title": "Table Tennis",
-      "league": "Table Tennis",
-      "commence_time_utc": "2026-07-19T06:00:00Z",
-      "commence_time_mountain": "2026-07-19T00:00:00-06:00",
-      "home_team": "Jan Pleskot",
-      "away_team": "Martin Tacinec",
-      "bookmakers": [
-        {
-          "bookmaker_key": "bovada",
-          "bookmaker_name": "Bovada",
-          "bookmaker_last_update": "2026-07-19T05:40:01Z",
-          "source_provider": "parlayapi",
-          "outcomes": [
-            {
-              "outcome_name": "Jan Pleskot",
-              "decimal_price": 1.833,
-              "american_price": -120
-            },
-            {
-              "outcome_name": "Martin Tacinec",
-              "decimal_price": 1.833,
-              "american_price": -120
-            }
-          ]
-        }
-      ],
-      "bookmaker_count": 1,
-      "draftkings": null,
-      "consensus": null,
-      "source_reference_price": {
-        "label": "source_reference_price",
-        "bookmaker_key": "bovada",
-        "bookmaker_name": "Bovada",
-        "provider": "parlayapi",
-        "outcomes": [
-          {
-            "outcome_name": "Jan Pleskot",
-            "decimal_price": 1.833,
-            "american_price": -120
-          },
-          {
-            "outcome_name": "Martin Tacinec",
-            "decimal_price": 1.833,
-            "american_price": -120
-          }
-        ]
-      },
-      "is_tt_elite": false
-    },
-    {
-      "source": "parlayapi",
-      "source_event_id": "a8314db70d907871e4f46c16e6803c48",
-      "sport_key": "table_tennis",
-      "sport_title": "Table Tennis",
-      "league": "Table Tennis",
-      "commence_time_utc": "2026-07-19T07:00:00Z",
-      "commence_time_mountain": "2026-07-19T01:00:00-06:00",
-      "home_team": "Julius Didi",
-      "away_team": "Tomas Regner",
-      "bookmakers": [
-        {
-          "bookmaker_key": "bovada",
-          "bookmaker_name": "Bovada",
-          "bookmaker_last_update": "2026-07-19T05:40:01Z",
-          "source_provider": "parlayapi",
-          "outcomes": [
-            {
-              "outcome_name": "Julius Didi",
-              "decimal_price": 1.769,
-              "american_price": -130
-            },
-            {
-              "outcome_name": "Tomas Regner",
-              "decimal_price": 1.909,
-              "american_price": -110
-            }
-          ]
-        }
-      ],
-      "bookmaker_count": 1,
-      "draftkings": null,
-      "consensus": null,
-      "source_reference_price": {
-        "label": "source_reference_price",
-        "bookmaker_key": "bovada",
-        "bookmaker_name": "Bovada",
-        "provider": "parlayapi",
-        "outcomes": [
-          {
-            "outcome_name": "Julius Didi",
-            "decimal_price": 1.769,
-            "american_price": -130
-          },
-          {
-            "outcome_name": "Tomas Regner",
-            "decimal_price": 1.909,
-            "american_price": -110
-          }
-        ]
-      },
-      "is_tt_elite": false
-    },
-    {
-      "source": "parlayapi",
-      "source_event_id": "0d982d2486400b6a965fdd7df42c45ee",
-      "sport_key": "table_tennis",
-      "sport_title": "Table Tennis",
-      "league": "Table Tennis",
-      "commence_time_utc": "2026-07-19T07:00:00Z",
-      "commence_time_mountain": "2026-07-19T01:00:00-06:00",
-      "home_team": "Maksym Hubenko",
-      "away_team": "Maksym Badai",
-      "bookmakers": [
-        {
-          "bookmaker_key": "bovada",
-          "bookmaker_name": "Bovada",
-          "bookmaker_last_update": "2026-07-19T05:40:01Z",
-          "source_provider": "parlayapi",
-          "outcomes": [
-            {
-              "outcome_name": "Maksym Hubenko",
-              "decimal_price": 4.25,
-              "american_price": 325
-            },
-            {
-              "outcome_name": "Maksym Badai",
-              "decimal_price": 1.19,
-              "american_price": -526
-            }
-          ]
-        }
-      ],
-      "bookmaker_count": 1,
-      "draftkings": null,
-      "consensus": null,
-      "source_reference_price": {
-        "label": "source_reference_price",
-        "bookmaker_key": "bovada",
-        "bookmaker_name": "Bovada",
-        "provider": "parlayapi",
-        "outcomes": [
-          {
-            "outcome_name": "Maksym Hubenko",
-            "decimal_price": 4.25,
-            "american_price": 325
-          },
-          {
-            "outcome_name": "Maksym Badai",
-            "decimal_price": 1.19,
-            "american_price": -526
-          }
-        ]
-      },
-      "is_tt_elite": false
-    },
-    {
-      "source": "parlayapi",
-      "source_event_id": "77dd66c6a75d99afc533e5ac5be4fba2",
-      "sport_key": "table_tennis",
-      "sport_title": "Table Tennis",
-      "league": "Table Tennis",
-      "commence_time_utc": "2026-07-19T07:00:00Z",
-      "commence_time_mountain": "2026-07-19T01:00:00-06:00",
-      "home_team": "Marek Blejchar",
-      "away_team": "Evald Gebek",
-      "bookmakers": [
-        {
-          "bookmaker_key": "bovada",
-          "bookmaker_name": "Bovada",
-          "bookmaker_last_update": "2026-07-19T05:40:01Z",
-          "source_provider": "parlayapi",
-          "outcomes": [
-            {
-              "outcome_name": "Marek Blejchar",
-              "decimal_price": 1.833,
-              "american_price": -120
-            },
-            {
-              "outcome_name": "Evald Gebek",
-              "decimal_price": 1.833,
-              "american_price": -120
-            }
-          ]
-        }
-      ],
-      "bookmaker_count": 1,
-      "draftkings": null,
-      "consensus": null,
-      "source_reference_price": {
-        "label": "source_reference_price",
-        "bookmaker_key": "bovada",
-        "bookmaker_name": "Bovada",
-        "provider": "parlayapi",
-        "outcomes": [
-          {
-            "outcome_name": "Marek Blejchar",
-            "decimal_price": 1.833,
-            "american_price": -120
-          },
-          {
-            "outcome_name": "Evald Gebek",
-            "decimal_price": 1.833,
-            "american_price": -120
-          }
-        ]
-      },
-      "is_tt_elite": false
-    },
-    {
-      "source": "parlayapi",
-      "source_event_id": "58861f5d629b30500105f188f32a895c",
-      "sport_key": "table_tennis",
-      "sport_title": "Table Tennis",
-      "league": "Table Tennis",
-      "commence_time_utc": "2026-07-19T07:00:00Z",
-      "commence_time_mountain": "2026-07-19T01:00:00-06:00",
-      "home_team": "Martin Tacinec",
-      "away_team": "Lubor Sulava",
-      "bookmakers": [
-        {
-          "bookmaker_key": "bovada",
-          "bookmaker_name": "Bovada",
-          "bookmaker_last_update": "2026-07-19T05:40:01Z",
-          "source_provider": "parlayapi",
-          "outcomes": [
-            {
-              "outcome_name": "Martin Tacinec",
-              "decimal_price": 1.588,
-              "american_price": -170
-            },
-            {
-              "outcome_name": "Lubor Sulava",
-              "decimal_price": 2.2,
-              "american_price": 120
-            }
-          ]
-        }
-      ],
-      "bookmaker_count": 1,
-      "draftkings": null,
-      "consensus": null,
-      "source_reference_price": {
-        "label": "source_reference_price",
-        "bookmaker_key": "bovada",
-        "bookmaker_name": "Bovada",
-        "provider": "parlayapi",
-        "outcomes": [
-          {
-            "outcome_name": "Martin Tacinec",
-            "decimal_price": 1.588,
-            "american_price": -170
-          },
-          {
-            "outcome_name": "Lubor Sulava",
-            "decimal_price": 2.2,
-            "american_price": 120
-          }
-        ]
-      },
-      "is_tt_elite": false
-    },
-    {
-      "source": "parlayapi",
-      "source_event_id": "8517e6a913c5c1d5ab4f352d3fc13219",
-      "sport_key": "table_tennis",
-      "sport_title": "Table Tennis",
-      "league": "Table Tennis",
-      "commence_time_utc": "2026-07-19T07:30:00Z",
-      "commence_time_mountain": "2026-07-19T01:30:00-06:00",
-      "home_team": "Michal Kratochvil",
-      "away_team": "Erik Mares",
-      "bookmakers": [
-        {
-          "bookmaker_key": "bovada",
-          "bookmaker_name": "Bovada",
-          "bookmaker_last_update": "2026-07-19T05:40:01Z",
-          "source_provider": "parlayapi",
-          "outcomes": [
-            {
-              "outcome_name": "Michal Kratochvil",
-              "decimal_price": 2.1,
-              "american_price": 110
-            },
-            {
-              "outcome_name": "Erik Mares",
-              "decimal_price": null,
-              "american_price": null
-            }
-          ]
-        }
-      ],
-      "bookmaker_count": 1,
-      "draftkings": null,
-      "consensus": null,
-      "source_reference_price": {
-        "label": "source_reference_price",
-        "bookmaker_key": "bovada",
-        "bookmaker_name": "Bovada",
-        "provider": "parlayapi",
-        "outcomes": [
-          {
-            "outcome_name": "Michal Kratochvil",
-            "decimal_price": 2.1,
-            "american_price": 110
-          },
-          {
-            "outcome_name": "Erik Mares",
-            "decimal_price": null,
-            "american_price": null
-          }
-        ]
-      },
-      "is_tt_elite": false
-    },
-    {
-      "source": "parlayapi",
-      "source_event_id": "a9585185254755e0c01568e7999e7b9f",
-      "sport_key": "table_tennis",
-      "sport_title": "Table Tennis",
-      "league": "Table Tennis",
-      "commence_time_utc": "2026-07-19T07:50:00Z",
-      "commence_time_mountain": "2026-07-19T01:50:00-06:00",
-      "home_team": "Serhii Solomko",
-      "away_team": "Oleksandr Osadchyi",
-      "bookmakers": [
-        {
-          "bookmaker_key": "bovada",
-          "bookmaker_name": "Bovada",
-          "bookmaker_last_update": "2026-07-19T05:40:01Z",
-          "source_provider": "parlayapi",
-          "outcomes": [
-            {
-              "outcome_name": "Serhii Solomko",
-              "decimal_price": 1.909,
-              "american_price": -110
-            },
-            {
-              "outcome_name": "Oleksandr Osadchyi",
-              "decimal_price": null,
-              "american_price": null
-            }
-          ]
-        }
-      ],
-      "bookmaker_count": 1,
-      "draftkings": null,
-      "consensus": null,
-      "source_reference_price": {
-        "label": "source_reference_price",
-        "bookmaker_key": "bovada",
-        "bookmaker_name": "Bovada",
-        "provider": "parlayapi",
-        "outcomes": [
-          {
-            "outcome_name": "Serhii Solomko",
-            "decimal_price": 1.909,
-            "american_price": -110
-          },
-          {
-            "outcome_name": "Oleksandr Osadchyi",
-            "decimal_price": null,
-            "american_price": null
-          }
-        ]
-      },
-      "is_tt_elite": false
-    },
-    {
-      "source": "parlayapi",
-      "source_event_id": "df52fdbef106ab8db350af4592d4a928",
-      "sport_key": "table_tennis",
-      "sport_title": "Table Tennis",
-      "league": "Table Tennis",
-      "commence_time_utc": "2026-07-19T08:30:00Z",
-      "commence_time_mountain": "2026-07-19T02:30:00-06:00",
-      "home_team": "Tomas Kos",
-      "away_team": "Michal Kratochvil",
-      "bookmakers": [
-        {
-          "bookmaker_key": "bovada",
-          "bookmaker_name": "Bovada",
-          "bookmaker_last_update": "2026-07-19T05:40:01Z",
-          "source_provider": "parlayapi",
-          "outcomes": [
-            {
-              "outcome_name": "Tomas Kos",
-              "decimal_price": 1.769,
-              "american_price": -130
-            },
-            {
-              "outcome_name": "Michal Kratochvil",
-              "decimal_price": 1.909,
-              "american_price": -110
-            }
-          ]
-        }
-      ],
-      "bookmaker_count": 1,
-      "draftkings": null,
-      "consensus": null,
-      "source_reference_price": {
-        "label": "source_reference_price",
-        "bookmaker_key": "bovada",
-        "bookmaker_name": "Bovada",
-        "provider": "parlayapi",
-        "outcomes": [
-          {
-            "outcome_name": "Tomas Kos",
-            "decimal_price": 1.769,
-            "american_price": -130
-          },
-          {
-            "outcome_name": "Michal Kratochvil",
-            "decimal_price": 1.909,
-            "american_price": -110
-          }
-        ]
-      },
-      "is_tt_elite": false
-    },
-    {
-      "source": "parlayapi",
-      "source_event_id": "8d49c6c43b592c1fca6cd8432dc87d37",
-      "sport_key": "table_tennis",
-      "sport_title": "Table Tennis",
-      "league": "Table Tennis",
-      "commence_time_utc": "2026-07-19T05:55:00Z",
-      "commence_time_mountain": "2026-07-18T23:55:00-06:00",
-      "home_team": "Volodymyr Dobrovolskyi",
-      "away_team": "Oleh Lutsyshyn",
-      "bookmakers": [
-        {
-          "bookmaker_key": "bovada",
-          "bookmaker_name": "Bovada",
-          "bookmaker_last_update": "2026-07-19T05:40:01Z",
-          "source_provider": "parlayapi",
-          "outcomes": [
-            {
-              "outcome_name": "Volodymyr Dobrovolskyi",
+              "outcome_name": "Ales Cizek",
               "decimal_price": 2.6,
               "american_price": 160
             },
             {
-              "outcome_name": "Oleh Lutsyshyn",
-              "decimal_price": null,
-              "american_price": null
+              "outcome_name": "Jan Skvrna",
+              "decimal_price": 1.488,
+              "american_price": -205
             }
           ]
         }
@@ -528,14 +51,67 @@
         "provider": "parlayapi",
         "outcomes": [
           {
-            "outcome_name": "Volodymyr Dobrovolskyi",
+            "outcome_name": "Ales Cizek",
             "decimal_price": 2.6,
             "american_price": 160
           },
           {
-            "outcome_name": "Oleh Lutsyshyn",
-            "decimal_price": null,
-            "american_price": null
+            "outcome_name": "Jan Skvrna",
+            "decimal_price": 1.488,
+            "american_price": -205
+          }
+        ]
+      },
+      "is_tt_elite": false
+    },
+    {
+      "source": "parlayapi",
+      "source_event_id": "bc9cf635eb85c6af640681dffc404e8c",
+      "sport_key": "table_tennis",
+      "sport_title": "Table Tennis",
+      "league": "Table Tennis",
+      "commence_time_utc": "2026-07-19T18:00:00Z",
+      "commence_time_mountain": "2026-07-19T12:00:00-06:00",
+      "home_team": "Richard Wagner",
+      "away_team": "Robin Pacha",
+      "bookmakers": [
+        {
+          "bookmaker_key": "bovada",
+          "bookmaker_name": "Bovada",
+          "bookmaker_last_update": "2026-07-19T17:40:00Z",
+          "source_provider": "parlayapi",
+          "outcomes": [
+            {
+              "outcome_name": "Richard Wagner",
+              "decimal_price": 1.833,
+              "american_price": -120
+            },
+            {
+              "outcome_name": "Robin Pacha",
+              "decimal_price": 1.833,
+              "american_price": -120
+            }
+          ]
+        }
+      ],
+      "bookmaker_count": 1,
+      "draftkings": null,
+      "consensus": null,
+      "source_reference_price": {
+        "label": "source_reference_price",
+        "bookmaker_key": "bovada",
+        "bookmaker_name": "Bovada",
+        "provider": "parlayapi",
+        "outcomes": [
+          {
+            "outcome_name": "Richard Wagner",
+            "decimal_price": 1.833,
+            "american_price": -120
+          },
+          {
+            "outcome_name": "Robin Pacha",
+            "decimal_price": 1.833,
+            "american_price": -120
           }
         ]
       },
