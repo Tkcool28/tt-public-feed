@@ -1,5 +1,74 @@
 [
   {
+    "snapshot_id": "edabdec796d34b04878a96663e22b017",
+    "fetched_at_utc": "2026-07-21T17:40:04.107447+00:00",
+    "fetched_at_mountain": "2026-07-21T11:40:04.107447-06:00",
+    "primary_source": "parlayapi",
+    "source_status": "ok",
+    "event_count": 1,
+    "bookmaker_count": 1,
+    "draftkings_event_count": 0,
+    "tt_elite_event_count": 0,
+    "events_found": true,
+    "source_coverage_note": null,
+    "events": [
+      {
+        "source": "parlayapi",
+        "source_event_id": "422deefb5441a4fc9e206f6e5b374f9c",
+        "sport_key": "table_tennis",
+        "sport_title": "Table Tennis",
+        "league": "Table Tennis",
+        "commence_time_utc": "2026-07-21T18:05:00Z",
+        "commence_time_mountain": "2026-07-21T12:05:00-06:00",
+        "home_team": "Ivan Elfemov",
+        "away_team": "Viktor Sharpai",
+        "bookmakers": [
+          {
+            "bookmaker_key": "bovada",
+            "bookmaker_name": "Bovada",
+            "bookmaker_last_update": "2026-07-21T17:39:58Z",
+            "source_provider": "parlayapi",
+            "outcomes": [
+              {
+                "outcome_name": "Ivan Elfemov",
+                "decimal_price": 3.1,
+                "american_price": 210
+              },
+              {
+                "outcome_name": "Viktor Sharpai",
+                "decimal_price": 1.345,
+                "american_price": -290
+              }
+            ]
+          }
+        ],
+        "bookmaker_count": 1,
+        "draftkings": null,
+        "consensus": null,
+        "source_reference_price": {
+          "label": "source_reference_price",
+          "bookmaker_key": "bovada",
+          "bookmaker_name": "Bovada",
+          "provider": "parlayapi",
+          "outcomes": [
+            {
+              "outcome_name": "Ivan Elfemov",
+              "decimal_price": 3.1,
+              "american_price": 210
+            },
+            {
+              "outcome_name": "Viktor Sharpai",
+              "decimal_price": 1.345,
+              "american_price": -290
+            }
+          ]
+        },
+        "is_tt_elite": false
+      }
+    ],
+    "consensus_note": "single-source feed (Bovada via ParlayAPI): prices labeled source_reference_price, NOT consensus."
+  },
+  {
     "snapshot_id": "b403ae9b03684c2bb617d89212075d4d",
     "fetched_at_utc": "2026-07-21T05:40:03.522833+00:00",
     "fetched_at_mountain": "2026-07-20T23:40:03.522833-06:00",
