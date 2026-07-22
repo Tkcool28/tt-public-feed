@@ -1,10 +1,10 @@
 {
-  "snapshot_id": "4c1e2c54c91e4de4a3719d8fe9e6a4ee",
-  "fetched_at_utc": "2026-07-22T05:40:04.702634+00:00",
-  "fetched_at_mountain": "2026-07-21T23:40:04.702634-06:00",
+  "snapshot_id": "04012b8d949043998824a09bb34d9460",
+  "fetched_at_utc": "2026-07-22T17:40:29.509664+00:00",
+  "fetched_at_mountain": "2026-07-22T11:40:29.509664-06:00",
   "primary_source": "parlayapi",
   "source_status": "ok",
-  "event_count": 2,
+  "event_count": 3,
   "bookmaker_count": 1,
   "draftkings_event_count": 0,
   "tt_elite_event_count": 0,
@@ -13,30 +13,30 @@
   "events": [
     {
       "source": "parlayapi",
-      "source_event_id": "35324ad5bcfd6f627f736c2bc9ce5ece",
+      "source_event_id": "10ab2a97402b5b72948fa7fa0d306798",
       "sport_key": "table_tennis",
       "sport_title": "Table Tennis",
       "league": "Table Tennis",
-      "commence_time_utc": "2026-07-22T08:30:00Z",
-      "commence_time_mountain": "2026-07-22T02:30:00-06:00",
-      "home_team": "Alina Ovriakh",
-      "away_team": "Anna Rzhevska",
+      "commence_time_utc": "2026-07-22T19:35:00Z",
+      "commence_time_mountain": "2026-07-22T13:35:00-06:00",
+      "home_team": "Mykhailo Skliar",
+      "away_team": "Ruslan Serhyenko",
       "bookmakers": [
         {
           "bookmaker_key": "bovada",
           "bookmaker_name": "Bovada",
-          "bookmaker_last_update": "2026-07-22T05:39:58Z",
+          "bookmaker_last_update": "2026-07-22T17:40:26Z",
           "source_provider": "parlayapi",
           "outcomes": [
             {
-              "outcome_name": "Alina Ovriakh",
-              "decimal_price": 2.75,
-              "american_price": 175
+              "outcome_name": "Mykhailo Skliar",
+              "decimal_price": 1.488,
+              "american_price": -205
             },
             {
-              "outcome_name": "Anna Rzhevska",
-              "decimal_price": null,
-              "american_price": null
+              "outcome_name": "Ruslan Serhyenko",
+              "decimal_price": 2.45,
+              "american_price": 145
             }
           ]
         }
@@ -51,14 +51,14 @@
         "provider": "parlayapi",
         "outcomes": [
           {
-            "outcome_name": "Alina Ovriakh",
-            "decimal_price": 2.75,
-            "american_price": 175
+            "outcome_name": "Mykhailo Skliar",
+            "decimal_price": 1.488,
+            "american_price": -205
           },
           {
-            "outcome_name": "Anna Rzhevska",
-            "decimal_price": null,
-            "american_price": null
+            "outcome_name": "Ruslan Serhyenko",
+            "decimal_price": 2.45,
+            "american_price": 145
           }
         ]
       },
@@ -66,30 +66,30 @@
     },
     {
       "source": "parlayapi",
-      "source_event_id": "1d6487eb3292c7e61d420da712aa2b20",
+      "source_event_id": "03adb6b89c6cbc29a839ee9bdae7b189",
       "sport_key": "table_tennis",
       "sport_title": "Table Tennis",
       "league": "Table Tennis",
-      "commence_time_utc": "2026-07-22T05:55:00Z",
-      "commence_time_mountain": "2026-07-21T23:55:00-06:00",
-      "home_team": "Josh Shao Han Chua",
-      "away_team": "Che-Yen Hung",
+      "commence_time_utc": "2026-07-22T17:40:00Z",
+      "commence_time_mountain": "2026-07-22T11:40:00-06:00",
+      "home_team": "Oleg Varlamov",
+      "away_team": "Oleksandr Blashkun",
       "bookmakers": [
         {
           "bookmaker_key": "bovada",
           "bookmaker_name": "Bovada",
-          "bookmaker_last_update": "2026-07-22T05:39:58Z",
+          "bookmaker_last_update": "2026-07-22T17:40:26Z",
           "source_provider": "parlayapi",
           "outcomes": [
             {
-              "outcome_name": "Josh Shao Han Chua",
-              "decimal_price": 2.75,
-              "american_price": 175
-            },
-            {
-              "outcome_name": "Che-Yen Hung",
+              "outcome_name": "Oleg Varlamov",
               "decimal_price": 1.645,
               "american_price": -155
+            },
+            {
+              "outcome_name": "Oleksandr Blashkun",
+              "decimal_price": 2.1,
+              "american_price": 110
             }
           ]
         }
@@ -104,14 +104,67 @@
         "provider": "parlayapi",
         "outcomes": [
           {
-            "outcome_name": "Josh Shao Han Chua",
-            "decimal_price": 2.75,
-            "american_price": 175
-          },
-          {
-            "outcome_name": "Che-Yen Hung",
+            "outcome_name": "Oleg Varlamov",
             "decimal_price": 1.645,
             "american_price": -155
+          },
+          {
+            "outcome_name": "Oleksandr Blashkun",
+            "decimal_price": 2.1,
+            "american_price": 110
+          }
+        ]
+      },
+      "is_tt_elite": false
+    },
+    {
+      "source": "parlayapi",
+      "source_event_id": "326fe4fd4e07f36082fcf42ff2af5e6c",
+      "sport_key": "table_tennis",
+      "sport_title": "Table Tennis",
+      "league": "Table Tennis",
+      "commence_time_utc": "2026-07-22T18:30:00Z",
+      "commence_time_mountain": "2026-07-22T12:30:00-06:00",
+      "home_team": "Petr Orlowski",
+      "away_team": "Tomas Hanke",
+      "bookmakers": [
+        {
+          "bookmaker_key": "bovada",
+          "bookmaker_name": "Bovada",
+          "bookmaker_last_update": "2026-07-22T17:40:26Z",
+          "source_provider": "parlayapi",
+          "outcomes": [
+            {
+              "outcome_name": "Petr Orlowski",
+              "decimal_price": 1.769,
+              "american_price": -130
+            },
+            {
+              "outcome_name": "Tomas Hanke",
+              "decimal_price": 1.714,
+              "american_price": -140
+            }
+          ]
+        }
+      ],
+      "bookmaker_count": 1,
+      "draftkings": null,
+      "consensus": null,
+      "source_reference_price": {
+        "label": "source_reference_price",
+        "bookmaker_key": "bovada",
+        "bookmaker_name": "Bovada",
+        "provider": "parlayapi",
+        "outcomes": [
+          {
+            "outcome_name": "Petr Orlowski",
+            "decimal_price": 1.769,
+            "american_price": -130
+          },
+          {
+            "outcome_name": "Tomas Hanke",
+            "decimal_price": 1.714,
+            "american_price": -140
           }
         ]
       },
