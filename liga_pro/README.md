@@ -8,7 +8,7 @@ This directory contains cleaned official Liga Pro schedules and results collecte
 
 `history/YYYY/MM/YYYY-MM-DD.csv` is canonical. Each UTF-8 CSV contains one row per official `match_id`, partitioned by the UTC date of `scheduled_start_utc`, and sorted by `scheduled_start_utc`, `tournament_id`, then `match_id`.
 
-The official API orientation is preserved: `player_1` is `side_one` and `player_2` is `side_two`. Scores are never reversed to put the winner first. The upstream API currently supplies aggregate sets won, not point-by-point set scores; therefore `set_scores` contains the official aggregate orientation such as `3-1`, not fabricated individual games.
+The official API orientation is preserved: `player_1` is `side_one` and `player_2` is `side_two`. Scores are never reversed to put the winner first. `player_1_sets` and `player_2_sets` store aggregate sets won. The upstream API currently does not supply point-by-point individual set results, so `set_scores` is blank. If the API supplies point-level set results in the future, they are serialized in player orientation as `11-8;9-11;...`; aggregate values such as `3-1` never belong in `set_scores`.
 
 ## Status mapping
 
