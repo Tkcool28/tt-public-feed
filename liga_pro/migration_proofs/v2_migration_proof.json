@@ -1,0 +1,225 @@
+{
+  "schema_version": "2.0.0",
+  "run_id": "v2-migration-2026-07-22T220000+0000",
+  "generated_at_utc": "2026-07-22T22:00:00+00:00",
+  "totals": {
+    "partitions": 17,
+    "rows_in": 3109,
+    "rows_out": 3109,
+    "method_official": 0,
+    "method_unavailable": 160,
+    "method_scheduled_plus_duration": 2949,
+    "completed_at_blank_kept_blank": 3109,
+    "completed_at_non_blank_kept": 0
+  },
+  "partitions": [
+    {
+      "date_utc": "2026-07-06",
+      "row_count": 9,
+      "file_sha256": "b434689d409657542eec9f36d3a4ff3cc50cd1f86274fea508633f834284a14e",
+      "min_match_id": 295568,
+      "max_match_id": 295690
+    },
+    {
+      "date_utc": "2026-07-07",
+      "row_count": 196,
+      "file_sha256": "11468ef987e38be35711da946783a9b2d67c1e1a9a29036ce96f29e53113a84b",
+      "min_match_id": 295571,
+      "max_match_id": 295918
+    },
+    {
+      "date_utc": "2026-07-08",
+      "row_count": 193,
+      "file_sha256": "dc3420aa203229d3ab15a3f97375c8e1ddcca5ae6cfe658b6e64872f4d5cfbd4",
+      "min_match_id": 295768,
+      "max_match_id": 296122
+    },
+    {
+      "date_utc": "2026-07-09",
+      "row_count": 194,
+      "file_sha256": "936bc3a47904631181ef07e2347a82735d05c0a30139e687b316592a7e570c49",
+      "min_match_id": 295964,
+      "max_match_id": 296318
+    },
+    {
+      "date_utc": "2026-07-10",
+      "row_count": 196,
+      "file_sha256": "e996c08197d7d8f788e3f5fdf96d0e20077cc871480ba278ebbcfd4133d7e83b",
+      "min_match_id": 296159,
+      "max_match_id": 296514
+    },
+    {
+      "date_utc": "2026-07-11",
+      "row_count": 196,
+      "file_sha256": "f54fdd31955f1b46364970217581c70c943bf79504f6a2d06a144d6bd0f9bc80",
+      "min_match_id": 296355,
+      "max_match_id": 296702
+    },
+    {
+      "date_utc": "2026-07-12",
+      "row_count": 193,
+      "file_sha256": "8f55b9fe450b99381aba41a4800bea750413a2406343d539ce74d5eb0db77f7e",
+      "min_match_id": 296552,
+      "max_match_id": 296898
+    },
+    {
+      "date_utc": "2026-07-13",
+      "row_count": 193,
+      "file_sha256": "e81819832194cee93bd96a61b52efb2af5c5f34af20df3d6a7db8a31967b27a4",
+      "min_match_id": 296747,
+      "max_match_id": 297102
+    },
+    {
+      "date_utc": "2026-07-14",
+      "row_count": 195,
+      "file_sha256": "05c10ead75752a4b1756bb72fcb9ff4286567a4f4a3f9d941ab63b15840380fb",
+      "min_match_id": 296943,
+      "max_match_id": 297290
+    },
+    {
+      "date_utc": "2026-07-15",
+      "row_count": 193,
+      "file_sha256": "b1e6a3818887a62f773e0fe775cbf0b9db957a4242fafb5acceaa647f7f02f6e",
+      "min_match_id": 297140,
+      "max_match_id": 297494
+    },
+    {
+      "date_utc": "2026-07-16",
+      "row_count": 196,
+      "file_sha256": "c75256f9d2c8486d7c95d34d893e5bf8fe319c0bef3f2fbeb39730b343c2a0b2",
+      "min_match_id": 297335,
+      "max_match_id": 297682
+    },
+    {
+      "date_utc": "2026-07-17",
+      "row_count": 195,
+      "file_sha256": "a98dd29a7636cd9ee107dba8f32225aa984ab87cfc4314129cf97c253c349379",
+      "min_match_id": 297643,
+      "max_match_id": 297878
+    },
+    {
+      "date_utc": "2026-07-18",
+      "row_count": 192,
+      "file_sha256": "8cc008bb9e7106e4e0814892e4116120f00b3b583ecdafa6ce8b7b6d3919de61",
+      "min_match_id": 297832,
+      "max_match_id": 298082
+    },
+    {
+      "date_utc": "2026-07-19",
+      "row_count": 194,
+      "file_sha256": "261ce74aed73c1f12210c6a204c0cf1e684e9ae511a2d352ddbe9948879bdc3e",
+      "min_match_id": 297908,
+      "max_match_id": 298271
+    },
+    {
+      "date_utc": "2026-07-20",
+      "row_count": 195,
+      "file_sha256": "7d7b1af051fb4aaca57fb919e2c4f2f782618c07ed3616dc1eadeaa97862fed8",
+      "min_match_id": 298119,
+      "max_match_id": 298467
+    },
+    {
+      "date_utc": "2026-07-21",
+      "row_count": 195,
+      "file_sha256": "a4af7cd0154806662dbd639fa4a6649c7ebae4726721874b0658837ba5d206a0",
+      "min_match_id": 298315,
+      "max_match_id": 298662
+    },
+    {
+      "date_utc": "2026-07-22",
+      "row_count": 184,
+      "file_sha256": "69ae3a9059009781f9ce89a70ac271a2b5bc066497e93bf45cff7c1f0057bf00",
+      "min_match_id": 298631,
+      "max_match_id": 298842
+    }
+  ],
+  "grand_partition_hash_sha256": "68f0f4e2d9b123e999b1ca5648595d81bfefb21c5141226b674263401b284eca",
+  "replay_partition_sha256": {
+    "2026-07-06": "b434689d409657542eec9f36d3a4ff3cc50cd1f86274fea508633f834284a14e",
+    "2026-07-07": "11468ef987e38be35711da946783a9b2d67c1e1a9a29036ce96f29e53113a84b",
+    "2026-07-08": "dc3420aa203229d3ab15a3f97375c8e1ddcca5ae6cfe658b6e64872f4d5cfbd4",
+    "2026-07-09": "936bc3a47904631181ef07e2347a82735d05c0a30139e687b316592a7e570c49",
+    "2026-07-10": "e996c08197d7d8f788e3f5fdf96d0e20077cc871480ba278ebbcfd4133d7e83b",
+    "2026-07-11": "f54fdd31955f1b46364970217581c70c943bf79504f6a2d06a144d6bd0f9bc80",
+    "2026-07-12": "8f55b9fe450b99381aba41a4800bea750413a2406343d539ce74d5eb0db77f7e",
+    "2026-07-13": "e81819832194cee93bd96a61b52efb2af5c5f34af20df3d6a7db8a31967b27a4",
+    "2026-07-14": "05c10ead75752a4b1756bb72fcb9ff4286567a4f4a3f9d941ab63b15840380fb",
+    "2026-07-15": "b1e6a3818887a62f773e0fe775cbf0b9db957a4242fafb5acceaa647f7f02f6e",
+    "2026-07-16": "c75256f9d2c8486d7c95d34d893e5bf8fe319c0bef3f2fbeb39730b343c2a0b2",
+    "2026-07-17": "a98dd29a7636cd9ee107dba8f32225aa984ab87cfc4314129cf97c253c349379",
+    "2026-07-18": "8cc008bb9e7106e4e0814892e4116120f00b3b583ecdafa6ce8b7b6d3919de61",
+    "2026-07-19": "261ce74aed73c1f12210c6a204c0cf1e684e9ae511a2d352ddbe9948879bdc3e",
+    "2026-07-20": "7d7b1af051fb4aaca57fb919e2c4f2f782618c07ed3616dc1eadeaa97862fed8",
+    "2026-07-21": "a4af7cd0154806662dbd639fa4a6649c7ebae4726721874b0658837ba5d206a0",
+    "2026-07-22": "69ae3a9059009781f9ce89a70ac271a2b5bc066497e93bf45cff7c1f0057bf00"
+  },
+  "replay_status": "PASS",
+  "replay_errors": [],
+  "validation_status": "PASS",
+  "validation_errors": [],
+  "method_documented": {
+    "OFFICIAL": "completed_at_utc supplied by source; calculated_finish_utc may mirror it.",
+    "SCHEDULED_START_PLUS_DURATION": "v1 calculated completion moved to calculated_finish_utc; completed_at_utc is blank.",
+    "UNAVAILABLE": "no valid duration-based or official completion timestamp."
+  },
+  "columns_ordered": [
+    "match_id",
+    "tournament_id",
+    "tournament_name",
+    "league_band",
+    "scheduled_start_utc",
+    "scheduled_start_mountain",
+    "scheduled_start_prague",
+    "official_status",
+    "normalized_status",
+    "player_1_id",
+    "player_1_name",
+    "player_2_id",
+    "player_2_name",
+    "player_1_sets",
+    "player_2_sets",
+    "winner_player_id",
+    "winner_player_name",
+    "set_scores",
+    "completed_at_utc",
+    "calculated_finish_utc",
+    "calculated_finish_method",
+    "first_seen_at_utc",
+    "last_changed_at_utc",
+    "source_snapshot_id",
+    "source",
+    "data_quality",
+    "content_hash"
+  ],
+  "content_hash_includes": [
+    "match_id",
+    "tournament_id",
+    "tournament_name",
+    "league_band",
+    "scheduled_start_utc",
+    "scheduled_start_mountain",
+    "scheduled_start_prague",
+    "official_status",
+    "normalized_status",
+    "player_1_id",
+    "player_1_name",
+    "player_2_id",
+    "player_2_name",
+    "player_1_sets",
+    "player_2_sets",
+    "winner_player_id",
+    "winner_player_name",
+    "set_scores",
+    "first_seen_at_utc",
+    "source",
+    "data_quality"
+  ],
+  "content_hash_excludes": [
+    "completed_at_utc",
+    "calculated_finish_utc",
+    "calculated_finish_method",
+    "last_changed_at_utc",
+    "source_snapshot_id",
+    "content_hash"
+  ]
+}

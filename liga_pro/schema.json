@@ -1,6 +1,9 @@
 {
   "content_hash_excludes": [
-    "last_seen_at_utc",
+    "completed_at_utc",
+    "calculated_finish_utc",
+    "calculated_finish_method",
+    "last_changed_at_utc",
     "source_snapshot_id",
     "content_hash"
   ],
@@ -117,13 +120,32 @@
     },
     {
       "format": "date-time",
-      "name": "first_seen_at_utc",
+      "name": "calculated_finish_utc",
+      "nullable": true,
+      "type": "string",
+      "description": "Derived match-finish UTC timestamp. Set from completed_at_utc when method=OFFICIAL; blank when method=UNAVAILABLE. Format mirrors completed_at_utc."
+    },
+    {
+      "enum": [
+        "OFFICIAL",
+        "SCHEDULED_START_PLUS_DURATION",
+        "UNAVAILABLE"
+      ],
+      "name": "calculated_finish_method",
       "nullable": false,
-      "type": "string"
+      "type": "string",
+      "description": "How calculated_finish_utc was derived. OFFICIAL only when the source supplied an observed completion timestamp; SCHEDULED_START_PLUS_DURATION when calculated from scheduled_start_utc plus duration; UNAVAILABLE when neither is valid."
     },
     {
       "format": "date-time",
-      "name": "last_seen_at_utc",
+      "name": "last_changed_at_utc",
+      "nullable": false,
+      "type": "string",
+      "description": "UTC timestamp of the most recent change to any stable-identity field for this match. Replaces v1 last_seen_at_utc; semantically equivalent in this snapshot because v1 had a single observation per row."
+    },
+    {
+      "format": "date-time",
+      "name": "first_seen_at_utc",
       "nullable": false,
       "type": "string"
     },
@@ -151,7 +173,7 @@
   "format": "CSV",
   "partition_key": "UTC date of scheduled_start_utc",
   "primary_key": "match_id",
-  "schema_version": "1.0.0",
+  "schema_version": "2.0.0",
   "source": "api.league-pro.com",
   "title": "Liga Pro canonical match history"
 }
