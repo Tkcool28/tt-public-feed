@@ -1,0 +1,156 @@
+{
+  "content_hash_excludes": [
+    "last_seen_at_utc",
+    "source_snapshot_id",
+    "content_hash"
+  ],
+  "encoding": "UTF-8",
+  "fields": [
+    {
+      "name": "match_id",
+      "nullable": false,
+      "type": "integer"
+    },
+    {
+      "name": "tournament_id",
+      "nullable": false,
+      "type": "integer"
+    },
+    {
+      "name": "tournament_name",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "league_band",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "format": "date-time",
+      "name": "scheduled_start_utc",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "format": "date-time",
+      "name": "scheduled_start_mountain",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "format": "date-time",
+      "name": "scheduled_start_prague",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "official_status",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "enum": [
+        "SCHEDULED",
+        "LIVE",
+        "COMPLETED",
+        "POSTPONED",
+        "CANCELLED",
+        "ABANDONED",
+        "UNKNOWN"
+      ],
+      "name": "normalized_status",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "player_1_id",
+      "nullable": false,
+      "type": "integer"
+    },
+    {
+      "name": "player_1_name",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "player_2_id",
+      "nullable": false,
+      "type": "integer"
+    },
+    {
+      "name": "player_2_name",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "player_1_sets",
+      "nullable": true,
+      "type": "integer"
+    },
+    {
+      "name": "player_2_sets",
+      "nullable": true,
+      "type": "integer"
+    },
+    {
+      "name": "winner_player_id",
+      "nullable": true,
+      "type": "integer"
+    },
+    {
+      "name": "winner_player_name",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "name": "set_scores",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "format": "date-time",
+      "name": "completed_at_utc",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "format": "date-time",
+      "name": "first_seen_at_utc",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "format": "date-time",
+      "name": "last_seen_at_utc",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "source_snapshot_id",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "source",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "data_quality",
+      "nullable": false,
+      "type": "string"
+    },
+    {
+      "name": "content_hash",
+      "nullable": false,
+      "type": "string"
+    }
+  ],
+  "format": "CSV",
+  "partition_key": "UTC date of scheduled_start_utc",
+  "primary_key": "match_id",
+  "schema_version": "1.0.0",
+  "source": "api.league-pro.com",
+  "title": "Liga Pro canonical match history"
+}
