@@ -1,10 +1,10 @@
 {
-  "snapshot_id": "edabdec796d34b04878a96663e22b017",
-  "fetched_at_utc": "2026-07-21T17:40:04.107447+00:00",
-  "fetched_at_mountain": "2026-07-21T11:40:04.107447-06:00",
+  "snapshot_id": "4c1e2c54c91e4de4a3719d8fe9e6a4ee",
+  "fetched_at_utc": "2026-07-22T05:40:04.702634+00:00",
+  "fetched_at_mountain": "2026-07-21T23:40:04.702634-06:00",
   "primary_source": "parlayapi",
   "source_status": "ok",
-  "event_count": 1,
+  "event_count": 2,
   "bookmaker_count": 1,
   "draftkings_event_count": 0,
   "tt_elite_event_count": 0,
@@ -13,30 +13,30 @@
   "events": [
     {
       "source": "parlayapi",
-      "source_event_id": "422deefb5441a4fc9e206f6e5b374f9c",
+      "source_event_id": "35324ad5bcfd6f627f736c2bc9ce5ece",
       "sport_key": "table_tennis",
       "sport_title": "Table Tennis",
       "league": "Table Tennis",
-      "commence_time_utc": "2026-07-21T18:05:00Z",
-      "commence_time_mountain": "2026-07-21T12:05:00-06:00",
-      "home_team": "Ivan Elfemov",
-      "away_team": "Viktor Sharpai",
+      "commence_time_utc": "2026-07-22T08:30:00Z",
+      "commence_time_mountain": "2026-07-22T02:30:00-06:00",
+      "home_team": "Alina Ovriakh",
+      "away_team": "Anna Rzhevska",
       "bookmakers": [
         {
           "bookmaker_key": "bovada",
           "bookmaker_name": "Bovada",
-          "bookmaker_last_update": "2026-07-21T17:39:58Z",
+          "bookmaker_last_update": "2026-07-22T05:39:58Z",
           "source_provider": "parlayapi",
           "outcomes": [
             {
-              "outcome_name": "Ivan Elfemov",
-              "decimal_price": 3.1,
-              "american_price": 210
+              "outcome_name": "Alina Ovriakh",
+              "decimal_price": 2.75,
+              "american_price": 175
             },
             {
-              "outcome_name": "Viktor Sharpai",
-              "decimal_price": 1.345,
-              "american_price": -290
+              "outcome_name": "Anna Rzhevska",
+              "decimal_price": null,
+              "american_price": null
             }
           ]
         }
@@ -51,14 +51,67 @@
         "provider": "parlayapi",
         "outcomes": [
           {
-            "outcome_name": "Ivan Elfemov",
-            "decimal_price": 3.1,
-            "american_price": 210
+            "outcome_name": "Alina Ovriakh",
+            "decimal_price": 2.75,
+            "american_price": 175
           },
           {
-            "outcome_name": "Viktor Sharpai",
-            "decimal_price": 1.345,
-            "american_price": -290
+            "outcome_name": "Anna Rzhevska",
+            "decimal_price": null,
+            "american_price": null
+          }
+        ]
+      },
+      "is_tt_elite": false
+    },
+    {
+      "source": "parlayapi",
+      "source_event_id": "1d6487eb3292c7e61d420da712aa2b20",
+      "sport_key": "table_tennis",
+      "sport_title": "Table Tennis",
+      "league": "Table Tennis",
+      "commence_time_utc": "2026-07-22T05:55:00Z",
+      "commence_time_mountain": "2026-07-21T23:55:00-06:00",
+      "home_team": "Josh Shao Han Chua",
+      "away_team": "Che-Yen Hung",
+      "bookmakers": [
+        {
+          "bookmaker_key": "bovada",
+          "bookmaker_name": "Bovada",
+          "bookmaker_last_update": "2026-07-22T05:39:58Z",
+          "source_provider": "parlayapi",
+          "outcomes": [
+            {
+              "outcome_name": "Josh Shao Han Chua",
+              "decimal_price": 2.75,
+              "american_price": 175
+            },
+            {
+              "outcome_name": "Che-Yen Hung",
+              "decimal_price": 1.645,
+              "american_price": -155
+            }
+          ]
+        }
+      ],
+      "bookmaker_count": 1,
+      "draftkings": null,
+      "consensus": null,
+      "source_reference_price": {
+        "label": "source_reference_price",
+        "bookmaker_key": "bovada",
+        "bookmaker_name": "Bovada",
+        "provider": "parlayapi",
+        "outcomes": [
+          {
+            "outcome_name": "Josh Shao Han Chua",
+            "decimal_price": 2.75,
+            "american_price": 175
+          },
+          {
+            "outcome_name": "Che-Yen Hung",
+            "decimal_price": 1.645,
+            "american_price": -155
           }
         ]
       },
