@@ -1,41 +1,98 @@
-# Liga Pro Official Archive
+# Liga Pro Archive v2
 
-Schema version: `1.0.0`
+The Liga Pro Archive is the canonical, sanitized public mirror of the
+official Liga Pro (`api.league-pro.com`) match data. Every record in this
+directory has been cleaned, validated, and deduplicated before
+publication. No credentials, tokens, private endpoints, wager history,
+recommendations, bankroll information, or staking detail are ever
+written here.
 
-This directory contains cleaned official Liga Pro schedules and results collected from `api.league-pro.com`. GitHub is the permanent clean-data store; the VPS is a transient collector and publisher.
+## Completion-time semantics
 
-## Canonical history
+The v2 schema records three distinct states for a finished match. Any
+research process that derives workload or rest figures from this
+archive **must** apply the matching label.
 
-`history/YYYY/MM/YYYY-MM-DD.csv` is canonical. Each UTF-8 CSV contains one row per official `match_id`, partitioned by the UTC date of `scheduled_start_utc`, and sorted by `scheduled_start_utc`, `tournament_id`, then `match_id`.
+| Method                       | Meaning |
+| ---------------------------- | ------- |
+| `OFFICIAL`                   | The Liga Pro API returned an explicit official completion timestamp. `completed_at_utc` is populated and `calculated_finish_utc` equals it. Use this for official figures. |
+| `SCHEDULED_START_PLUS_DURATION` | No official completion was observed. The archive derives an **estimated** finish as `scheduled_start_utc + average_set_duration` and stores it in `calculated_finish_utc`. This is **estimated, not official**. Do not present it as an observed completion. |
+| `UNAVAILABLE`                | The match is scheduled or live but no estimate exists yet. `calculated_finish_utc` and `completed_at_utc` are both blank. |
 
-The official API orientation is preserved: `player_1` is `side_one` and `player_2` is `side_two`. Scores are never reversed to put the winner first. `player_1_sets` and `player_2_sets` store aggregate sets won. The upstream API currently does not supply point-by-point individual set results, so `set_scores` is blank. If the API supplies point-level set results in the future, they are serialized in player orientation as `11-8;9-11;...`; aggregate values such as `3-1` never belong in `set_scores`.
+`completed_at_utc` is **only** populated when the Liga Pro source
+returned an official timestamp; the archive never fabricates one.
 
-## Status mapping
+`calculated_finish_method` participates in the row content hash so any
+change to the official observation is detected by the validator.
 
-| Official value | Normalized value |
-|---|---|
-| `1` | `SCHEDULED` |
-| `2` | `LIVE` |
-| `3` | `COMPLETED` |
-| Unrecognized | `UNKNOWN` |
+## `last_changed_at_utc`
 
-`POSTPONED`, `CANCELLED`, and `ABANDONED` remain reserved normalized values. No undocumented API value is guessed into those categories.
+`last_changed_at_utc` is updated whenever the canonical row contents
+change (score correction, reschedule, status update). It is nonblank
+and parseable for every committed row.
 
-## Updates and corrections
+## Layout
 
-Rows are upserted globally by `match_id`. `first_seen_at_utc` is immutable. A changed schedule, status, player, or result updates the existing row; `last_seen_at_utc` and `source_snapshot_id` identify the latest changed observation. Disappearance from the rolling API window never deletes history. A UTC-date reschedule removes the row from its former partition and inserts it into the new partition, with the relocation recorded in the run manifest.
+```
+liga_pro/
+├── README.md                          this file
+├── schema.json                        machine-readable schema (version 2.0.0)
+├── canonical_v2_contract.py           byte-identical copy of the canonical contract
+├── health.json                        Liga Pro collector health
+├── current_slate.json                 upcoming matches
+├── recent_results.json                recently completed matches
+├── player_metrics.json                current player aggregates
+├── history_index.json                 navigation and totals across all partitions
+├── journal.jsonl                      append-only audit log of committed plans
+├── dimensions/
+│   ├── players.csv                    canonical player dimension
+│   └── tournaments.csv                canonical tournament dimension
+├── history/
+│   └── YYYY/MM/YYYY-MM-DD.csv         daily canonical match partitions
+├── manifests/
+│   ├── latest.json                    latest committed manifest object
+│   └── YYYY/MM/YYYY-MM-DD.jsonl       daily manifest append log
+├── snapshots/
+│   ├── <sha>.json                     content-addressed snapshot files
+│   └── latest                         symlink to the current snapshot
+└── migration_proofs/
+    └── v2_migration_proof.json        schema v2 regeneration audit
+```
 
-`content_hash` is deterministic over canonical fields excluding `last_seen_at_utc`, `source_snapshot_id`, and `content_hash` itself.
+## Canonical contract
 
-## Other files
+The canonical contract is the single source of truth for the schema,
+method enum, hash algorithm, and exclusion list:
 
-- `current_slate.json`, `recent_results.json`, and `player_metrics.json`: current convenience outputs, not canonical history.
-- `health.json`: collection health.
-- `history_index.json`: partition navigation, counts, and hashes.
-- `dimensions/players.csv`: official player-ID dimension. Similar names are never merged.
-- `dimensions/tournaments.csv`: official tournament-ID dimension.
-- `manifests/YYYY/MM/YYYY-MM-DD.jsonl`: append-only import audit.
-- `manifests/latest.json`: latest successful import object.
-- `schema.json`: machine-readable field definitions.
+* `MATCH_FIELDS`: 27 columns in exact order
+* `METHODS`: `OFFICIAL`, `SCHEDULED_START_PLUS_DURATION`, `UNAVAILABLE`
+* `HASH_EXCLUDE`: `content_hash`, `last_changed_at_utc`, `source_snapshot_id`
+* Hash: SHA-256 over canonical JSON of all MATCH_FIELDS except HASH_EXCLUDE
 
-No credentials, private recommendations, wager history, bankroll, or staking information belongs here.
+The byte-identical copy of the canonical contract is committed at
+`liga_pro/canonical_v2_contract.py` for verification by external
+processes. The authoritative version lives in `tt-data-pipeline`.
+
+## Content-addressed snapshots
+
+Each snapshot's filename equals the SHA-256 of its exact bytes. The
+`latest` symlink points at the current snapshot and is replaced
+atomically.
+
+## Daily partitions
+
+`liga_pro/history/YYYY/MM/YYYY-MM-DD.csv` — one canonical CSV per
+UTC date, sorted deterministically by `(scheduled_start_utc,
+tournament_id, match_id)`. Each row's content hash is deterministic.
+
+## Researcher contract
+
+Any downstream consumer must:
+
+1. Verify `schema.json` schema_version equals `"2.0.0"`.
+2. Verify `canonical_v2_contract.py` is byte-identical to the canonical source.
+3. Read `history_index.json` to enumerate the partitions.
+4. Read `manifests/latest.json` for the latest totals.
+5. Read `journal.jsonl` for the audit log.
+6. For each row, label `calculated_finish_utc` as `OFFICIAL`,
+   `ESTIMATED (SCHEDULED_START_PLUS_DURATION)`, or `UNAVAILABLE`.

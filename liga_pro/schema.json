@@ -1,157 +1,69 @@
 {
-  "content_hash_excludes": [
-    "last_seen_at_utc",
+  "completion_time_semantics": {
+    "calculated_finish_method": "OFFICIAL | SCHEDULED_START_PLUS_DURATION | UNAVAILABLE",
+    "calculated_finish_utc": "populated only for SCHEDULED_START_PLUS_DURATION or OFFICIAL",
+    "completed_at_utc": "blank unless official source timestamp exists",
+    "last_changed_at_utc": "nonblank and parseable; updated on any change"
+  },
+  "hash_algorithm": "sha256_canonical_json",
+  "hash_exclude": [
+    "content_hash",
+    "last_changed_at_utc",
+    "source_snapshot_id"
+  ],
+  "match_fields": [
+    "match_id",
+    "tournament_id",
+    "tournament_name",
+    "league_band",
+    "scheduled_start_utc",
+    "scheduled_start_mountain",
+    "scheduled_start_prague",
+    "official_status",
+    "normalized_status",
+    "player_1_id",
+    "player_1_name",
+    "player_2_id",
+    "player_2_name",
+    "player_1_sets",
+    "player_2_sets",
+    "winner_player_id",
+    "winner_player_name",
+    "set_scores",
+    "completed_at_utc",
+    "calculated_finish_utc",
+    "calculated_finish_method",
+    "first_seen_at_utc",
+    "last_changed_at_utc",
     "source_snapshot_id",
+    "source",
+    "data_quality",
     "content_hash"
   ],
-  "encoding": "UTF-8",
-  "fields": [
-    {
-      "name": "match_id",
-      "nullable": false,
-      "type": "integer"
-    },
-    {
-      "name": "tournament_id",
-      "nullable": false,
-      "type": "integer"
-    },
-    {
-      "name": "tournament_name",
-      "nullable": true,
-      "type": "string"
-    },
-    {
-      "name": "league_band",
-      "nullable": true,
-      "type": "string"
-    },
-    {
-      "format": "date-time",
-      "name": "scheduled_start_utc",
-      "nullable": false,
-      "type": "string"
-    },
-    {
-      "format": "date-time",
-      "name": "scheduled_start_mountain",
-      "nullable": false,
-      "type": "string"
-    },
-    {
-      "format": "date-time",
-      "name": "scheduled_start_prague",
-      "nullable": false,
-      "type": "string"
-    },
-    {
-      "name": "official_status",
-      "nullable": false,
-      "type": "string"
-    },
-    {
-      "enum": [
-        "SCHEDULED",
-        "LIVE",
-        "COMPLETED",
-        "POSTPONED",
-        "CANCELLED",
-        "ABANDONED",
-        "UNKNOWN"
-      ],
-      "name": "normalized_status",
-      "nullable": false,
-      "type": "string"
-    },
-    {
-      "name": "player_1_id",
-      "nullable": false,
-      "type": "integer"
-    },
-    {
-      "name": "player_1_name",
-      "nullable": false,
-      "type": "string"
-    },
-    {
-      "name": "player_2_id",
-      "nullable": false,
-      "type": "integer"
-    },
-    {
-      "name": "player_2_name",
-      "nullable": false,
-      "type": "string"
-    },
-    {
-      "name": "player_1_sets",
-      "nullable": true,
-      "type": "integer"
-    },
-    {
-      "name": "player_2_sets",
-      "nullable": true,
-      "type": "integer"
-    },
-    {
-      "name": "winner_player_id",
-      "nullable": true,
-      "type": "integer"
-    },
-    {
-      "name": "winner_player_name",
-      "nullable": true,
-      "type": "string"
-    },
-    {
-      "description": "Semicolon-delimited individual set point scores in player_1-player_2 orientation (for example 11-8;9-11). Blank when the official API supplies only aggregate sets won; never stores aggregate match sets such as 3-1.",
-      "name": "set_scores",
-      "nullable": true,
-      "type": "string"
-    },
-    {
-      "format": "date-time",
-      "name": "completed_at_utc",
-      "nullable": true,
-      "type": "string"
-    },
-    {
-      "format": "date-time",
-      "name": "first_seen_at_utc",
-      "nullable": false,
-      "type": "string"
-    },
-    {
-      "format": "date-time",
-      "name": "last_seen_at_utc",
-      "nullable": false,
-      "type": "string"
-    },
-    {
-      "name": "source_snapshot_id",
-      "nullable": false,
-      "type": "string"
-    },
-    {
-      "name": "source",
-      "nullable": false,
-      "type": "string"
-    },
-    {
-      "name": "data_quality",
-      "nullable": false,
-      "type": "string"
-    },
-    {
-      "name": "content_hash",
-      "nullable": false,
-      "type": "string"
-    }
+  "method_values": [
+    "OFFICIAL",
+    "SCHEDULED_START_PLUS_DURATION",
+    "UNAVAILABLE"
   ],
-  "format": "CSV",
-  "partition_key": "UTC date of scheduled_start_utc",
-  "primary_key": "match_id",
-  "schema_version": "1.0.0",
-  "source": "api.league-pro.com",
-  "title": "Liga Pro canonical match history"
+  "player_fields": [
+    "player_id",
+    "canonical_name",
+    "normalized_name",
+    "first_seen_at_utc",
+    "last_seen_at_utc",
+    "first_match_id",
+    "latest_match_id",
+    "source"
+  ],
+  "schema_version": "2.0.0",
+  "tournament_fields": [
+    "tournament_id",
+    "tournament_name",
+    "league_band",
+    "first_seen_at_utc",
+    "last_seen_at_utc",
+    "first_scheduled_start_utc",
+    "latest_scheduled_start_utc",
+    "source"
+  ]
 }
