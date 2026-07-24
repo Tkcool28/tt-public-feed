@@ -1,16 +1,5 @@
 {
-  "completion_time_semantics": {
-    "calculated_finish_method": "OFFICIAL | SCHEDULED_START_PLUS_DURATION | UNAVAILABLE",
-    "calculated_finish_utc": "populated only for SCHEDULED_START_PLUS_DURATION or OFFICIAL",
-    "completed_at_utc": "blank unless official source timestamp exists",
-    "last_changed_at_utc": "nonblank and parseable; updated on any change"
-  },
-  "hash_algorithm": "sha256_canonical_json",
-  "hash_exclude": [
-    "content_hash",
-    "last_changed_at_utc",
-    "source_snapshot_id"
-  ],
+  "schema_version": "2.0.0",
   "match_fields": [
     "match_id",
     "tournament_id",
@@ -45,25 +34,10 @@
     "SCHEDULED_START_PLUS_DURATION",
     "UNAVAILABLE"
   ],
-  "player_fields": [
-    "player_id",
-    "canonical_name",
-    "normalized_name",
-    "first_seen_at_utc",
-    "last_seen_at_utc",
-    "first_match_id",
-    "latest_match_id",
-    "source"
-  ],
-  "schema_version": "2.0.0",
-  "tournament_fields": [
-    "tournament_id",
-    "tournament_name",
-    "league_band",
-    "first_seen_at_utc",
-    "last_seen_at_utc",
-    "first_scheduled_start_utc",
-    "latest_scheduled_start_utc",
-    "source"
+  "hash_algorithm": "sha256_canonical_json",
+  "hash_exclude": [
+    "content_hash",
+    "last_changed_at_utc",
+    "source_snapshot_id"
   ]
 }
