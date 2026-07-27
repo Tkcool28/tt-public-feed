@@ -1,16 +1,262 @@
 {
-  "snapshot_id": "2c6ab69cd0e638cb59bb5400389387b4bd0ffe7ac17997fd43de82aeaf684afd",
-  "fetched_at_utc": "2026-07-25T17:40:07.429726+00:00",
-  "fetched_at_mountain": "2026-07-25T11:40:07.429726-06:00",
+  "snapshot_id": "082dd1b5054a708d8364eb7a22d674abe94fd60ab31956a40ba7f68b5a85adcd",
+  "fetched_at_utc": "2026-07-27T05:40:27.360637+00:00",
+  "fetched_at_mountain": "2026-07-26T23:40:27.360637-06:00",
   "primary_source": "parlayapi",
-  "source_status": "ok_zero_events",
-  "event_count": 0,
-  "bookmaker_count": 0,
+  "source_status": "ok",
+  "event_count": 5,
+  "bookmaker_count": 1,
   "draftkings_event_count": 0,
   "tt_elite_event_count": 0,
-  "events_found": false,
-  "source_coverage_note": "ParlayAPI responded 200 but returned 0 table_tennis events at fetch time (live TT schedule fluctuates).",
-  "events": [],
+  "events_found": true,
+  "source_coverage_note": null,
+  "events": [
+    {
+      "source": "parlayapi",
+      "source_event_id": "48263ce18ead8f9ff99bec7d41d9daca",
+      "sport_key": "table_tennis",
+      "sport_title": "Table Tennis",
+      "league": "Table Tennis",
+      "commence_time_utc": "2026-07-27T07:00:00Z",
+      "commence_time_mountain": "2026-07-27T01:00:00-06:00",
+      "home_team": "Jakub Mejzlik",
+      "away_team": "Josef Hanacek",
+      "bookmakers": [
+        {
+          "bookmaker_key": "bovada",
+          "bookmaker_name": "Bovada",
+          "bookmaker_last_update": "2026-07-27T05:40:26Z",
+          "source_provider": "parlayapi",
+          "outcomes": [
+            {
+              "outcome_name": "Jakub Mejzlik",
+              "decimal_price": 2.2,
+              "american_price": 120
+            },
+            {
+              "outcome_name": "Josef Hanacek",
+              "decimal_price": 1.588,
+              "american_price": -170
+            }
+          ]
+        }
+      ],
+      "bookmaker_count": 1,
+      "draftkings": null,
+      "consensus": null,
+      "source_reference_price": {
+        "label": "source_reference_price",
+        "bookmaker_key": "bovada",
+        "bookmaker_name": "Bovada",
+        "provider": "parlayapi",
+        "outcomes": [
+          {
+            "outcome_name": "Jakub Mejzlik",
+            "decimal_price": 2.2,
+            "american_price": 120
+          },
+          {
+            "outcome_name": "Josef Hanacek",
+            "decimal_price": 1.588,
+            "american_price": -170
+          }
+        ]
+      },
+      "is_tt_elite": false
+    },
+    {
+      "source": "parlayapi",
+      "source_event_id": "c07170fb13a6c2f11eb196ef0b703365",
+      "sport_key": "table_tennis",
+      "sport_title": "Table Tennis",
+      "league": "Table Tennis",
+      "commence_time_utc": "2026-07-27T07:30:00Z",
+      "commence_time_mountain": "2026-07-27T01:30:00-06:00",
+      "home_team": "Jiri Ruzicka",
+      "away_team": "Martin Huk",
+      "bookmakers": [
+        {
+          "bookmaker_key": "bovada",
+          "bookmaker_name": "Bovada",
+          "bookmaker_last_update": "2026-07-27T05:40:26Z",
+          "source_provider": "parlayapi",
+          "outcomes": [
+            {
+              "outcome_name": "Jiri Ruzicka",
+              "decimal_price": 1.833,
+              "american_price": -120
+            }
+          ]
+        }
+      ],
+      "bookmaker_count": 1,
+      "draftkings": null,
+      "consensus": null,
+      "source_reference_price": {
+        "label": "source_reference_price",
+        "bookmaker_key": "bovada",
+        "bookmaker_name": "Bovada",
+        "provider": "parlayapi",
+        "outcomes": [
+          {
+            "outcome_name": "Jiri Ruzicka",
+            "decimal_price": 1.833,
+            "american_price": -120
+          }
+        ]
+      },
+      "is_tt_elite": false
+    },
+    {
+      "source": "parlayapi",
+      "source_event_id": "19d3d4e2a447393ad75d90d11dff03d1",
+      "sport_key": "table_tennis",
+      "sport_title": "Table Tennis",
+      "league": "Table Tennis",
+      "commence_time_utc": "2026-07-27T08:20:00Z",
+      "commence_time_mountain": "2026-07-27T02:20:00-06:00",
+      "home_team": "Lev Katsman",
+      "away_team": "Shokhrukh Iskandarov",
+      "bookmakers": [
+        {
+          "bookmaker_key": "bovada",
+          "bookmaker_name": "Bovada",
+          "bookmaker_last_update": "2026-07-27T05:40:26Z",
+          "source_provider": "parlayapi",
+          "outcomes": [
+            {
+              "outcome_name": "Lev Katsman",
+              "decimal_price": 1.056,
+              "american_price": -1786
+            },
+            {
+              "outcome_name": "Shokhrukh Iskandarov",
+              "decimal_price": 8.5,
+              "american_price": 750
+            }
+          ]
+        }
+      ],
+      "bookmaker_count": 1,
+      "draftkings": null,
+      "consensus": null,
+      "source_reference_price": {
+        "label": "source_reference_price",
+        "bookmaker_key": "bovada",
+        "bookmaker_name": "Bovada",
+        "provider": "parlayapi",
+        "outcomes": [
+          {
+            "outcome_name": "Lev Katsman",
+            "decimal_price": 1.056,
+            "american_price": -1786
+          },
+          {
+            "outcome_name": "Shokhrukh Iskandarov",
+            "decimal_price": 8.5,
+            "american_price": 750
+          }
+        ]
+      },
+      "is_tt_elite": false
+    },
+    {
+      "source": "parlayapi",
+      "source_event_id": "1641ed066d6c6dfc5f92800c6795b7e8",
+      "sport_key": "table_tennis",
+      "sport_title": "Table Tennis",
+      "league": "Table Tennis",
+      "commence_time_utc": "2026-07-27T07:55:00Z",
+      "commence_time_mountain": "2026-07-27T01:55:00-06:00",
+      "home_team": "Mykhailo Vivatenko",
+      "away_team": "Yuriy Melnyk",
+      "bookmakers": [
+        {
+          "bookmaker_key": "bovada",
+          "bookmaker_name": "Bovada",
+          "bookmaker_last_update": "2026-07-27T05:40:26Z",
+          "source_provider": "parlayapi",
+          "outcomes": [
+            {
+              "outcome_name": "Mykhailo Vivatenko",
+              "decimal_price": 3.3,
+              "american_price": 230
+            }
+          ]
+        }
+      ],
+      "bookmaker_count": 1,
+      "draftkings": null,
+      "consensus": null,
+      "source_reference_price": {
+        "label": "source_reference_price",
+        "bookmaker_key": "bovada",
+        "bookmaker_name": "Bovada",
+        "provider": "parlayapi",
+        "outcomes": [
+          {
+            "outcome_name": "Mykhailo Vivatenko",
+            "decimal_price": 3.3,
+            "american_price": 230
+          }
+        ]
+      },
+      "is_tt_elite": false
+    },
+    {
+      "source": "parlayapi",
+      "source_event_id": "88b75852b8ec9c8a64a173e50aa21ff2",
+      "sport_key": "table_tennis",
+      "sport_title": "Table Tennis",
+      "league": "Table Tennis",
+      "commence_time_utc": "2026-07-27T07:45:00Z",
+      "commence_time_mountain": "2026-07-27T01:45:00-06:00",
+      "home_team": "Zlata Terekhova",
+      "away_team": "Tung-Chuan Chien",
+      "bookmakers": [
+        {
+          "bookmaker_key": "bovada",
+          "bookmaker_name": "Bovada",
+          "bookmaker_last_update": "2026-07-27T05:40:26Z",
+          "source_provider": "parlayapi",
+          "outcomes": [
+            {
+              "outcome_name": "Zlata Terekhova",
+              "decimal_price": 5.0,
+              "american_price": 400
+            },
+            {
+              "outcome_name": "Tung-Chuan Chien",
+              "decimal_price": 1.143,
+              "american_price": -699
+            }
+          ]
+        }
+      ],
+      "bookmaker_count": 1,
+      "draftkings": null,
+      "consensus": null,
+      "source_reference_price": {
+        "label": "source_reference_price",
+        "bookmaker_key": "bovada",
+        "bookmaker_name": "Bovada",
+        "provider": "parlayapi",
+        "outcomes": [
+          {
+            "outcome_name": "Zlata Terekhova",
+            "decimal_price": 5.0,
+            "american_price": 400
+          },
+          {
+            "outcome_name": "Tung-Chuan Chien",
+            "decimal_price": 1.143,
+            "american_price": -699
+          }
+        ]
+      },
+      "is_tt_elite": false
+    }
+  ],
   "consensus_note": "single-source feed (Bovada via ParlayAPI): prices labeled source_reference_price, NOT consensus.",
-  "content_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  "content_fingerprint": "b6a12ea0c11e21c601fc86e72daa23ecf3dd461d7739ebbf1946c075aa030d56"
 }
