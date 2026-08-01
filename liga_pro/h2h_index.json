@@ -1,10 +1,10 @@
 {
   "schema_version": "2.0.0",
-  "generated_at_utc": "2026-08-01T05:42:07.679804+00:00",
-  "source_snapshot_id": "1573e60c96663aa68fa243c5ca7a2bbdbd25b0584676eff137b08ed69efa8265",
+  "generated_at_utc": "2026-08-01T17:42:10.018681+00:00",
+  "source_snapshot_id": "7c18b339670e7ae4dc32435d4a65cb4df7b91f7d434b54b211b2fde098ebba65",
   "history_first_date_utc": "2026-07-06T22:30:03.213000+00:00",
-  "history_last_date_utc": "2026-08-01T03:30:11.831000+00:00",
-  "pair_count": 1804,
+  "history_last_date_utc": "2026-08-01T17:30:10.698000+00:00",
+  "pair_count": 1835,
   "pairs": {
     "1004:1020": {
       "player_low_id": 1004,
@@ -566,13 +566,13 @@
       "player_low_name": "Ondrej Paril",
       "player_high_id": 1283,
       "player_high_name": "Radovan Polasek",
-      "total_matches": 12,
+      "total_matches": 13,
       "low_player_wins": 7,
-      "high_player_wins": 5,
-      "low_player_sets": 26,
-      "high_player_sets": 22,
+      "high_player_wins": 6,
+      "low_player_sets": 28,
+      "high_player_sets": 25,
       "first_meeting_utc": "2026-07-07T11:00:31.647000+00:00",
-      "last_meeting_utc": "2026-07-31T09:00:14.926000+00:00",
+      "last_meeting_utc": "2026-08-01T16:00:11.114000+00:00",
       "meetings": [
         {
           "match_id": 295829,
@@ -753,6 +753,21 @@
           "player_2_sets": 2,
           "winner_player_id": 1004,
           "winner_player_name": "Ondrej Paril"
+        },
+        {
+          "match_id": 300783,
+          "scheduled_start_utc": "2026-08-01T16:00:11.114000+00:00",
+          "tournament_id": 35637,
+          "tournament_name": "Tournament A18. League 1000-1100",
+          "league_band": "1000-1100",
+          "player_1_id": 1004,
+          "player_1_name": "Ondrej Paril",
+          "player_2_id": 1283,
+          "player_2_name": "Radovan Polasek",
+          "player_1_sets": 2,
+          "player_2_sets": 3,
+          "winner_player_id": 1283,
+          "winner_player_name": "Radovan Polasek"
         }
       ]
     },
@@ -1131,6 +1146,36 @@
         }
       ]
     },
+    "1004:1708": {
+      "player_low_id": 1004,
+      "player_low_name": "Ondrej Paril",
+      "player_high_id": 1708,
+      "player_high_name": "Jakub Pilch",
+      "total_matches": 1,
+      "low_player_wins": 1,
+      "high_player_wins": 0,
+      "low_player_sets": 3,
+      "high_player_sets": 1,
+      "first_meeting_utc": "2026-08-01T15:30:21.717000+00:00",
+      "last_meeting_utc": "2026-08-01T15:30:21.717000+00:00",
+      "meetings": [
+        {
+          "match_id": 300782,
+          "scheduled_start_utc": "2026-08-01T15:30:21.717000+00:00",
+          "tournament_id": 35637,
+          "tournament_name": "Tournament A18. League 1000-1100",
+          "league_band": "1000-1100",
+          "player_1_id": 1004,
+          "player_1_name": "Ondrej Paril",
+          "player_2_id": 1708,
+          "player_2_name": "Jakub Pilch",
+          "player_1_sets": 3,
+          "player_2_sets": 1,
+          "winner_player_id": 1004,
+          "winner_player_name": "Ondrej Paril"
+        }
+      ]
+    },
     "1004:1784": {
       "player_low_id": 1004,
       "player_low_name": "Ondrej Paril",
@@ -1186,6 +1231,36 @@
           "player_2_name": "Tomas Dousek",
           "player_1_sets": 3,
           "player_2_sets": 0,
+          "winner_player_id": 1004,
+          "winner_player_name": "Ondrej Paril"
+        }
+      ]
+    },
+    "1004:1865": {
+      "player_low_id": 1004,
+      "player_low_name": "Ondrej Paril",
+      "player_high_id": 1865,
+      "player_high_name": "Matej Szwarc",
+      "total_matches": 1,
+      "low_player_wins": 1,
+      "high_player_wins": 0,
+      "low_player_sets": 3,
+      "high_player_sets": 1,
+      "first_meeting_utc": "2026-08-01T14:00:42.753000+00:00",
+      "last_meeting_utc": "2026-08-01T14:00:42.753000+00:00",
+      "meetings": [
+        {
+          "match_id": 300779,
+          "scheduled_start_utc": "2026-08-01T14:00:42.753000+00:00",
+          "tournament_id": 35637,
+          "tournament_name": "Tournament A18. League 1000-1100",
+          "league_band": "1000-1100",
+          "player_1_id": 1004,
+          "player_1_name": "Ondrej Paril",
+          "player_2_id": 1865,
+          "player_2_name": "Matej Szwarc",
+          "player_1_sets": 3,
+          "player_2_sets": 1,
           "winner_player_id": 1004,
           "winner_player_name": "Ondrej Paril"
         }
@@ -14201,13 +14276,13 @@
       "player_low_name": "Milan Vrabec",
       "player_high_id": 1251,
       "player_high_name": "Leos Havrda",
-      "total_matches": 1,
-      "low_player_wins": 1,
+      "total_matches": 2,
+      "low_player_wins": 2,
       "high_player_wins": 0,
-      "low_player_sets": 3,
-      "high_player_sets": 0,
+      "low_player_sets": 6,
+      "high_player_sets": 1,
       "first_meeting_utc": "2026-07-25T06:30:16.324000+00:00",
-      "last_meeting_utc": "2026-07-25T06:30:16.324000+00:00",
+      "last_meeting_utc": "2026-08-01T07:30:24.169000+00:00",
       "meetings": [
         {
           "match_id": 299324,
@@ -14221,6 +14296,21 @@
           "player_2_name": "Leos Havrda",
           "player_1_sets": 3,
           "player_2_sets": 0,
+          "winner_player_id": 1124,
+          "winner_player_name": "Milan Vrabec"
+        },
+        {
+          "match_id": 300698,
+          "scheduled_start_utc": "2026-08-01T07:30:24.169000+00:00",
+          "tournament_id": 35627,
+          "tournament_name": "Tournament A17. League 350-400",
+          "league_band": "350-400",
+          "player_1_id": 1124,
+          "player_1_name": "Milan Vrabec",
+          "player_2_id": 1251,
+          "player_2_name": "Leos Havrda",
+          "player_1_sets": 3,
+          "player_2_sets": 1,
           "winner_player_id": 1124,
           "winner_player_name": "Milan Vrabec"
         }
@@ -14276,13 +14366,13 @@
       "player_low_name": "Milan Vrabec",
       "player_high_id": 1475,
       "player_high_name": "Jaroslav Martinek",
-      "total_matches": 2,
-      "low_player_wins": 1,
+      "total_matches": 3,
+      "low_player_wins": 2,
       "high_player_wins": 1,
-      "low_player_sets": 3,
+      "low_player_sets": 6,
       "high_player_sets": 4,
       "first_meeting_utc": "2026-07-11T06:00:09.685000+00:00",
-      "last_meeting_utc": "2026-07-11T09:30:10.188000+00:00",
+      "last_meeting_utc": "2026-08-01T06:32:46.106000+00:00",
       "meetings": [
         {
           "match_id": 296515,
@@ -14311,6 +14401,21 @@
           "player_2_name": "Jaroslav Martinek",
           "player_1_sets": 3,
           "player_2_sets": 1,
+          "winner_player_id": 1124,
+          "winner_player_name": "Milan Vrabec"
+        },
+        {
+          "match_id": 300696,
+          "scheduled_start_utc": "2026-08-01T06:32:46.106000+00:00",
+          "tournament_id": 35627,
+          "tournament_name": "Tournament A17. League 350-400",
+          "league_band": "350-400",
+          "player_1_id": 1124,
+          "player_1_name": "Milan Vrabec",
+          "player_2_id": 1475,
+          "player_2_name": "Jaroslav Martinek",
+          "player_1_sets": 3,
+          "player_2_sets": 0,
           "winner_player_id": 1124,
           "winner_player_name": "Milan Vrabec"
         }
@@ -21851,13 +21956,13 @@
       "player_low_name": "Stanislav Mazanek",
       "player_high_id": 1341,
       "player_high_name": "Michal Syroha",
-      "total_matches": 1,
-      "low_player_wins": 0,
-      "high_player_wins": 1,
-      "low_player_sets": 2,
-      "high_player_sets": 3,
+      "total_matches": 4,
+      "low_player_wins": 1,
+      "high_player_wins": 3,
+      "low_player_sets": 8,
+      "high_player_sets": 9,
       "first_meeting_utc": "2026-07-14T22:59:58.785000+00:00",
-      "last_meeting_utc": "2026-07-14T22:59:58.785000+00:00",
+      "last_meeting_utc": "2026-08-01T16:00:19.016000+00:00",
       "meetings": [
         {
           "match_id": 297137,
@@ -21873,6 +21978,81 @@
           "player_2_sets": 3,
           "winner_player_id": 1341,
           "winner_player_name": "Michal Syroha"
+        },
+        {
+          "match_id": 300707,
+          "scheduled_start_utc": "2026-08-01T12:02:52.139000+00:00",
+          "tournament_id": 35628,
+          "tournament_name": "Tournament A17. League 400-450",
+          "league_band": "400-450",
+          "player_1_id": 1224,
+          "player_1_name": "Stanislav Mazanek",
+          "player_2_id": 1341,
+          "player_2_name": "Michal Syroha",
+          "player_1_sets": 3,
+          "player_2_sets": 0,
+          "winner_player_id": 1224,
+          "winner_player_name": "Stanislav Mazanek"
+        },
+        {
+          "match_id": 300710,
+          "scheduled_start_utc": "2026-08-01T13:36:08.336000+00:00",
+          "tournament_id": 35628,
+          "tournament_name": "Tournament A17. League 400-450",
+          "league_band": "400-450",
+          "player_1_id": 1224,
+          "player_1_name": "Stanislav Mazanek",
+          "player_2_id": 1341,
+          "player_2_name": "Michal Syroha",
+          "player_1_sets": 2,
+          "player_2_sets": 3,
+          "winner_player_id": 1341,
+          "winner_player_name": "Michal Syroha"
+        },
+        {
+          "match_id": 300715,
+          "scheduled_start_utc": "2026-08-01T16:00:19.016000+00:00",
+          "tournament_id": 35629,
+          "tournament_name": "Tournament A17. League 400-450",
+          "league_band": "400-450",
+          "player_1_id": 1224,
+          "player_1_name": "Stanislav Mazanek",
+          "player_2_id": 1341,
+          "player_2_name": "Michal Syroha",
+          "player_1_sets": 1,
+          "player_2_sets": 3,
+          "winner_player_id": 1341,
+          "winner_player_name": "Michal Syroha"
+        }
+      ]
+    },
+    "1224:1373": {
+      "player_low_id": 1224,
+      "player_low_name": "Stanislav Mazanek",
+      "player_high_id": 1373,
+      "player_high_name": "Miloslav Lubas",
+      "total_matches": 1,
+      "low_player_wins": 1,
+      "high_player_wins": 0,
+      "low_player_sets": 3,
+      "high_player_sets": 2,
+      "first_meeting_utc": "2026-08-01T10:30:10.793000+00:00",
+      "last_meeting_utc": "2026-08-01T10:30:10.793000+00:00",
+      "meetings": [
+        {
+          "match_id": 300704,
+          "scheduled_start_utc": "2026-08-01T10:30:10.793000+00:00",
+          "tournament_id": 35628,
+          "tournament_name": "Tournament A17. League 400-450",
+          "league_band": "400-450",
+          "player_1_id": 1224,
+          "player_1_name": "Stanislav Mazanek",
+          "player_2_id": 1373,
+          "player_2_name": "Miloslav Lubas",
+          "player_1_sets": 3,
+          "player_2_sets": 2,
+          "winner_player_id": 1224,
+          "winner_player_name": "Stanislav Mazanek"
         }
       ]
     },
@@ -22578,6 +22758,36 @@
           "player_2_sets": 2,
           "winner_player_id": 1239,
           "winner_player_name": "Ladislav Havel"
+        }
+      ]
+    },
+    "1239:1285": {
+      "player_low_id": 1239,
+      "player_low_name": "Ladislav Havel",
+      "player_high_id": 1285,
+      "player_high_name": "Jan Pleskot",
+      "total_matches": 1,
+      "low_player_wins": 0,
+      "high_player_wins": 1,
+      "low_player_sets": 1,
+      "high_player_sets": 3,
+      "first_meeting_utc": "2026-08-01T07:30:14.687000+00:00",
+      "last_meeting_utc": "2026-08-01T07:30:14.687000+00:00",
+      "meetings": [
+        {
+          "match_id": 300666,
+          "scheduled_start_utc": "2026-08-01T07:30:14.687000+00:00",
+          "tournament_id": 35623,
+          "tournament_name": "Tournament A14. League 450-500",
+          "league_band": "450-500",
+          "player_1_id": 1239,
+          "player_1_name": "Ladislav Havel",
+          "player_2_id": 1285,
+          "player_2_name": "Jan Pleskot",
+          "player_1_sets": 1,
+          "player_2_sets": 3,
+          "winner_player_id": 1285,
+          "winner_player_name": "Jan Pleskot"
         }
       ]
     },
@@ -23358,6 +23568,51 @@
           "player_2_sets": 2,
           "winner_player_id": 1248,
           "winner_player_name": "David Mutl"
+        }
+      ]
+    },
+    "1251:1475": {
+      "player_low_id": 1251,
+      "player_low_name": "Leos Havrda",
+      "player_high_id": 1475,
+      "player_high_name": "Jaroslav Martinek",
+      "total_matches": 2,
+      "low_player_wins": 2,
+      "high_player_wins": 0,
+      "low_player_sets": 6,
+      "high_player_sets": 0,
+      "first_meeting_utc": "2026-08-01T08:00:29.338000+00:00",
+      "last_meeting_utc": "2026-08-01T09:00:14.519000+00:00",
+      "meetings": [
+        {
+          "match_id": 300699,
+          "scheduled_start_utc": "2026-08-01T08:00:29.338000+00:00",
+          "tournament_id": 35627,
+          "tournament_name": "Tournament A17. League 350-400",
+          "league_band": "350-400",
+          "player_1_id": 1251,
+          "player_1_name": "Leos Havrda",
+          "player_2_id": 1475,
+          "player_2_name": "Jaroslav Martinek",
+          "player_1_sets": 3,
+          "player_2_sets": 0,
+          "winner_player_id": 1251,
+          "winner_player_name": "Leos Havrda"
+        },
+        {
+          "match_id": 300701,
+          "scheduled_start_utc": "2026-08-01T09:00:14.519000+00:00",
+          "tournament_id": 35627,
+          "tournament_name": "Tournament A17. League 350-400",
+          "league_band": "350-400",
+          "player_1_id": 1251,
+          "player_1_name": "Leos Havrda",
+          "player_2_id": 1475,
+          "player_2_name": "Jaroslav Martinek",
+          "player_1_sets": 3,
+          "player_2_sets": 0,
+          "winner_player_id": 1251,
+          "winner_player_name": "Leos Havrda"
         }
       ]
     },
@@ -25136,13 +25391,13 @@
       "player_low_name": "Radovan Polasek",
       "player_high_id": 1705,
       "player_high_name": "Michal Cabis",
-      "total_matches": 6,
-      "low_player_wins": 3,
+      "total_matches": 7,
+      "low_player_wins": 4,
       "high_player_wins": 3,
-      "low_player_sets": 10,
-      "high_player_sets": 14,
+      "low_player_sets": 13,
+      "high_player_sets": 16,
       "first_meeting_utc": "2026-07-12T20:00:10.928000+00:00",
-      "last_meeting_utc": "2026-07-30T10:30:32.703000+00:00",
+      "last_meeting_utc": "2026-08-01T12:00:47.378000+00:00",
       "meetings": [
         {
           "match_id": 296843,
@@ -25233,6 +25488,21 @@
           "player_2_sets": 2,
           "winner_player_id": 1283,
           "winner_player_name": "Radovan Polasek"
+        },
+        {
+          "match_id": 300775,
+          "scheduled_start_utc": "2026-08-01T12:00:47.378000+00:00",
+          "tournament_id": 35636,
+          "tournament_name": "Tournament A18. League 1000-1100",
+          "league_band": "1000-1100",
+          "player_1_id": 1283,
+          "player_1_name": "Radovan Polasek",
+          "player_2_id": 1705,
+          "player_2_name": "Michal Cabis",
+          "player_1_sets": 3,
+          "player_2_sets": 2,
+          "winner_player_id": 1283,
+          "winner_player_name": "Radovan Polasek"
         }
       ]
     },
@@ -25241,13 +25511,13 @@
       "player_low_name": "Radovan Polasek",
       "player_high_id": 1708,
       "player_high_name": "Jakub Pilch",
-      "total_matches": 1,
-      "low_player_wins": 1,
-      "high_player_wins": 0,
-      "low_player_sets": 3,
-      "high_player_sets": 2,
+      "total_matches": 3,
+      "low_player_wins": 2,
+      "high_player_wins": 1,
+      "low_player_sets": 6,
+      "high_player_sets": 6,
       "first_meeting_utc": "2026-07-21T12:30:47.816000+00:00",
-      "last_meeting_utc": "2026-07-21T12:30:47.816000+00:00",
+      "last_meeting_utc": "2026-08-01T14:30:14.017000+00:00",
       "meetings": [
         {
           "match_id": 298552,
@@ -25261,6 +25531,36 @@
           "player_2_name": "Jakub Pilch",
           "player_1_sets": 3,
           "player_2_sets": 2,
+          "winner_player_id": 1283,
+          "winner_player_name": "Radovan Polasek"
+        },
+        {
+          "match_id": 300772,
+          "scheduled_start_utc": "2026-08-01T10:37:47.386000+00:00",
+          "tournament_id": 35636,
+          "tournament_name": "Tournament A18. League 1000-1100",
+          "league_band": "1000-1100",
+          "player_1_id": 1283,
+          "player_1_name": "Radovan Polasek",
+          "player_2_id": 1708,
+          "player_2_name": "Jakub Pilch",
+          "player_1_sets": 0,
+          "player_2_sets": 3,
+          "winner_player_id": 1708,
+          "winner_player_name": "Jakub Pilch"
+        },
+        {
+          "match_id": 300780,
+          "scheduled_start_utc": "2026-08-01T14:30:14.017000+00:00",
+          "tournament_id": 35637,
+          "tournament_name": "Tournament A18. League 1000-1100",
+          "league_band": "1000-1100",
+          "player_1_id": 1283,
+          "player_1_name": "Radovan Polasek",
+          "player_2_id": 1708,
+          "player_2_name": "Jakub Pilch",
+          "player_1_sets": 3,
+          "player_2_sets": 1,
           "winner_player_id": 1283,
           "winner_player_name": "Radovan Polasek"
         }
@@ -25338,6 +25638,66 @@
           "player_2_sets": 1,
           "winner_player_id": 1283,
           "winner_player_name": "Radovan Polasek"
+        }
+      ]
+    },
+    "1283:1865": {
+      "player_low_id": 1283,
+      "player_low_name": "Radovan Polasek",
+      "player_high_id": 1865,
+      "player_high_name": "Matej Szwarc",
+      "total_matches": 3,
+      "low_player_wins": 2,
+      "high_player_wins": 1,
+      "low_player_sets": 6,
+      "high_player_sets": 4,
+      "first_meeting_utc": "2026-08-01T11:00:14.526000+00:00",
+      "last_meeting_utc": "2026-08-01T15:00:08.415000+00:00",
+      "meetings": [
+        {
+          "match_id": 300773,
+          "scheduled_start_utc": "2026-08-01T11:00:14.526000+00:00",
+          "tournament_id": 35636,
+          "tournament_name": "Tournament A18. League 1000-1100",
+          "league_band": "1000-1100",
+          "player_1_id": 1283,
+          "player_1_name": "Radovan Polasek",
+          "player_2_id": 1865,
+          "player_2_name": "Matej Szwarc",
+          "player_1_sets": 3,
+          "player_2_sets": 0,
+          "winner_player_id": 1283,
+          "winner_player_name": "Radovan Polasek"
+        },
+        {
+          "match_id": 300777,
+          "scheduled_start_utc": "2026-08-01T13:00:16.736000+00:00",
+          "tournament_id": 35636,
+          "tournament_name": "Tournament A18. League 1000-1100",
+          "league_band": "1000-1100",
+          "player_1_id": 1283,
+          "player_1_name": "Radovan Polasek",
+          "player_2_id": 1865,
+          "player_2_name": "Matej Szwarc",
+          "player_1_sets": 3,
+          "player_2_sets": 1,
+          "winner_player_id": 1283,
+          "winner_player_name": "Radovan Polasek"
+        },
+        {
+          "match_id": 300781,
+          "scheduled_start_utc": "2026-08-01T15:00:08.415000+00:00",
+          "tournament_id": 35637,
+          "tournament_name": "Tournament A18. League 1000-1100",
+          "league_band": "1000-1100",
+          "player_1_id": 1283,
+          "player_1_name": "Radovan Polasek",
+          "player_2_id": 1865,
+          "player_2_name": "Matej Szwarc",
+          "player_1_sets": 0,
+          "player_2_sets": 3,
+          "winner_player_id": 1865,
+          "winner_player_name": "Matej Szwarc"
         }
       ]
     },
@@ -28001,13 +28361,13 @@
       "player_low_name": "Michal Syroha",
       "player_high_id": 1373,
       "player_high_name": "Miloslav Lubas",
-      "total_matches": 2,
-      "low_player_wins": 0,
+      "total_matches": 3,
+      "low_player_wins": 1,
       "high_player_wins": 2,
-      "low_player_sets": 2,
-      "high_player_sets": 6,
+      "low_player_sets": 5,
+      "high_player_sets": 8,
       "first_meeting_utc": "2026-07-12T14:00:05.477000+00:00",
-      "last_meeting_utc": "2026-07-12T17:03:12.818000+00:00",
+      "last_meeting_utc": "2026-08-01T11:30:09.172000+00:00",
       "meetings": [
         {
           "match_id": 296879,
@@ -28038,6 +28398,21 @@
           "player_2_sets": 3,
           "winner_player_id": 1373,
           "winner_player_name": "Miloslav Lubas"
+        },
+        {
+          "match_id": 300706,
+          "scheduled_start_utc": "2026-08-01T11:30:09.172000+00:00",
+          "tournament_id": 35628,
+          "tournament_name": "Tournament A17. League 400-450",
+          "league_band": "400-450",
+          "player_1_id": 1341,
+          "player_1_name": "Michal Syroha",
+          "player_2_id": 1373,
+          "player_2_name": "Miloslav Lubas",
+          "player_1_sets": 3,
+          "player_2_sets": 2,
+          "winner_player_id": 1341,
+          "winner_player_name": "Michal Syroha"
         }
       ]
     },
@@ -30221,13 +30596,13 @@
       "player_low_name": "Mihail Trinta",
       "player_high_id": 1520,
       "player_high_name": "Tomas Regner",
-      "total_matches": 4,
+      "total_matches": 5,
       "low_player_wins": 2,
-      "high_player_wins": 2,
-      "low_player_sets": 9,
-      "high_player_sets": 8,
+      "high_player_wins": 3,
+      "low_player_sets": 10,
+      "high_player_sets": 11,
       "first_meeting_utc": "2026-07-14T14:00:15.129000+00:00",
-      "last_meeting_utc": "2026-07-27T17:30:08.083000+00:00",
+      "last_meeting_utc": "2026-08-01T11:30:52.865000+00:00",
       "meetings": [
         {
           "match_id": 297231,
@@ -30288,6 +30663,21 @@
           "player_2_sets": 1,
           "winner_player_id": 1377,
           "winner_player_name": "Mihail Trinta"
+        },
+        {
+          "match_id": 300674,
+          "scheduled_start_utc": "2026-08-01T11:30:52.865000+00:00",
+          "tournament_id": 35624,
+          "tournament_name": "Tournament A14. League 550-600",
+          "league_band": "550-600",
+          "player_1_id": 1377,
+          "player_1_name": "Mihail Trinta",
+          "player_2_id": 1520,
+          "player_2_name": "Tomas Regner",
+          "player_1_sets": 1,
+          "player_2_sets": 3,
+          "winner_player_id": 1520,
+          "winner_player_name": "Tomas Regner"
         }
       ]
     },
@@ -30446,13 +30836,13 @@
       "player_low_name": "Mihail Trinta",
       "player_high_id": 1607,
       "player_high_name": "David Horak",
-      "total_matches": 3,
+      "total_matches": 4,
       "low_player_wins": 1,
-      "high_player_wins": 2,
-      "low_player_sets": 6,
-      "high_player_sets": 8,
+      "high_player_wins": 3,
+      "low_player_sets": 8,
+      "high_player_sets": 11,
       "first_meeting_utc": "2026-07-18T00:30:05.546000+00:00",
-      "last_meeting_utc": "2026-07-31T15:00:40.854000+00:00",
+      "last_meeting_utc": "2026-08-01T10:30:32.367000+00:00",
       "meetings": [
         {
           "match_id": 297868,
@@ -30498,6 +30888,21 @@
           "player_2_sets": 2,
           "winner_player_id": 1377,
           "winner_player_name": "Mihail Trinta"
+        },
+        {
+          "match_id": 300672,
+          "scheduled_start_utc": "2026-08-01T10:30:32.367000+00:00",
+          "tournament_id": 35624,
+          "tournament_name": "Tournament A14. League 550-600",
+          "league_band": "550-600",
+          "player_1_id": 1377,
+          "player_1_name": "Mihail Trinta",
+          "player_2_id": 1607,
+          "player_2_name": "David Horak",
+          "player_1_sets": 2,
+          "player_2_sets": 3,
+          "winner_player_id": 1607,
+          "winner_player_name": "David Horak"
         }
       ]
     },
@@ -33101,13 +33506,13 @@
       "player_low_name": "Jiri Zuzanek",
       "player_high_id": 1600,
       "player_high_name": "Michal Vondrak",
-      "total_matches": 3,
-      "low_player_wins": 0,
+      "total_matches": 4,
+      "low_player_wins": 1,
       "high_player_wins": 3,
-      "low_player_sets": 4,
-      "high_player_sets": 9,
+      "low_player_sets": 7,
+      "high_player_sets": 11,
       "first_meeting_utc": "2026-07-09T20:30:07.448000+00:00",
-      "last_meeting_utc": "2026-07-15T12:00:27.631000+00:00",
+      "last_meeting_utc": "2026-08-01T14:00:09.162000+00:00",
       "meetings": [
         {
           "match_id": 296152,
@@ -33153,6 +33558,21 @@
           "player_2_sets": 3,
           "winner_player_id": 1600,
           "winner_player_name": "Michal Vondrak"
+        },
+        {
+          "match_id": 300679,
+          "scheduled_start_utc": "2026-08-01T14:00:09.162000+00:00",
+          "tournament_id": 35625,
+          "tournament_name": "Tournament A14. League 800-900",
+          "league_band": "800-900",
+          "player_1_id": 1415,
+          "player_1_name": "Jiri Zuzanek",
+          "player_2_id": 1600,
+          "player_2_name": "Michal Vondrak",
+          "player_1_sets": 3,
+          "player_2_sets": 2,
+          "winner_player_id": 1415,
+          "winner_player_name": "Jiri Zuzanek"
         }
       ]
     },
@@ -33566,13 +33986,13 @@
       "player_low_name": "Jiri Zuzanek",
       "player_high_id": 1869,
       "player_high_name": "Richard Wagner",
-      "total_matches": 5,
-      "low_player_wins": 4,
+      "total_matches": 6,
+      "low_player_wins": 5,
       "high_player_wins": 1,
-      "low_player_sets": 12,
+      "low_player_sets": 15,
       "high_player_sets": 8,
       "first_meeting_utc": "2026-07-09T18:30:06.662000+00:00",
-      "last_meeting_utc": "2026-07-26T13:00:11.309000+00:00",
+      "last_meeting_utc": "2026-08-01T15:00:08.660000+00:00",
       "meetings": [
         {
           "match_id": 296148,
@@ -33646,6 +34066,21 @@
           "player_2_name": "Richard Wagner",
           "player_1_sets": 3,
           "player_2_sets": 1,
+          "winner_player_id": 1415,
+          "winner_player_name": "Jiri Zuzanek"
+        },
+        {
+          "match_id": 300681,
+          "scheduled_start_utc": "2026-08-01T15:00:08.660000+00:00",
+          "tournament_id": 35625,
+          "tournament_name": "Tournament A14. League 800-900",
+          "league_band": "800-900",
+          "player_1_id": 1415,
+          "player_1_name": "Jiri Zuzanek",
+          "player_2_id": 1869,
+          "player_2_name": "Richard Wagner",
+          "player_1_sets": 3,
+          "player_2_sets": 0,
           "winner_player_id": 1415,
           "winner_player_name": "Jiri Zuzanek"
         }
@@ -35928,6 +36363,51 @@
           "player_2_sets": 3,
           "winner_player_id": 1605,
           "winner_player_name": "Miroslav Novotny"
+        }
+      ]
+    },
+    "1520:1607": {
+      "player_low_id": 1520,
+      "player_low_name": "Tomas Regner",
+      "player_high_id": 1607,
+      "player_high_name": "David Horak",
+      "total_matches": 2,
+      "low_player_wins": 1,
+      "high_player_wins": 1,
+      "low_player_sets": 5,
+      "high_player_sets": 3,
+      "first_meeting_utc": "2026-08-01T12:00:27.247000+00:00",
+      "last_meeting_utc": "2026-08-01T13:30:33.767000+00:00",
+      "meetings": [
+        {
+          "match_id": 300675,
+          "scheduled_start_utc": "2026-08-01T12:00:27.247000+00:00",
+          "tournament_id": 35624,
+          "tournament_name": "Tournament A14. League 550-600",
+          "league_band": "550-600",
+          "player_1_id": 1520,
+          "player_1_name": "Tomas Regner",
+          "player_2_id": 1607,
+          "player_2_name": "David Horak",
+          "player_1_sets": 3,
+          "player_2_sets": 0,
+          "winner_player_id": 1520,
+          "winner_player_name": "Tomas Regner"
+        },
+        {
+          "match_id": 300678,
+          "scheduled_start_utc": "2026-08-01T13:30:33.767000+00:00",
+          "tournament_id": 35624,
+          "tournament_name": "Tournament A14. League 550-600",
+          "league_band": "550-600",
+          "player_1_id": 1520,
+          "player_1_name": "Tomas Regner",
+          "player_2_id": 1607,
+          "player_2_name": "David Horak",
+          "player_1_sets": 2,
+          "player_2_sets": 3,
+          "winner_player_id": 1607,
+          "winner_player_name": "David Horak"
         }
       ]
     },
@@ -38921,13 +39401,13 @@
       "player_low_name": "Martin Sychra",
       "player_high_id": 1582,
       "player_high_name": "Viktor Vejvoda",
-      "total_matches": 1,
+      "total_matches": 2,
       "low_player_wins": 1,
-      "high_player_wins": 0,
-      "low_player_sets": 3,
-      "high_player_sets": 1,
+      "high_player_wins": 1,
+      "low_player_sets": 5,
+      "high_player_sets": 4,
       "first_meeting_utc": "2026-07-17T07:30:33.988000+00:00",
-      "last_meeting_utc": "2026-07-17T07:30:33.988000+00:00",
+      "last_meeting_utc": "2026-08-01T11:00:07.952000+00:00",
       "meetings": [
         {
           "match_id": 297726,
@@ -38943,6 +39423,21 @@
           "player_2_sets": 1,
           "winner_player_id": 1563,
           "winner_player_name": "Martin Sychra"
+        },
+        {
+          "match_id": 300641,
+          "scheduled_start_utc": "2026-08-01T11:00:07.952000+00:00",
+          "tournament_id": 35620,
+          "tournament_name": "Tournament A12. League 800-900",
+          "league_band": "800-900",
+          "player_1_id": 1563,
+          "player_1_name": "Martin Sychra",
+          "player_2_id": 1582,
+          "player_2_name": "Viktor Vejvoda",
+          "player_1_sets": 2,
+          "player_2_sets": 3,
+          "winner_player_id": 1582,
+          "winner_player_name": "Viktor Vejvoda"
         }
       ]
     },
@@ -38951,13 +39446,13 @@
       "player_low_name": "Martin Sychra",
       "player_high_id": 1600,
       "player_high_name": "Michal Vondrak",
-      "total_matches": 6,
+      "total_matches": 7,
       "low_player_wins": 2,
-      "high_player_wins": 4,
-      "low_player_sets": 12,
-      "high_player_sets": 16,
+      "high_player_wins": 5,
+      "low_player_sets": 13,
+      "high_player_sets": 19,
       "first_meeting_utc": "2026-07-18T16:00:06.827000+00:00",
-      "last_meeting_utc": "2026-07-30T07:30:20.462000+00:00",
+      "last_meeting_utc": "2026-08-01T12:00:09.482000+00:00",
       "meetings": [
         {
           "match_id": 297919,
@@ -39045,6 +39540,21 @@
           "player_2_id": 1600,
           "player_2_name": "Michal Vondrak",
           "player_1_sets": 2,
+          "player_2_sets": 3,
+          "winner_player_id": 1600,
+          "winner_player_name": "Michal Vondrak"
+        },
+        {
+          "match_id": 300643,
+          "scheduled_start_utc": "2026-08-01T12:00:09.482000+00:00",
+          "tournament_id": 35620,
+          "tournament_name": "Tournament A12. League 800-900",
+          "league_band": "800-900",
+          "player_1_id": 1563,
+          "player_1_name": "Martin Sychra",
+          "player_2_id": 1600,
+          "player_2_name": "Michal Vondrak",
+          "player_1_sets": 1,
           "player_2_sets": 3,
           "winner_player_id": 1600,
           "winner_player_name": "Michal Vondrak"
@@ -39266,13 +39776,13 @@
       "player_low_name": "Martin Sychra",
       "player_high_id": 1692,
       "player_high_name": "Petr Sebera",
-      "total_matches": 5,
-      "low_player_wins": 0,
+      "total_matches": 8,
+      "low_player_wins": 3,
       "high_player_wins": 5,
-      "low_player_sets": 6,
-      "high_player_sets": 15,
+      "low_player_sets": 15,
+      "high_player_sets": 19,
       "first_meeting_utc": "2026-07-15T20:00:10.047000+00:00",
-      "last_meeting_utc": "2026-07-30T12:00:08.276000+00:00",
+      "last_meeting_utc": "2026-08-01T13:00:15.483000+00:00",
       "meetings": [
         {
           "match_id": 297371,
@@ -39348,6 +39858,51 @@
           "player_2_sets": 3,
           "winner_player_id": 1692,
           "winner_player_name": "Petr Sebera"
+        },
+        {
+          "match_id": 300633,
+          "scheduled_start_utc": "2026-08-01T07:00:08.075000+00:00",
+          "tournament_id": 35619,
+          "tournament_name": "Tournament A12. League 800-900",
+          "league_band": "800-900",
+          "player_1_id": 1563,
+          "player_1_name": "Martin Sychra",
+          "player_2_id": 1692,
+          "player_2_name": "Petr Sebera",
+          "player_1_sets": 3,
+          "player_2_sets": 1,
+          "winner_player_id": 1563,
+          "winner_player_name": "Martin Sychra"
+        },
+        {
+          "match_id": 300640,
+          "scheduled_start_utc": "2026-08-01T10:30:10.273000+00:00",
+          "tournament_id": 35620,
+          "tournament_name": "Tournament A12. League 800-900",
+          "league_band": "800-900",
+          "player_1_id": 1563,
+          "player_1_name": "Martin Sychra",
+          "player_2_id": 1692,
+          "player_2_name": "Petr Sebera",
+          "player_1_sets": 3,
+          "player_2_sets": 1,
+          "winner_player_id": 1563,
+          "winner_player_name": "Martin Sychra"
+        },
+        {
+          "match_id": 300645,
+          "scheduled_start_utc": "2026-08-01T13:00:15.483000+00:00",
+          "tournament_id": 35620,
+          "tournament_name": "Tournament A12. League 800-900",
+          "league_band": "800-900",
+          "player_1_id": 1563,
+          "player_1_name": "Martin Sychra",
+          "player_2_id": 1692,
+          "player_2_name": "Petr Sebera",
+          "player_1_sets": 3,
+          "player_2_sets": 2,
+          "winner_player_id": 1563,
+          "winner_player_name": "Martin Sychra"
         }
       ]
     },
@@ -40001,13 +40556,13 @@
       "player_low_name": "Viktor Vejvoda",
       "player_high_id": 1600,
       "player_high_name": "Michal Vondrak",
-      "total_matches": 11,
-      "low_player_wins": 4,
+      "total_matches": 13,
+      "low_player_wins": 6,
       "high_player_wins": 7,
-      "low_player_sets": 21,
-      "high_player_sets": 25,
+      "low_player_sets": 27,
+      "high_player_sets": 29,
       "first_meeting_utc": "2026-07-20T18:00:09.891000+00:00",
-      "last_meeting_utc": "2026-07-28T21:00:16.666000+00:00",
+      "last_meeting_utc": "2026-08-01T13:30:07.994000+00:00",
       "meetings": [
         {
           "match_id": 298303,
@@ -40171,6 +40726,36 @@
           "player_2_name": "Michal Vondrak",
           "player_1_sets": 3,
           "player_2_sets": 0,
+          "winner_player_id": 1582,
+          "winner_player_name": "Viktor Vejvoda"
+        },
+        {
+          "match_id": 300639,
+          "scheduled_start_utc": "2026-08-01T10:00:07.615000+00:00",
+          "tournament_id": 35620,
+          "tournament_name": "Tournament A12. League 800-900",
+          "league_band": "800-900",
+          "player_1_id": 1582,
+          "player_1_name": "Viktor Vejvoda",
+          "player_2_id": 1600,
+          "player_2_name": "Michal Vondrak",
+          "player_1_sets": 3,
+          "player_2_sets": 2,
+          "winner_player_id": 1582,
+          "winner_player_name": "Viktor Vejvoda"
+        },
+        {
+          "match_id": 300646,
+          "scheduled_start_utc": "2026-08-01T13:30:07.994000+00:00",
+          "tournament_id": 35620,
+          "tournament_name": "Tournament A12. League 800-900",
+          "league_band": "800-900",
+          "player_1_id": 1582,
+          "player_1_name": "Viktor Vejvoda",
+          "player_2_id": 1600,
+          "player_2_name": "Michal Vondrak",
+          "player_1_sets": 3,
+          "player_2_sets": 2,
           "winner_player_id": 1582,
           "winner_player_name": "Viktor Vejvoda"
         }
@@ -40458,6 +41043,36 @@
           "player_2_sets": 1,
           "winner_player_id": 1582,
           "winner_player_name": "Viktor Vejvoda"
+        }
+      ]
+    },
+    "1582:1692": {
+      "player_low_id": 1582,
+      "player_low_name": "Viktor Vejvoda",
+      "player_high_id": 1692,
+      "player_high_name": "Petr Sebera",
+      "total_matches": 1,
+      "low_player_wins": 0,
+      "high_player_wins": 1,
+      "low_player_sets": 0,
+      "high_player_sets": 3,
+      "first_meeting_utc": "2026-08-01T12:30:10.255000+00:00",
+      "last_meeting_utc": "2026-08-01T12:30:10.255000+00:00",
+      "meetings": [
+        {
+          "match_id": 300644,
+          "scheduled_start_utc": "2026-08-01T12:30:10.255000+00:00",
+          "tournament_id": 35620,
+          "tournament_name": "Tournament A12. League 800-900",
+          "league_band": "800-900",
+          "player_1_id": 1582,
+          "player_1_name": "Viktor Vejvoda",
+          "player_2_id": 1692,
+          "player_2_name": "Petr Sebera",
+          "player_1_sets": 0,
+          "player_2_sets": 3,
+          "winner_player_id": 1692,
+          "winner_player_name": "Petr Sebera"
         }
       ]
     },
@@ -41456,13 +42071,13 @@
       "player_low_name": "Michal Vondrak",
       "player_high_id": 1692,
       "player_high_name": "Petr Sebera",
-      "total_matches": 3,
-      "low_player_wins": 2,
+      "total_matches": 4,
+      "low_player_wins": 3,
       "high_player_wins": 1,
-      "low_player_sets": 8,
+      "low_player_sets": 11,
       "high_player_sets": 5,
       "first_meeting_utc": "2026-07-13T18:30:16.606000+00:00",
-      "last_meeting_utc": "2026-07-29T15:00:09.010000+00:00",
+      "last_meeting_utc": "2026-08-01T11:30:06.595000+00:00",
       "meetings": [
         {
           "match_id": 296976,
@@ -41508,6 +42123,21 @@
           "player_2_sets": 3,
           "winner_player_id": 1692,
           "winner_player_name": "Petr Sebera"
+        },
+        {
+          "match_id": 300642,
+          "scheduled_start_utc": "2026-08-01T11:30:06.595000+00:00",
+          "tournament_id": 35620,
+          "tournament_name": "Tournament A12. League 800-900",
+          "league_band": "800-900",
+          "player_1_id": 1600,
+          "player_1_name": "Michal Vondrak",
+          "player_2_id": 1692,
+          "player_2_name": "Petr Sebera",
+          "player_1_sets": 3,
+          "player_2_sets": 0,
+          "winner_player_id": 1600,
+          "winner_player_name": "Michal Vondrak"
         }
       ]
     },
@@ -41606,13 +42236,13 @@
       "player_low_name": "Michal Vondrak",
       "player_high_id": 1869,
       "player_high_name": "Richard Wagner",
-      "total_matches": 7,
-      "low_player_wins": 3,
+      "total_matches": 8,
+      "low_player_wins": 4,
       "high_player_wins": 4,
-      "low_player_sets": 13,
-      "high_player_sets": 14,
+      "low_player_sets": 16,
+      "high_player_sets": 16,
       "first_meeting_utc": "2026-07-09T19:00:07.183000+00:00",
-      "last_meeting_utc": "2026-07-28T19:30:12.833000+00:00",
+      "last_meeting_utc": "2026-08-01T16:00:01.390000+00:00",
       "meetings": [
         {
           "match_id": 296149,
@@ -41718,6 +42348,21 @@
           "player_2_sets": 3,
           "winner_player_id": 1869,
           "winner_player_name": "Richard Wagner"
+        },
+        {
+          "match_id": 300683,
+          "scheduled_start_utc": "2026-08-01T16:00:01.390000+00:00",
+          "tournament_id": 35625,
+          "tournament_name": "Tournament A14. League 800-900",
+          "league_band": "800-900",
+          "player_1_id": 1600,
+          "player_1_name": "Michal Vondrak",
+          "player_2_id": 1869,
+          "player_2_name": "Richard Wagner",
+          "player_1_sets": 3,
+          "player_2_sets": 2,
+          "winner_player_id": 1600,
+          "winner_player_name": "Michal Vondrak"
         }
       ]
     },
@@ -44331,18 +44976,63 @@
         }
       ]
     },
+    "1672:1730": {
+      "player_low_id": 1672,
+      "player_low_name": "Antonin Schneeberger",
+      "player_high_id": 1730,
+      "player_high_name": "Michal Kaspar",
+      "total_matches": 2,
+      "low_player_wins": 1,
+      "high_player_wins": 1,
+      "low_player_sets": 4,
+      "high_player_sets": 4,
+      "first_meeting_utc": "2026-08-01T14:30:14.014000+00:00",
+      "last_meeting_utc": "2026-08-01T17:10:35.119000+00:00",
+      "meetings": [
+        {
+          "match_id": 300744,
+          "scheduled_start_utc": "2026-08-01T14:30:14.014000+00:00",
+          "tournament_id": 35633,
+          "tournament_name": "Tournament A16. League 450-500",
+          "league_band": "450-500",
+          "player_1_id": 1672,
+          "player_1_name": "Antonin Schneeberger",
+          "player_2_id": 1730,
+          "player_2_name": "Michal Kaspar",
+          "player_1_sets": 1,
+          "player_2_sets": 3,
+          "winner_player_id": 1730,
+          "winner_player_name": "Michal Kaspar"
+        },
+        {
+          "match_id": 300749,
+          "scheduled_start_utc": "2026-08-01T17:10:35.119000+00:00",
+          "tournament_id": 35633,
+          "tournament_name": "Tournament A16. League 450-500",
+          "league_band": "450-500",
+          "player_1_id": 1672,
+          "player_1_name": "Antonin Schneeberger",
+          "player_2_id": 1730,
+          "player_2_name": "Michal Kaspar",
+          "player_1_sets": 3,
+          "player_2_sets": 1,
+          "winner_player_id": 1672,
+          "winner_player_name": "Antonin Schneeberger"
+        }
+      ]
+    },
     "1672:1734": {
       "player_low_id": 1672,
       "player_low_name": "Antonin Schneeberger",
       "player_high_id": 1734,
       "player_high_name": "Daniel Priesol",
-      "total_matches": 7,
+      "total_matches": 8,
       "low_player_wins": 2,
-      "high_player_wins": 5,
-      "low_player_sets": 12,
-      "high_player_sets": 19,
+      "high_player_wins": 6,
+      "low_player_sets": 14,
+      "high_player_sets": 22,
       "first_meeting_utc": "2026-07-10T07:04:11.496000+00:00",
-      "last_meeting_utc": "2026-07-18T13:00:16.446000+00:00",
+      "last_meeting_utc": "2026-08-01T15:00:12.014000+00:00",
       "meetings": [
         {
           "match_id": 296425,
@@ -44440,6 +45130,21 @@
           "tournament_id": 35309,
           "tournament_name": "Tournament A16. League 500-550",
           "league_band": "500-550",
+          "player_1_id": 1672,
+          "player_1_name": "Antonin Schneeberger",
+          "player_2_id": 1734,
+          "player_2_name": "Daniel Priesol",
+          "player_1_sets": 2,
+          "player_2_sets": 3,
+          "winner_player_id": 1734,
+          "winner_player_name": "Daniel Priesol"
+        },
+        {
+          "match_id": 300745,
+          "scheduled_start_utc": "2026-08-01T15:00:12.014000+00:00",
+          "tournament_id": 35633,
+          "tournament_name": "Tournament A16. League 450-500",
+          "league_band": "450-500",
           "player_1_id": 1672,
           "player_1_name": "Antonin Schneeberger",
           "player_2_id": 1734,
@@ -44658,6 +45363,36 @@
           "player_2_sets": 3,
           "winner_player_id": 1765,
           "winner_player_name": "Milan Jasek"
+        }
+      ]
+    },
+    "1672:1766": {
+      "player_low_id": 1672,
+      "player_low_name": "Antonin Schneeberger",
+      "player_high_id": 1766,
+      "player_high_name": "Tomas Hrabec",
+      "total_matches": 1,
+      "low_player_wins": 0,
+      "high_player_wins": 1,
+      "low_player_sets": 0,
+      "high_player_sets": 3,
+      "first_meeting_utc": "2026-08-01T16:00:12.490000+00:00",
+      "last_meeting_utc": "2026-08-01T16:00:12.490000+00:00",
+      "meetings": [
+        {
+          "match_id": 300747,
+          "scheduled_start_utc": "2026-08-01T16:00:12.490000+00:00",
+          "tournament_id": 35633,
+          "tournament_name": "Tournament A16. League 450-500",
+          "league_band": "450-500",
+          "player_1_id": 1672,
+          "player_1_name": "Antonin Schneeberger",
+          "player_2_id": 1766,
+          "player_2_name": "Tomas Hrabec",
+          "player_1_sets": 0,
+          "player_2_sets": 3,
+          "winner_player_id": 1766,
+          "winner_player_name": "Tomas Hrabec"
         }
       ]
     },
@@ -45476,13 +46211,13 @@
       "player_low_name": "Michal Cabis",
       "player_high_id": 1708,
       "player_high_name": "Jakub Pilch",
-      "total_matches": 4,
-      "low_player_wins": 1,
+      "total_matches": 6,
+      "low_player_wins": 3,
       "high_player_wins": 3,
-      "low_player_sets": 7,
-      "high_player_sets": 9,
+      "low_player_sets": 13,
+      "high_player_sets": 13,
       "first_meeting_utc": "2026-07-24T08:30:09.504000+00:00",
-      "last_meeting_utc": "2026-07-24T13:30:15.284000+00:00",
+      "last_meeting_utc": "2026-08-01T13:30:13.275000+00:00",
       "meetings": [
         {
           "match_id": 299220,
@@ -45541,6 +46276,36 @@
           "player_2_name": "Jakub Pilch",
           "player_1_sets": 3,
           "player_2_sets": 0,
+          "winner_player_id": 1705,
+          "winner_player_name": "Michal Cabis"
+        },
+        {
+          "match_id": 300774,
+          "scheduled_start_utc": "2026-08-01T11:30:28.194000+00:00",
+          "tournament_id": 35636,
+          "tournament_name": "Tournament A18. League 1000-1100",
+          "league_band": "1000-1100",
+          "player_1_id": 1705,
+          "player_1_name": "Michal Cabis",
+          "player_2_id": 1708,
+          "player_2_name": "Jakub Pilch",
+          "player_1_sets": 3,
+          "player_2_sets": 2,
+          "winner_player_id": 1705,
+          "winner_player_name": "Michal Cabis"
+        },
+        {
+          "match_id": 300778,
+          "scheduled_start_utc": "2026-08-01T13:30:13.275000+00:00",
+          "tournament_id": 35636,
+          "tournament_name": "Tournament A18. League 1000-1100",
+          "league_band": "1000-1100",
+          "player_1_id": 1705,
+          "player_1_name": "Michal Cabis",
+          "player_2_id": 1708,
+          "player_2_name": "Jakub Pilch",
+          "player_1_sets": 3,
+          "player_2_sets": 2,
           "winner_player_id": 1705,
           "winner_player_name": "Michal Cabis"
         }
@@ -45603,6 +46368,36 @@
           "player_2_sets": 3,
           "winner_player_id": 1784,
           "winner_player_name": "Tomas Dousek"
+        }
+      ]
+    },
+    "1705:1865": {
+      "player_low_id": 1705,
+      "player_low_name": "Michal Cabis",
+      "player_high_id": 1865,
+      "player_high_name": "Matej Szwarc",
+      "total_matches": 1,
+      "low_player_wins": 1,
+      "high_player_wins": 0,
+      "low_player_sets": 3,
+      "high_player_sets": 0,
+      "first_meeting_utc": "2026-08-01T10:07:15.202000+00:00",
+      "last_meeting_utc": "2026-08-01T10:07:15.202000+00:00",
+      "meetings": [
+        {
+          "match_id": 300771,
+          "scheduled_start_utc": "2026-08-01T10:07:15.202000+00:00",
+          "tournament_id": 35636,
+          "tournament_name": "Tournament A18. League 1000-1100",
+          "league_band": "1000-1100",
+          "player_1_id": 1705,
+          "player_1_name": "Michal Cabis",
+          "player_2_id": 1865,
+          "player_2_name": "Matej Szwarc",
+          "player_1_sets": 3,
+          "player_2_sets": 0,
+          "winner_player_id": 1705,
+          "winner_player_name": "Michal Cabis"
         }
       ]
     },
@@ -45903,6 +46698,66 @@
           "player_2_sets": 3,
           "winner_player_id": 1804,
           "winner_player_name": "Martin Skotnica"
+        }
+      ]
+    },
+    "1708:1865": {
+      "player_low_id": 1708,
+      "player_low_name": "Jakub Pilch",
+      "player_high_id": 1865,
+      "player_high_name": "Matej Szwarc",
+      "total_matches": 3,
+      "low_player_wins": 3,
+      "high_player_wins": 0,
+      "low_player_sets": 9,
+      "high_player_sets": 3,
+      "first_meeting_utc": "2026-08-01T12:30:12.528000+00:00",
+      "last_meeting_utc": "2026-08-01T17:04:27.428000+00:00",
+      "meetings": [
+        {
+          "match_id": 300776,
+          "scheduled_start_utc": "2026-08-01T12:30:12.528000+00:00",
+          "tournament_id": 35636,
+          "tournament_name": "Tournament A18. League 1000-1100",
+          "league_band": "1000-1100",
+          "player_1_id": 1708,
+          "player_1_name": "Jakub Pilch",
+          "player_2_id": 1865,
+          "player_2_name": "Matej Szwarc",
+          "player_1_sets": 3,
+          "player_2_sets": 0,
+          "winner_player_id": 1708,
+          "winner_player_name": "Jakub Pilch"
+        },
+        {
+          "match_id": 300784,
+          "scheduled_start_utc": "2026-08-01T16:30:10.401000+00:00",
+          "tournament_id": 35637,
+          "tournament_name": "Tournament A18. League 1000-1100",
+          "league_band": "1000-1100",
+          "player_1_id": 1708,
+          "player_1_name": "Jakub Pilch",
+          "player_2_id": 1865,
+          "player_2_name": "Matej Szwarc",
+          "player_1_sets": 3,
+          "player_2_sets": 2,
+          "winner_player_id": 1708,
+          "winner_player_name": "Jakub Pilch"
+        },
+        {
+          "match_id": 300785,
+          "scheduled_start_utc": "2026-08-01T17:04:27.428000+00:00",
+          "tournament_id": 35637,
+          "tournament_name": "Tournament A18. League 1000-1100",
+          "league_band": "1000-1100",
+          "player_1_id": 1708,
+          "player_1_name": "Jakub Pilch",
+          "player_2_id": 1865,
+          "player_2_name": "Matej Szwarc",
+          "player_1_sets": 3,
+          "player_2_sets": 1,
+          "winner_player_id": 1708,
+          "winner_player_name": "Jakub Pilch"
         }
       ]
     },
@@ -48276,6 +49131,36 @@
         }
       ]
     },
+    "1730:1734": {
+      "player_low_id": 1730,
+      "player_low_name": "Michal Kaspar",
+      "player_high_id": 1734,
+      "player_high_name": "Daniel Priesol",
+      "total_matches": 1,
+      "low_player_wins": 0,
+      "high_player_wins": 1,
+      "low_player_sets": 1,
+      "high_player_sets": 3,
+      "first_meeting_utc": "2026-08-01T16:30:14.691000+00:00",
+      "last_meeting_utc": "2026-08-01T16:30:14.691000+00:00",
+      "meetings": [
+        {
+          "match_id": 300748,
+          "scheduled_start_utc": "2026-08-01T16:30:14.691000+00:00",
+          "tournament_id": 35633,
+          "tournament_name": "Tournament A16. League 450-500",
+          "league_band": "450-500",
+          "player_1_id": 1730,
+          "player_1_name": "Michal Kaspar",
+          "player_2_id": 1734,
+          "player_2_name": "Daniel Priesol",
+          "player_1_sets": 1,
+          "player_2_sets": 3,
+          "winner_player_id": 1734,
+          "winner_player_name": "Daniel Priesol"
+        }
+      ]
+    },
     "1730:1739": {
       "player_low_id": 1730,
       "player_low_name": "Michal Kaspar",
@@ -48333,6 +49218,36 @@
           "player_2_sets": 0,
           "winner_player_id": 1730,
           "winner_player_name": "Michal Kaspar"
+        }
+      ]
+    },
+    "1730:1766": {
+      "player_low_id": 1730,
+      "player_low_name": "Michal Kaspar",
+      "player_high_id": 1766,
+      "player_high_name": "Tomas Hrabec",
+      "total_matches": 1,
+      "low_player_wins": 0,
+      "high_player_wins": 1,
+      "low_player_sets": 1,
+      "high_player_sets": 3,
+      "first_meeting_utc": "2026-08-01T15:32:10.890000+00:00",
+      "last_meeting_utc": "2026-08-01T15:32:10.890000+00:00",
+      "meetings": [
+        {
+          "match_id": 300746,
+          "scheduled_start_utc": "2026-08-01T15:32:10.890000+00:00",
+          "tournament_id": 35633,
+          "tournament_name": "Tournament A16. League 450-500",
+          "league_band": "450-500",
+          "player_1_id": 1730,
+          "player_1_name": "Michal Kaspar",
+          "player_2_id": 1766,
+          "player_2_name": "Tomas Hrabec",
+          "player_1_sets": 1,
+          "player_2_sets": 3,
+          "winner_player_id": 1766,
+          "winner_player_name": "Tomas Hrabec"
         }
       ]
     },
@@ -49271,13 +50186,13 @@
       "player_low_name": "Daniel Priesol",
       "player_high_id": 1766,
       "player_high_name": "Tomas Hrabec",
-      "total_matches": 1,
-      "low_player_wins": 0,
+      "total_matches": 2,
+      "low_player_wins": 1,
       "high_player_wins": 1,
-      "low_player_sets": 1,
-      "high_player_sets": 3,
+      "low_player_sets": 4,
+      "high_player_sets": 5,
       "first_meeting_utc": "2026-07-26T10:00:19.013000+00:00",
-      "last_meeting_utc": "2026-07-26T10:00:19.013000+00:00",
+      "last_meeting_utc": "2026-08-01T14:00:15.605000+00:00",
       "meetings": [
         {
           "match_id": 299527,
@@ -49293,6 +50208,21 @@
           "player_2_sets": 3,
           "winner_player_id": 1766,
           "winner_player_name": "Tomas Hrabec"
+        },
+        {
+          "match_id": 300743,
+          "scheduled_start_utc": "2026-08-01T14:00:15.605000+00:00",
+          "tournament_id": 35633,
+          "tournament_name": "Tournament A16. League 450-500",
+          "league_band": "450-500",
+          "player_1_id": 1734,
+          "player_1_name": "Daniel Priesol",
+          "player_2_id": 1766,
+          "player_2_name": "Tomas Hrabec",
+          "player_1_sets": 3,
+          "player_2_sets": 2,
+          "winner_player_id": 1734,
+          "winner_player_name": "Daniel Priesol"
         }
       ]
     },
@@ -49436,13 +50366,13 @@
       "player_low_name": "Roman Guliak",
       "player_high_id": 1760,
       "player_high_name": "David Mikula",
-      "total_matches": 2,
-      "low_player_wins": 2,
+      "total_matches": 4,
+      "low_player_wins": 4,
       "high_player_wins": 0,
-      "low_player_sets": 6,
-      "high_player_sets": 3,
+      "low_player_sets": 12,
+      "high_player_sets": 7,
       "first_meeting_utc": "2026-07-07T20:05:06.361000+00:00",
-      "last_meeting_utc": "2026-07-25T11:00:11.469000+00:00",
+      "last_meeting_utc": "2026-08-01T11:00:12.877000+00:00",
       "meetings": [
         {
           "match_id": 295903,
@@ -49471,6 +50401,36 @@
           "player_2_name": "David Mikula",
           "player_1_sets": 3,
           "player_2_sets": 1,
+          "winner_player_id": 1736,
+          "winner_player_name": "Roman Guliak"
+        },
+        {
+          "match_id": 300730,
+          "scheduled_start_utc": "2026-08-01T07:30:22.432000+00:00",
+          "tournament_id": 35631,
+          "tournament_name": "Tournament A16. League 550-600",
+          "league_band": "550-600",
+          "player_1_id": 1736,
+          "player_1_name": "Roman Guliak",
+          "player_2_id": 1760,
+          "player_2_name": "David Mikula",
+          "player_1_sets": 3,
+          "player_2_sets": 2,
+          "winner_player_id": 1736,
+          "winner_player_name": "Roman Guliak"
+        },
+        {
+          "match_id": 300737,
+          "scheduled_start_utc": "2026-08-01T11:00:12.877000+00:00",
+          "tournament_id": 35632,
+          "tournament_name": "Tournament A16. League 550-600",
+          "league_band": "550-600",
+          "player_1_id": 1736,
+          "player_1_name": "Roman Guliak",
+          "player_2_id": 1760,
+          "player_2_name": "David Mikula",
+          "player_1_sets": 3,
+          "player_2_sets": 2,
           "winner_player_id": 1736,
           "winner_player_name": "Roman Guliak"
         }
@@ -49676,13 +50636,13 @@
       "player_low_name": "Roman Guliak",
       "player_high_id": 1788,
       "player_high_name": "Vitezslav Bosak",
-      "total_matches": 1,
+      "total_matches": 3,
       "low_player_wins": 0,
-      "high_player_wins": 1,
-      "low_player_sets": 2,
-      "high_player_sets": 3,
+      "high_player_wins": 3,
+      "low_player_sets": 3,
+      "high_player_sets": 9,
       "first_meeting_utc": "2026-07-14T18:00:10.856000+00:00",
-      "last_meeting_utc": "2026-07-14T18:00:10.856000+00:00",
+      "last_meeting_utc": "2026-08-01T10:30:22.222000+00:00",
       "meetings": [
         {
           "match_id": 297247,
@@ -49698,6 +50658,36 @@
           "player_2_sets": 3,
           "winner_player_id": 1788,
           "winner_player_name": "Vitezslav Bosak"
+        },
+        {
+          "match_id": 300727,
+          "scheduled_start_utc": "2026-08-01T06:00:31.555000+00:00",
+          "tournament_id": 35631,
+          "tournament_name": "Tournament A16. League 550-600",
+          "league_band": "550-600",
+          "player_1_id": 1736,
+          "player_1_name": "Roman Guliak",
+          "player_2_id": 1788,
+          "player_2_name": "Vitezslav Bosak",
+          "player_1_sets": 0,
+          "player_2_sets": 3,
+          "winner_player_id": 1788,
+          "winner_player_name": "Vitezslav Bosak"
+        },
+        {
+          "match_id": 300736,
+          "scheduled_start_utc": "2026-08-01T10:30:22.222000+00:00",
+          "tournament_id": 35632,
+          "tournament_name": "Tournament A16. League 550-600",
+          "league_band": "550-600",
+          "player_1_id": 1736,
+          "player_1_name": "Roman Guliak",
+          "player_2_id": 1788,
+          "player_2_name": "Vitezslav Bosak",
+          "player_1_sets": 1,
+          "player_2_sets": 3,
+          "winner_player_id": 1788,
+          "winner_player_name": "Vitezslav Bosak"
         }
       ]
     },
@@ -49706,13 +50696,13 @@
       "player_low_name": "Roman Guliak",
       "player_high_id": 1810,
       "player_high_name": "Filip Zurek",
-      "total_matches": 1,
-      "low_player_wins": 1,
-      "high_player_wins": 0,
-      "low_player_sets": 3,
-      "high_player_sets": 1,
+      "total_matches": 5,
+      "low_player_wins": 3,
+      "high_player_wins": 2,
+      "low_player_sets": 9,
+      "high_player_sets": 9,
       "first_meeting_utc": "2026-07-25T15:00:33.839000+00:00",
-      "last_meeting_utc": "2026-07-25T15:00:33.839000+00:00",
+      "last_meeting_utc": "2026-08-01T13:00:14.588000+00:00",
       "meetings": [
         {
           "match_id": 299381,
@@ -49728,6 +50718,66 @@
           "player_2_sets": 1,
           "winner_player_id": 1736,
           "winner_player_name": "Roman Guliak"
+        },
+        {
+          "match_id": 300731,
+          "scheduled_start_utc": "2026-08-01T08:00:39.544000+00:00",
+          "tournament_id": 35631,
+          "tournament_name": "Tournament A16. League 550-600",
+          "league_band": "550-600",
+          "player_1_id": 1736,
+          "player_1_name": "Roman Guliak",
+          "player_2_id": 1810,
+          "player_2_name": "Filip Zurek",
+          "player_1_sets": 3,
+          "player_2_sets": 1,
+          "winner_player_id": 1736,
+          "winner_player_name": "Roman Guliak"
+        },
+        {
+          "match_id": 300733,
+          "scheduled_start_utc": "2026-08-01T09:01:09.567000+00:00",
+          "tournament_id": 35631,
+          "tournament_name": "Tournament A16. League 550-600",
+          "league_band": "550-600",
+          "player_1_id": 1736,
+          "player_1_name": "Roman Guliak",
+          "player_2_id": 1810,
+          "player_2_name": "Filip Zurek",
+          "player_1_sets": 3,
+          "player_2_sets": 1,
+          "winner_player_id": 1736,
+          "winner_player_name": "Roman Guliak"
+        },
+        {
+          "match_id": 300739,
+          "scheduled_start_utc": "2026-08-01T12:00:25.292000+00:00",
+          "tournament_id": 35632,
+          "tournament_name": "Tournament A16. League 550-600",
+          "league_band": "550-600",
+          "player_1_id": 1736,
+          "player_1_name": "Roman Guliak",
+          "player_2_id": 1810,
+          "player_2_name": "Filip Zurek",
+          "player_1_sets": 0,
+          "player_2_sets": 3,
+          "winner_player_id": 1810,
+          "winner_player_name": "Filip Zurek"
+        },
+        {
+          "match_id": 300741,
+          "scheduled_start_utc": "2026-08-01T13:00:14.588000+00:00",
+          "tournament_id": 35632,
+          "tournament_name": "Tournament A16. League 550-600",
+          "league_band": "550-600",
+          "player_1_id": 1736,
+          "player_1_name": "Roman Guliak",
+          "player_2_id": 1810,
+          "player_2_name": "Filip Zurek",
+          "player_1_sets": 0,
+          "player_2_sets": 3,
+          "winner_player_id": 1810,
+          "winner_player_name": "Filip Zurek"
         }
       ]
     },
@@ -50931,18 +51981,78 @@
         }
       ]
     },
+    "1746:1780": {
+      "player_low_id": 1746,
+      "player_low_name": "Michal Blaha",
+      "player_high_id": 1780,
+      "player_high_name": "Vojtech Kocian",
+      "total_matches": 1,
+      "low_player_wins": 0,
+      "high_player_wins": 1,
+      "low_player_sets": 0,
+      "high_player_sets": 3,
+      "first_meeting_utc": "2026-08-01T08:02:21.559000+00:00",
+      "last_meeting_utc": "2026-08-01T08:02:21.559000+00:00",
+      "meetings": [
+        {
+          "match_id": 300799,
+          "scheduled_start_utc": "2026-08-01T08:02:21.559000+00:00",
+          "tournament_id": 35639,
+          "tournament_name": "Tournament A18. League 400-450",
+          "league_band": "400-450",
+          "player_1_id": 1746,
+          "player_1_name": "Michal Blaha",
+          "player_2_id": 1780,
+          "player_2_name": "Vojtech Kocian",
+          "player_1_sets": 0,
+          "player_2_sets": 3,
+          "winner_player_id": 1780,
+          "winner_player_name": "Vojtech Kocian"
+        }
+      ]
+    },
+    "1746:1845": {
+      "player_low_id": 1746,
+      "player_low_name": "Michal Blaha",
+      "player_high_id": 1845,
+      "player_high_name": "Petr Banot",
+      "total_matches": 1,
+      "low_player_wins": 0,
+      "high_player_wins": 1,
+      "low_player_sets": 2,
+      "high_player_sets": 3,
+      "first_meeting_utc": "2026-08-01T06:30:10.333000+00:00",
+      "last_meeting_utc": "2026-08-01T06:30:10.333000+00:00",
+      "meetings": [
+        {
+          "match_id": 300796,
+          "scheduled_start_utc": "2026-08-01T06:30:10.333000+00:00",
+          "tournament_id": 35639,
+          "tournament_name": "Tournament A18. League 400-450",
+          "league_band": "400-450",
+          "player_1_id": 1746,
+          "player_1_name": "Michal Blaha",
+          "player_2_id": 1845,
+          "player_2_name": "Petr Banot",
+          "player_1_sets": 2,
+          "player_2_sets": 3,
+          "winner_player_id": 1845,
+          "winner_player_name": "Petr Banot"
+        }
+      ]
+    },
     "1746:1853": {
       "player_low_id": 1746,
       "player_low_name": "Michal Blaha",
       "player_high_id": 1853,
       "player_high_name": "Radek Adamczyk",
-      "total_matches": 2,
-      "low_player_wins": 1,
-      "high_player_wins": 1,
-      "low_player_sets": 5,
-      "high_player_sets": 5,
+      "total_matches": 4,
+      "low_player_wins": 2,
+      "high_player_wins": 2,
+      "low_player_sets": 9,
+      "high_player_sets": 10,
       "first_meeting_utc": "2026-07-26T12:00:12.583000+00:00",
-      "last_meeting_utc": "2026-07-26T13:30:08.656000+00:00",
+      "last_meeting_utc": "2026-08-01T09:02:09.312000+00:00",
       "meetings": [
         {
           "match_id": 299555,
@@ -50973,6 +52083,36 @@
           "player_2_sets": 3,
           "winner_player_id": 1853,
           "winner_player_name": "Radek Adamczyk"
+        },
+        {
+          "match_id": 300797,
+          "scheduled_start_utc": "2026-08-01T07:06:10.489000+00:00",
+          "tournament_id": 35639,
+          "tournament_name": "Tournament A18. League 400-450",
+          "league_band": "400-450",
+          "player_1_id": 1746,
+          "player_1_name": "Michal Blaha",
+          "player_2_id": 1853,
+          "player_2_name": "Radek Adamczyk",
+          "player_1_sets": 1,
+          "player_2_sets": 3,
+          "winner_player_id": 1853,
+          "winner_player_name": "Radek Adamczyk"
+        },
+        {
+          "match_id": 300801,
+          "scheduled_start_utc": "2026-08-01T09:02:09.312000+00:00",
+          "tournament_id": 35639,
+          "tournament_name": "Tournament A18. League 400-450",
+          "league_band": "400-450",
+          "player_1_id": 1746,
+          "player_1_name": "Michal Blaha",
+          "player_2_id": 1853,
+          "player_2_name": "Radek Adamczyk",
+          "player_1_sets": 3,
+          "player_2_sets": 2,
+          "winner_player_id": 1746,
+          "winner_player_name": "Michal Blaha"
         }
       ]
     },
@@ -51543,6 +52683,126 @@
           "player_2_sets": 3,
           "winner_player_id": 1769,
           "winner_player_name": "Pavel Varecha"
+        }
+      ]
+    },
+    "1760:1788": {
+      "player_low_id": 1760,
+      "player_low_name": "David Mikula",
+      "player_high_id": 1788,
+      "player_high_name": "Vitezslav Bosak",
+      "total_matches": 4,
+      "low_player_wins": 1,
+      "high_player_wins": 3,
+      "low_player_sets": 7,
+      "high_player_sets": 11,
+      "first_meeting_utc": "2026-08-01T08:30:11.893000+00:00",
+      "last_meeting_utc": "2026-08-01T13:30:21.293000+00:00",
+      "meetings": [
+        {
+          "match_id": 300732,
+          "scheduled_start_utc": "2026-08-01T08:30:11.893000+00:00",
+          "tournament_id": 35631,
+          "tournament_name": "Tournament A16. League 550-600",
+          "league_band": "550-600",
+          "player_1_id": 1760,
+          "player_1_name": "David Mikula",
+          "player_2_id": 1788,
+          "player_2_name": "Vitezslav Bosak",
+          "player_1_sets": 3,
+          "player_2_sets": 2,
+          "winner_player_id": 1760,
+          "winner_player_name": "David Mikula"
+        },
+        {
+          "match_id": 300734,
+          "scheduled_start_utc": "2026-08-01T09:30:29.383000+00:00",
+          "tournament_id": 35631,
+          "tournament_name": "Tournament A16. League 550-600",
+          "league_band": "550-600",
+          "player_1_id": 1760,
+          "player_1_name": "David Mikula",
+          "player_2_id": 1788,
+          "player_2_name": "Vitezslav Bosak",
+          "player_1_sets": 2,
+          "player_2_sets": 3,
+          "winner_player_id": 1788,
+          "winner_player_name": "Vitezslav Bosak"
+        },
+        {
+          "match_id": 300740,
+          "scheduled_start_utc": "2026-08-01T12:30:10.918000+00:00",
+          "tournament_id": 35632,
+          "tournament_name": "Tournament A16. League 550-600",
+          "league_band": "550-600",
+          "player_1_id": 1760,
+          "player_1_name": "David Mikula",
+          "player_2_id": 1788,
+          "player_2_name": "Vitezslav Bosak",
+          "player_1_sets": 1,
+          "player_2_sets": 3,
+          "winner_player_id": 1788,
+          "winner_player_name": "Vitezslav Bosak"
+        },
+        {
+          "match_id": 300742,
+          "scheduled_start_utc": "2026-08-01T13:30:21.293000+00:00",
+          "tournament_id": 35632,
+          "tournament_name": "Tournament A16. League 550-600",
+          "league_band": "550-600",
+          "player_1_id": 1760,
+          "player_1_name": "David Mikula",
+          "player_2_id": 1788,
+          "player_2_name": "Vitezslav Bosak",
+          "player_1_sets": 1,
+          "player_2_sets": 3,
+          "winner_player_id": 1788,
+          "winner_player_name": "Vitezslav Bosak"
+        }
+      ]
+    },
+    "1760:1810": {
+      "player_low_id": 1760,
+      "player_low_name": "David Mikula",
+      "player_high_id": 1810,
+      "player_high_name": "Filip Zurek",
+      "total_matches": 2,
+      "low_player_wins": 2,
+      "high_player_wins": 0,
+      "low_player_sets": 6,
+      "high_player_sets": 2,
+      "first_meeting_utc": "2026-08-01T06:30:16.451000+00:00",
+      "last_meeting_utc": "2026-08-01T10:00:11.784000+00:00",
+      "meetings": [
+        {
+          "match_id": 300728,
+          "scheduled_start_utc": "2026-08-01T06:30:16.451000+00:00",
+          "tournament_id": 35631,
+          "tournament_name": "Tournament A16. League 550-600",
+          "league_band": "550-600",
+          "player_1_id": 1760,
+          "player_1_name": "David Mikula",
+          "player_2_id": 1810,
+          "player_2_name": "Filip Zurek",
+          "player_1_sets": 3,
+          "player_2_sets": 2,
+          "winner_player_id": 1760,
+          "winner_player_name": "David Mikula"
+        },
+        {
+          "match_id": 300735,
+          "scheduled_start_utc": "2026-08-01T10:00:11.784000+00:00",
+          "tournament_id": 35632,
+          "tournament_name": "Tournament A16. League 550-600",
+          "league_band": "550-600",
+          "player_1_id": 1760,
+          "player_1_name": "David Mikula",
+          "player_2_id": 1810,
+          "player_2_name": "Filip Zurek",
+          "player_1_sets": 3,
+          "player_2_sets": 0,
+          "winner_player_id": 1760,
+          "winner_player_name": "David Mikula"
         }
       ]
     },
@@ -52511,13 +53771,13 @@
       "player_low_name": "Vojtech Kocian",
       "player_high_id": 1845,
       "player_high_name": "Petr Banot",
-      "total_matches": 2,
+      "total_matches": 4,
       "low_player_wins": 2,
-      "high_player_wins": 0,
-      "low_player_sets": 6,
-      "high_player_sets": 2,
+      "high_player_wins": 2,
+      "low_player_sets": 10,
+      "high_player_sets": 8,
       "first_meeting_utc": "2026-07-17T20:33:50.192000+00:00",
-      "last_meeting_utc": "2026-07-17T21:30:23.586000+00:00",
+      "last_meeting_utc": "2026-08-01T09:36:28.016000+00:00",
       "meetings": [
         {
           "match_id": 297860,
@@ -52544,6 +53804,66 @@
           "player_1_name": "Vojtech Kocian",
           "player_2_id": 1845,
           "player_2_name": "Petr Banot",
+          "player_1_sets": 3,
+          "player_2_sets": 1,
+          "winner_player_id": 1780,
+          "winner_player_name": "Vojtech Kocian"
+        },
+        {
+          "match_id": 300798,
+          "scheduled_start_utc": "2026-08-01T07:35:05.772000+00:00",
+          "tournament_id": 35639,
+          "tournament_name": "Tournament A18. League 400-450",
+          "league_band": "400-450",
+          "player_1_id": 1780,
+          "player_1_name": "Vojtech Kocian",
+          "player_2_id": 1845,
+          "player_2_name": "Petr Banot",
+          "player_1_sets": 2,
+          "player_2_sets": 3,
+          "winner_player_id": 1845,
+          "winner_player_name": "Petr Banot"
+        },
+        {
+          "match_id": 300802,
+          "scheduled_start_utc": "2026-08-01T09:36:28.016000+00:00",
+          "tournament_id": 35639,
+          "tournament_name": "Tournament A18. League 400-450",
+          "league_band": "400-450",
+          "player_1_id": 1780,
+          "player_1_name": "Vojtech Kocian",
+          "player_2_id": 1845,
+          "player_2_name": "Petr Banot",
+          "player_1_sets": 2,
+          "player_2_sets": 3,
+          "winner_player_id": 1845,
+          "winner_player_name": "Petr Banot"
+        }
+      ]
+    },
+    "1780:1853": {
+      "player_low_id": 1780,
+      "player_low_name": "Vojtech Kocian",
+      "player_high_id": 1853,
+      "player_high_name": "Radek Adamczyk",
+      "total_matches": 1,
+      "low_player_wins": 1,
+      "high_player_wins": 0,
+      "low_player_sets": 3,
+      "high_player_sets": 1,
+      "first_meeting_utc": "2026-08-01T06:00:10.857000+00:00",
+      "last_meeting_utc": "2026-08-01T06:00:10.857000+00:00",
+      "meetings": [
+        {
+          "match_id": 300795,
+          "scheduled_start_utc": "2026-08-01T06:00:10.857000+00:00",
+          "tournament_id": 35639,
+          "tournament_name": "Tournament A18. League 400-450",
+          "league_band": "400-450",
+          "player_1_id": 1780,
+          "player_1_name": "Vojtech Kocian",
+          "player_2_id": 1853,
+          "player_2_name": "Radek Adamczyk",
           "player_1_sets": 3,
           "player_2_sets": 1,
           "winner_player_id": 1780,
@@ -52796,13 +54116,13 @@
       "player_low_name": "Vitezslav Bosak",
       "player_high_id": 1810,
       "player_high_name": "Filip Zurek",
-      "total_matches": 3,
-      "low_player_wins": 1,
+      "total_matches": 5,
+      "low_player_wins": 3,
       "high_player_wins": 2,
-      "low_player_sets": 5,
-      "high_player_sets": 6,
+      "low_player_sets": 11,
+      "high_player_sets": 7,
       "first_meeting_utc": "2026-07-24T18:30:11.702000+00:00",
-      "last_meeting_utc": "2026-07-27T21:09:49.701000+00:00",
+      "last_meeting_utc": "2026-08-01T11:30:17.429000+00:00",
       "meetings": [
         {
           "match_id": 299184,
@@ -52848,6 +54168,36 @@
           "player_2_sets": 3,
           "winner_player_id": 1810,
           "winner_player_name": "Filip Zurek"
+        },
+        {
+          "match_id": 300729,
+          "scheduled_start_utc": "2026-08-01T07:00:20.669000+00:00",
+          "tournament_id": 35631,
+          "tournament_name": "Tournament A16. League 550-600",
+          "league_band": "550-600",
+          "player_1_id": 1788,
+          "player_1_name": "Vitezslav Bosak",
+          "player_2_id": 1810,
+          "player_2_name": "Filip Zurek",
+          "player_1_sets": 3,
+          "player_2_sets": 0,
+          "winner_player_id": 1788,
+          "winner_player_name": "Vitezslav Bosak"
+        },
+        {
+          "match_id": 300738,
+          "scheduled_start_utc": "2026-08-01T11:30:17.429000+00:00",
+          "tournament_id": 35632,
+          "tournament_name": "Tournament A16. League 550-600",
+          "league_band": "550-600",
+          "player_1_id": 1788,
+          "player_1_name": "Vitezslav Bosak",
+          "player_2_id": 1810,
+          "player_2_name": "Filip Zurek",
+          "player_1_sets": 3,
+          "player_2_sets": 1,
+          "winner_player_id": 1788,
+          "winner_player_name": "Vitezslav Bosak"
         }
       ]
     },
@@ -54866,13 +56216,13 @@
       "player_low_name": "Petr Banot",
       "player_high_id": 1853,
       "player_high_name": "Radek Adamczyk",
-      "total_matches": 1,
+      "total_matches": 2,
       "low_player_wins": 0,
-      "high_player_wins": 1,
-      "low_player_sets": 1,
-      "high_player_sets": 3,
+      "high_player_wins": 2,
+      "low_player_sets": 3,
+      "high_player_sets": 6,
       "first_meeting_utc": "2026-07-14T08:00:33.456000+00:00",
-      "last_meeting_utc": "2026-07-14T08:00:33.456000+00:00",
+      "last_meeting_utc": "2026-08-01T08:30:08.213000+00:00",
       "meetings": [
         {
           "match_id": 297283,
@@ -54885,6 +56235,21 @@
           "player_2_id": 1853,
           "player_2_name": "Radek Adamczyk",
           "player_1_sets": 1,
+          "player_2_sets": 3,
+          "winner_player_id": 1853,
+          "winner_player_name": "Radek Adamczyk"
+        },
+        {
+          "match_id": 300800,
+          "scheduled_start_utc": "2026-08-01T08:30:08.213000+00:00",
+          "tournament_id": 35639,
+          "tournament_name": "Tournament A18. League 400-450",
+          "league_band": "400-450",
+          "player_1_id": 1845,
+          "player_1_name": "Petr Banot",
+          "player_2_id": 1853,
+          "player_2_name": "Radek Adamczyk",
+          "player_1_sets": 2,
           "player_2_sets": 3,
           "winner_player_id": 1853,
           "winner_player_name": "Radek Adamczyk"
@@ -59861,13 +61226,13 @@
       "player_low_name": "Ales Bayer",
       "player_high_id": 1415,
       "player_high_name": "Jiri Zuzanek",
-      "total_matches": 3,
+      "total_matches": 4,
       "low_player_wins": 2,
-      "high_player_wins": 1,
-      "low_player_sets": 8,
-      "high_player_sets": 7,
+      "high_player_wins": 2,
+      "low_player_sets": 10,
+      "high_player_sets": 10,
       "first_meeting_utc": "2026-07-31T06:30:09.499000+00:00",
-      "last_meeting_utc": "2026-07-31T13:07:10.190000+00:00",
+      "last_meeting_utc": "2026-08-01T16:30:04.835000+00:00",
       "meetings": [
         {
           "match_id": 300436,
@@ -59913,6 +61278,21 @@
           "player_2_sets": 2,
           "winner_player_id": 685,
           "winner_player_name": "Ales Bayer"
+        },
+        {
+          "match_id": 300684,
+          "scheduled_start_utc": "2026-08-01T16:30:04.835000+00:00",
+          "tournament_id": 35625,
+          "tournament_name": "Tournament A14. League 800-900",
+          "league_band": "800-900",
+          "player_1_id": 685,
+          "player_1_name": "Ales Bayer",
+          "player_2_id": 1415,
+          "player_2_name": "Jiri Zuzanek",
+          "player_1_sets": 2,
+          "player_2_sets": 3,
+          "winner_player_id": 1415,
+          "winner_player_name": "Jiri Zuzanek"
         }
       ]
     },
@@ -60206,13 +61586,13 @@
       "player_low_name": "Ales Bayer",
       "player_high_id": 1600,
       "player_high_name": "Michal Vondrak",
-      "total_matches": 1,
+      "total_matches": 2,
       "low_player_wins": 0,
-      "high_player_wins": 1,
-      "low_player_sets": 1,
-      "high_player_sets": 3,
+      "high_player_wins": 2,
+      "low_player_sets": 3,
+      "high_player_sets": 6,
       "first_meeting_utc": "2026-07-12T12:00:31.796000+00:00",
-      "last_meeting_utc": "2026-07-12T12:00:31.796000+00:00",
+      "last_meeting_utc": "2026-08-01T15:30:01.521000+00:00",
       "meetings": [
         {
           "match_id": 296819,
@@ -60225,6 +61605,21 @@
           "player_2_id": 1600,
           "player_2_name": "Michal Vondrak",
           "player_1_sets": 1,
+          "player_2_sets": 3,
+          "winner_player_id": 1600,
+          "winner_player_name": "Michal Vondrak"
+        },
+        {
+          "match_id": 300682,
+          "scheduled_start_utc": "2026-08-01T15:30:01.521000+00:00",
+          "tournament_id": 35625,
+          "tournament_name": "Tournament A14. League 800-900",
+          "league_band": "800-900",
+          "player_1_id": 685,
+          "player_1_name": "Ales Bayer",
+          "player_2_id": 1600,
+          "player_2_name": "Michal Vondrak",
+          "player_1_sets": 2,
           "player_2_sets": 3,
           "winner_player_id": 1600,
           "winner_player_name": "Michal Vondrak"
@@ -60513,6 +61908,51 @@
           "player_2_sets": 3,
           "winner_player_id": 1838,
           "winner_player_name": "Martin Polivka"
+        }
+      ]
+    },
+    "685:1869": {
+      "player_low_id": 685,
+      "player_low_name": "Ales Bayer",
+      "player_high_id": 1869,
+      "player_high_name": "Richard Wagner",
+      "total_matches": 2,
+      "low_player_wins": 0,
+      "high_player_wins": 2,
+      "low_player_sets": 1,
+      "high_player_sets": 6,
+      "first_meeting_utc": "2026-08-01T14:30:04.025000+00:00",
+      "last_meeting_utc": "2026-08-01T17:00:57.350000+00:00",
+      "meetings": [
+        {
+          "match_id": 300680,
+          "scheduled_start_utc": "2026-08-01T14:30:04.025000+00:00",
+          "tournament_id": 35625,
+          "tournament_name": "Tournament A14. League 800-900",
+          "league_band": "800-900",
+          "player_1_id": 685,
+          "player_1_name": "Ales Bayer",
+          "player_2_id": 1869,
+          "player_2_name": "Richard Wagner",
+          "player_1_sets": 0,
+          "player_2_sets": 3,
+          "winner_player_id": 1869,
+          "winner_player_name": "Richard Wagner"
+        },
+        {
+          "match_id": 300685,
+          "scheduled_start_utc": "2026-08-01T17:00:57.350000+00:00",
+          "tournament_id": 35625,
+          "tournament_name": "Tournament A14. League 800-900",
+          "league_band": "800-900",
+          "player_1_id": 685,
+          "player_1_name": "Ales Bayer",
+          "player_2_id": 1869,
+          "player_2_name": "Richard Wagner",
+          "player_1_sets": 1,
+          "player_2_sets": 3,
+          "winner_player_id": 1869,
+          "winner_player_name": "Richard Wagner"
         }
       ]
     },
@@ -62036,18 +63476,48 @@
       "player_low_name": "Erik Mares",
       "player_high_id": 1634,
       "player_high_name": "Jakub Kycelt",
-      "total_matches": 1,
-      "low_player_wins": 1,
-      "high_player_wins": 0,
-      "low_player_sets": 3,
-      "high_player_sets": 0,
+      "total_matches": 3,
+      "low_player_wins": 2,
+      "high_player_wins": 1,
+      "low_player_sets": 8,
+      "high_player_sets": 3,
       "first_meeting_utc": "2026-07-30T22:29:50.114000+00:00",
-      "last_meeting_utc": "2026-07-30T22:29:50.114000+00:00",
+      "last_meeting_utc": "2026-08-01T17:30:10.698000+00:00",
       "meetings": [
         {
           "match_id": 300376,
           "scheduled_start_utc": "2026-07-30T22:29:50.114000+00:00",
           "tournament_id": 35590,
+          "tournament_name": "Tournament A12. League 1000-1100",
+          "league_band": "1000-1100",
+          "player_1_id": 688,
+          "player_1_name": "Erik Mares",
+          "player_2_id": 1634,
+          "player_2_name": "Jakub Kycelt",
+          "player_1_sets": 3,
+          "player_2_sets": 0,
+          "winner_player_id": 688,
+          "winner_player_name": "Erik Mares"
+        },
+        {
+          "match_id": 300649,
+          "scheduled_start_utc": "2026-08-01T15:00:17.268000+00:00",
+          "tournament_id": 35621,
+          "tournament_name": "Tournament A12. League 1000-1100",
+          "league_band": "1000-1100",
+          "player_1_id": 688,
+          "player_1_name": "Erik Mares",
+          "player_2_id": 1634,
+          "player_2_name": "Jakub Kycelt",
+          "player_1_sets": 2,
+          "player_2_sets": 3,
+          "winner_player_id": 1634,
+          "winner_player_name": "Jakub Kycelt"
+        },
+        {
+          "match_id": 300654,
+          "scheduled_start_utc": "2026-08-01T17:30:10.698000+00:00",
+          "tournament_id": 35621,
           "tournament_name": "Tournament A12. League 1000-1100",
           "league_band": "1000-1100",
           "player_1_id": 688,
@@ -62906,13 +64376,13 @@
       "player_low_name": "Erik Mares",
       "player_high_id": 854,
       "player_high_name": "Lukas Jindrak",
-      "total_matches": 8,
-      "low_player_wins": 3,
+      "total_matches": 9,
+      "low_player_wins": 4,
       "high_player_wins": 5,
-      "low_player_sets": 13,
-      "high_player_sets": 18,
+      "low_player_sets": 16,
+      "high_player_sets": 19,
       "first_meeting_utc": "2026-07-18T11:30:08.816000+00:00",
-      "last_meeting_utc": "2026-07-29T13:30:05.964000+00:00",
+      "last_meeting_utc": "2026-08-01T14:00:17.421000+00:00",
       "meetings": [
         {
           "match_id": 297954,
@@ -63033,6 +64503,21 @@
           "player_2_sets": 3,
           "winner_player_id": 854,
           "winner_player_name": "Lukas Jindrak"
+        },
+        {
+          "match_id": 300647,
+          "scheduled_start_utc": "2026-08-01T14:00:17.421000+00:00",
+          "tournament_id": 35621,
+          "tournament_name": "Tournament A12. League 1000-1100",
+          "league_band": "1000-1100",
+          "player_1_id": 688,
+          "player_1_name": "Erik Mares",
+          "player_2_id": 854,
+          "player_2_name": "Lukas Jindrak",
+          "player_1_sets": 3,
+          "player_2_sets": 1,
+          "winner_player_id": 688,
+          "winner_player_name": "Erik Mares"
         }
       ]
     },
@@ -63108,6 +64593,36 @@
           "player_2_sets": 2,
           "winner_player_id": 688,
           "winner_player_name": "Erik Mares"
+        }
+      ]
+    },
+    "688:879": {
+      "player_low_id": 688,
+      "player_low_name": "Erik Mares",
+      "player_high_id": 879,
+      "player_high_name": "Jiri Ruzicka",
+      "total_matches": 1,
+      "low_player_wins": 0,
+      "high_player_wins": 1,
+      "low_player_sets": 2,
+      "high_player_sets": 3,
+      "first_meeting_utc": "2026-08-01T16:30:17.464000+00:00",
+      "last_meeting_utc": "2026-08-01T16:30:17.464000+00:00",
+      "meetings": [
+        {
+          "match_id": 300652,
+          "scheduled_start_utc": "2026-08-01T16:30:17.464000+00:00",
+          "tournament_id": 35621,
+          "tournament_name": "Tournament A12. League 1000-1100",
+          "league_band": "1000-1100",
+          "player_1_id": 688,
+          "player_1_name": "Erik Mares",
+          "player_2_id": 879,
+          "player_2_name": "Jiri Ruzicka",
+          "player_1_sets": 2,
+          "player_2_sets": 3,
+          "winner_player_id": 879,
+          "winner_player_name": "Jiri Ruzicka"
         }
       ]
     },
@@ -65321,13 +66836,13 @@
       "player_low_name": "Jiri Louda",
       "player_high_id": 1563,
       "player_high_name": "Martin Sychra",
-      "total_matches": 5,
-      "low_player_wins": 4,
+      "total_matches": 7,
+      "low_player_wins": 6,
       "high_player_wins": 1,
-      "low_player_sets": 12,
-      "high_player_sets": 6,
+      "low_player_sets": 18,
+      "high_player_sets": 9,
       "first_meeting_utc": "2026-07-08T07:00:17.889000+00:00",
-      "last_meeting_utc": "2026-07-15T19:00:03.043000+00:00",
+      "last_meeting_utc": "2026-08-01T09:30:06.929000+00:00",
       "meetings": [
         {
           "match_id": 295973,
@@ -65394,6 +66909,36 @@
           "scheduled_start_utc": "2026-07-15T19:00:03.043000+00:00",
           "tournament_id": 35236,
           "tournament_name": "Tournament A14. League 800-900",
+          "league_band": "800-900",
+          "player_1_id": 714,
+          "player_1_name": "Jiri Louda",
+          "player_2_id": 1563,
+          "player_2_name": "Martin Sychra",
+          "player_1_sets": 3,
+          "player_2_sets": 2,
+          "winner_player_id": 714,
+          "winner_player_name": "Jiri Louda"
+        },
+        {
+          "match_id": 300632,
+          "scheduled_start_utc": "2026-08-01T06:30:23.762000+00:00",
+          "tournament_id": 35619,
+          "tournament_name": "Tournament A12. League 800-900",
+          "league_band": "800-900",
+          "player_1_id": 714,
+          "player_1_name": "Jiri Louda",
+          "player_2_id": 1563,
+          "player_2_name": "Martin Sychra",
+          "player_1_sets": 3,
+          "player_2_sets": 1,
+          "winner_player_id": 714,
+          "winner_player_name": "Jiri Louda"
+        },
+        {
+          "match_id": 300638,
+          "scheduled_start_utc": "2026-08-01T09:30:06.929000+00:00",
+          "tournament_id": 35619,
+          "tournament_name": "Tournament A12. League 800-900",
           "league_band": "800-900",
           "player_1_id": 714,
           "player_1_name": "Jiri Louda",
@@ -65636,13 +67181,13 @@
       "player_low_name": "Jiri Louda",
       "player_high_id": 1692,
       "player_high_name": "Petr Sebera",
-      "total_matches": 7,
+      "total_matches": 8,
       "low_player_wins": 3,
-      "high_player_wins": 4,
-      "low_player_sets": 12,
-      "high_player_sets": 15,
+      "high_player_wins": 5,
+      "low_player_sets": 14,
+      "high_player_sets": 18,
       "first_meeting_utc": "2026-07-09T16:30:23.386000+00:00",
-      "last_meeting_utc": "2026-07-30T22:59:56.898000+00:00",
+      "last_meeting_utc": "2026-08-01T08:30:07.799000+00:00",
       "meetings": [
         {
           "match_id": 296188,
@@ -65745,6 +67290,21 @@
           "player_2_id": 1692,
           "player_2_name": "Petr Sebera",
           "player_1_sets": 0,
+          "player_2_sets": 3,
+          "winner_player_id": 1692,
+          "winner_player_name": "Petr Sebera"
+        },
+        {
+          "match_id": 300636,
+          "scheduled_start_utc": "2026-08-01T08:30:07.799000+00:00",
+          "tournament_id": 35619,
+          "tournament_name": "Tournament A12. League 800-900",
+          "league_band": "800-900",
+          "player_1_id": 714,
+          "player_1_name": "Jiri Louda",
+          "player_2_id": 1692,
+          "player_2_name": "Petr Sebera",
+          "player_1_sets": 2,
           "player_2_sets": 3,
           "winner_player_id": 1692,
           "winner_player_name": "Petr Sebera"
@@ -66146,13 +67706,13 @@
       "player_low_name": "Jiri Louda",
       "player_high_id": 809,
       "player_high_name": "Michal Regner",
-      "total_matches": 10,
-      "low_player_wins": 2,
+      "total_matches": 11,
+      "low_player_wins": 3,
       "high_player_wins": 8,
-      "low_player_sets": 15,
-      "high_player_sets": 27,
+      "low_player_sets": 18,
+      "high_player_sets": 29,
       "first_meeting_utc": "2026-07-08T06:00:26.216000+00:00",
-      "last_meeting_utc": "2026-07-30T22:00:24.503000+00:00",
+      "last_meeting_utc": "2026-08-01T07:30:07.699000+00:00",
       "meetings": [
         {
           "match_id": 295971,
@@ -66303,6 +67863,21 @@
           "player_2_sets": 3,
           "winner_player_id": 809,
           "winner_player_name": "Michal Regner"
+        },
+        {
+          "match_id": 300634,
+          "scheduled_start_utc": "2026-08-01T07:30:07.699000+00:00",
+          "tournament_id": 35619,
+          "tournament_name": "Tournament A12. League 800-900",
+          "league_band": "800-900",
+          "player_1_id": 714,
+          "player_1_name": "Jiri Louda",
+          "player_2_id": 809,
+          "player_2_name": "Michal Regner",
+          "player_1_sets": 3,
+          "player_2_sets": 2,
+          "winner_player_id": 714,
+          "winner_player_name": "Jiri Louda"
         }
       ]
     },
@@ -72266,13 +73841,13 @@
       "player_low_name": "Michal Regner",
       "player_high_id": 1563,
       "player_high_name": "Martin Sychra",
-      "total_matches": 8,
+      "total_matches": 9,
       "low_player_wins": 6,
-      "high_player_wins": 2,
+      "high_player_wins": 3,
       "low_player_sets": 19,
-      "high_player_sets": 15,
+      "high_player_sets": 18,
       "first_meeting_utc": "2026-07-08T08:00:22.293000+00:00",
-      "last_meeting_utc": "2026-07-30T08:30:10.226000+00:00",
+      "last_meeting_utc": "2026-08-01T08:00:06.852000+00:00",
       "meetings": [
         {
           "match_id": 295975,
@@ -72393,6 +73968,21 @@
           "player_2_sets": 1,
           "winner_player_id": 809,
           "winner_player_name": "Michal Regner"
+        },
+        {
+          "match_id": 300635,
+          "scheduled_start_utc": "2026-08-01T08:00:06.852000+00:00",
+          "tournament_id": 35619,
+          "tournament_name": "Tournament A12. League 800-900",
+          "league_band": "800-900",
+          "player_1_id": 809,
+          "player_1_name": "Michal Regner",
+          "player_2_id": 1563,
+          "player_2_name": "Martin Sychra",
+          "player_1_sets": 0,
+          "player_2_sets": 3,
+          "winner_player_id": 1563,
+          "winner_player_name": "Martin Sychra"
         }
       ]
     },
@@ -72701,13 +74291,13 @@
       "player_low_name": "Michal Regner",
       "player_high_id": 1692,
       "player_high_name": "Petr Sebera",
-      "total_matches": 5,
+      "total_matches": 7,
       "low_player_wins": 2,
-      "high_player_wins": 3,
+      "high_player_wins": 5,
       "low_player_sets": 8,
-      "high_player_sets": 10,
+      "high_player_sets": 16,
       "first_meeting_utc": "2026-07-15T23:30:03.709000+00:00",
-      "last_meeting_utc": "2026-07-31T02:30:01.280000+00:00",
+      "last_meeting_utc": "2026-08-01T09:00:06.462000+00:00",
       "meetings": [
         {
           "match_id": 297438,
@@ -72783,6 +74373,36 @@
           "player_2_sets": 1,
           "winner_player_id": 809,
           "winner_player_name": "Michal Regner"
+        },
+        {
+          "match_id": 300631,
+          "scheduled_start_utc": "2026-08-01T06:00:11.917000+00:00",
+          "tournament_id": 35619,
+          "tournament_name": "Tournament A12. League 800-900",
+          "league_band": "800-900",
+          "player_1_id": 809,
+          "player_1_name": "Michal Regner",
+          "player_2_id": 1692,
+          "player_2_name": "Petr Sebera",
+          "player_1_sets": 0,
+          "player_2_sets": 3,
+          "winner_player_id": 1692,
+          "winner_player_name": "Petr Sebera"
+        },
+        {
+          "match_id": 300637,
+          "scheduled_start_utc": "2026-08-01T09:00:06.462000+00:00",
+          "tournament_id": 35619,
+          "tournament_name": "Tournament A12. League 800-900",
+          "league_band": "800-900",
+          "player_1_id": 809,
+          "player_1_name": "Michal Regner",
+          "player_2_id": 1692,
+          "player_2_name": "Petr Sebera",
+          "player_1_sets": 0,
+          "player_2_sets": 3,
+          "winner_player_id": 1692,
+          "winner_player_name": "Petr Sebera"
         }
       ]
     },
@@ -76701,18 +78321,63 @@
         }
       ]
     },
+    "825:1239": {
+      "player_low_id": 825,
+      "player_low_name": "Milan Regner",
+      "player_high_id": 1239,
+      "player_high_name": "Ladislav Havel",
+      "total_matches": 2,
+      "low_player_wins": 0,
+      "high_player_wins": 2,
+      "low_player_sets": 3,
+      "high_player_sets": 6,
+      "first_meeting_utc": "2026-08-01T08:30:15.924000+00:00",
+      "last_meeting_utc": "2026-08-01T09:00:15.823000+00:00",
+      "meetings": [
+        {
+          "match_id": 300668,
+          "scheduled_start_utc": "2026-08-01T08:30:15.924000+00:00",
+          "tournament_id": 35623,
+          "tournament_name": "Tournament A14. League 450-500",
+          "league_band": "450-500",
+          "player_1_id": 825,
+          "player_1_name": "Milan Regner",
+          "player_2_id": 1239,
+          "player_2_name": "Ladislav Havel",
+          "player_1_sets": 1,
+          "player_2_sets": 3,
+          "winner_player_id": 1239,
+          "winner_player_name": "Ladislav Havel"
+        },
+        {
+          "match_id": 300669,
+          "scheduled_start_utc": "2026-08-01T09:00:15.823000+00:00",
+          "tournament_id": 35623,
+          "tournament_name": "Tournament A14. League 450-500",
+          "league_band": "450-500",
+          "player_1_id": 825,
+          "player_1_name": "Milan Regner",
+          "player_2_id": 1239,
+          "player_2_name": "Ladislav Havel",
+          "player_1_sets": 2,
+          "player_2_sets": 3,
+          "winner_player_id": 1239,
+          "winner_player_name": "Ladislav Havel"
+        }
+      ]
+    },
     "825:1285": {
       "player_low_id": 825,
       "player_low_name": "Milan Regner",
       "player_high_id": 1285,
       "player_high_name": "Jan Pleskot",
-      "total_matches": 6,
+      "total_matches": 7,
       "low_player_wins": 3,
-      "high_player_wins": 3,
-      "low_player_sets": 12,
-      "high_player_sets": 12,
+      "high_player_wins": 4,
+      "low_player_sets": 13,
+      "high_player_sets": 15,
       "first_meeting_utc": "2026-07-10T14:30:08.155000+00:00",
-      "last_meeting_utc": "2026-07-30T08:30:06.351000+00:00",
+      "last_meeting_utc": "2026-08-01T06:00:41.680000+00:00",
       "meetings": [
         {
           "match_id": 296456,
@@ -76803,6 +78468,21 @@
           "player_2_sets": 1,
           "winner_player_id": 825,
           "winner_player_name": "Milan Regner"
+        },
+        {
+          "match_id": 300663,
+          "scheduled_start_utc": "2026-08-01T06:00:41.680000+00:00",
+          "tournament_id": 35623,
+          "tournament_name": "Tournament A14. League 450-500",
+          "league_band": "450-500",
+          "player_1_id": 825,
+          "player_1_name": "Milan Regner",
+          "player_2_id": 1285,
+          "player_2_name": "Jan Pleskot",
+          "player_1_sets": 1,
+          "player_2_sets": 3,
+          "winner_player_id": 1285,
+          "winner_player_name": "Jan Pleskot"
         }
       ]
     },
@@ -77511,6 +79191,36 @@
         }
       ]
     },
+    "825:951": {
+      "player_low_id": 825,
+      "player_low_name": "Milan Regner",
+      "player_high_id": 951,
+      "player_high_name": "Miroslav Barta",
+      "total_matches": 1,
+      "low_player_wins": 0,
+      "high_player_wins": 1,
+      "low_player_sets": 0,
+      "high_player_sets": 3,
+      "first_meeting_utc": "2026-08-01T07:00:24.196000+00:00",
+      "last_meeting_utc": "2026-08-01T07:00:24.196000+00:00",
+      "meetings": [
+        {
+          "match_id": 300665,
+          "scheduled_start_utc": "2026-08-01T07:00:24.196000+00:00",
+          "tournament_id": 35623,
+          "tournament_name": "Tournament A14. League 450-500",
+          "league_band": "450-500",
+          "player_1_id": 825,
+          "player_1_name": "Milan Regner",
+          "player_2_id": 951,
+          "player_2_name": "Miroslav Barta",
+          "player_1_sets": 0,
+          "player_2_sets": 3,
+          "winner_player_id": 951,
+          "winner_player_name": "Miroslav Barta"
+        }
+      ]
+    },
     "826:1016": {
       "player_low_id": 826,
       "player_low_name": "Ales Barton",
@@ -77966,13 +79676,13 @@
       "player_low_name": "Jiri Svec",
       "player_high_id": 1124,
       "player_high_name": "Milan Vrabec",
-      "total_matches": 1,
-      "low_player_wins": 1,
+      "total_matches": 3,
+      "low_player_wins": 3,
       "high_player_wins": 0,
-      "low_player_sets": 3,
-      "high_player_sets": 0,
+      "low_player_sets": 9,
+      "high_player_sets": 2,
       "first_meeting_utc": "2026-07-20T06:30:10.179000+00:00",
-      "last_meeting_utc": "2026-07-20T06:30:10.179000+00:00",
+      "last_meeting_utc": "2026-08-01T09:30:19.109000+00:00",
       "meetings": [
         {
           "match_id": 298280,
@@ -77986,6 +79696,36 @@
           "player_2_name": "Milan Vrabec",
           "player_1_sets": 3,
           "player_2_sets": 0,
+          "winner_player_id": 828,
+          "winner_player_name": "Jiri Svec"
+        },
+        {
+          "match_id": 300700,
+          "scheduled_start_utc": "2026-08-01T08:30:28.075000+00:00",
+          "tournament_id": 35627,
+          "tournament_name": "Tournament A17. League 350-400",
+          "league_band": "350-400",
+          "player_1_id": 828,
+          "player_1_name": "Jiri Svec",
+          "player_2_id": 1124,
+          "player_2_name": "Milan Vrabec",
+          "player_1_sets": 3,
+          "player_2_sets": 0,
+          "winner_player_id": 828,
+          "winner_player_name": "Jiri Svec"
+        },
+        {
+          "match_id": 300702,
+          "scheduled_start_utc": "2026-08-01T09:30:19.109000+00:00",
+          "tournament_id": 35627,
+          "tournament_name": "Tournament A17. League 350-400",
+          "league_band": "350-400",
+          "player_1_id": 828,
+          "player_1_name": "Jiri Svec",
+          "player_2_id": 1124,
+          "player_2_name": "Milan Vrabec",
+          "player_1_sets": 3,
+          "player_2_sets": 2,
           "winner_player_id": 828,
           "winner_player_name": "Jiri Svec"
         }
@@ -78036,6 +79776,36 @@
         }
       ]
     },
+    "828:1224": {
+      "player_low_id": 828,
+      "player_low_name": "Jiri Svec",
+      "player_high_id": 1224,
+      "player_high_name": "Stanislav Mazanek",
+      "total_matches": 1,
+      "low_player_wins": 0,
+      "high_player_wins": 1,
+      "low_player_sets": 1,
+      "high_player_sets": 3,
+      "first_meeting_utc": "2026-08-01T15:00:20.820000+00:00",
+      "last_meeting_utc": "2026-08-01T15:00:20.820000+00:00",
+      "meetings": [
+        {
+          "match_id": 300713,
+          "scheduled_start_utc": "2026-08-01T15:00:20.820000+00:00",
+          "tournament_id": 35629,
+          "tournament_name": "Tournament A17. League 400-450",
+          "league_band": "400-450",
+          "player_1_id": 828,
+          "player_1_name": "Jiri Svec",
+          "player_2_id": 1224,
+          "player_2_name": "Stanislav Mazanek",
+          "player_1_sets": 1,
+          "player_2_sets": 3,
+          "winner_player_id": 1224,
+          "winner_player_name": "Stanislav Mazanek"
+        }
+      ]
+    },
     "828:1228": {
       "player_low_id": 828,
       "player_low_name": "Jiri Svec",
@@ -78071,13 +79841,13 @@
       "player_low_name": "Jiri Svec",
       "player_high_id": 1251,
       "player_high_name": "Leos Havrda",
-      "total_matches": 2,
-      "low_player_wins": 2,
+      "total_matches": 3,
+      "low_player_wins": 3,
       "high_player_wins": 0,
-      "low_player_sets": 6,
-      "high_player_sets": 0,
+      "low_player_sets": 9,
+      "high_player_sets": 2,
       "first_meeting_utc": "2026-07-11T10:00:08.276000+00:00",
-      "last_meeting_utc": "2026-07-11T13:01:29.581000+00:00",
+      "last_meeting_utc": "2026-08-01T06:00:29.587000+00:00",
       "meetings": [
         {
           "match_id": 296523,
@@ -78106,6 +79876,21 @@
           "player_2_name": "Leos Havrda",
           "player_1_sets": 3,
           "player_2_sets": 0,
+          "winner_player_id": 828,
+          "winner_player_name": "Jiri Svec"
+        },
+        {
+          "match_id": 300695,
+          "scheduled_start_utc": "2026-08-01T06:00:29.587000+00:00",
+          "tournament_id": 35627,
+          "tournament_name": "Tournament A17. League 350-400",
+          "league_band": "350-400",
+          "player_1_id": 828,
+          "player_1_name": "Jiri Svec",
+          "player_2_id": 1251,
+          "player_2_name": "Leos Havrda",
+          "player_1_sets": 3,
+          "player_2_sets": 2,
           "winner_player_id": 828,
           "winner_player_name": "Jiri Svec"
         }
@@ -78146,13 +79931,13 @@
       "player_low_name": "Jiri Svec",
       "player_high_id": 1341,
       "player_high_name": "Michal Syroha",
-      "total_matches": 2,
-      "low_player_wins": 0,
+      "total_matches": 4,
+      "low_player_wins": 2,
       "high_player_wins": 2,
-      "low_player_sets": 3,
-      "high_player_sets": 6,
+      "low_player_sets": 9,
+      "high_player_sets": 9,
       "first_meeting_utc": "2026-07-29T19:30:13.752000+00:00",
-      "last_meeting_utc": "2026-07-29T21:00:11.196000+00:00",
+      "last_meeting_utc": "2026-08-01T17:00:59.428000+00:00",
       "meetings": [
         {
           "match_id": 300206,
@@ -78183,6 +79968,36 @@
           "player_2_sets": 3,
           "winner_player_id": 1341,
           "winner_player_name": "Michal Syroha"
+        },
+        {
+          "match_id": 300711,
+          "scheduled_start_utc": "2026-08-01T14:04:24.455000+00:00",
+          "tournament_id": 35629,
+          "tournament_name": "Tournament A17. League 400-450",
+          "league_band": "400-450",
+          "player_1_id": 828,
+          "player_1_name": "Jiri Svec",
+          "player_2_id": 1341,
+          "player_2_name": "Michal Syroha",
+          "player_1_sets": 3,
+          "player_2_sets": 2,
+          "winner_player_id": 828,
+          "winner_player_name": "Jiri Svec"
+        },
+        {
+          "match_id": 300717,
+          "scheduled_start_utc": "2026-08-01T17:00:59.428000+00:00",
+          "tournament_id": 35629,
+          "tournament_name": "Tournament A17. League 400-450",
+          "league_band": "400-450",
+          "player_1_id": 828,
+          "player_1_name": "Jiri Svec",
+          "player_2_id": 1341,
+          "player_2_name": "Michal Syroha",
+          "player_1_sets": 3,
+          "player_2_sets": 1,
+          "winner_player_id": 828,
+          "winner_player_name": "Jiri Svec"
         }
       ]
     },
@@ -78226,6 +80041,36 @@
           "player_2_name": "Jindrich Vrba",
           "player_1_sets": 3,
           "player_2_sets": 1,
+          "winner_player_id": 828,
+          "winner_player_name": "Jiri Svec"
+        }
+      ]
+    },
+    "828:1475": {
+      "player_low_id": 828,
+      "player_low_name": "Jiri Svec",
+      "player_high_id": 1475,
+      "player_high_name": "Jaroslav Martinek",
+      "total_matches": 1,
+      "low_player_wins": 1,
+      "high_player_wins": 0,
+      "low_player_sets": 3,
+      "high_player_sets": 0,
+      "first_meeting_utc": "2026-08-01T07:00:09.133000+00:00",
+      "last_meeting_utc": "2026-08-01T07:00:09.133000+00:00",
+      "meetings": [
+        {
+          "match_id": 300697,
+          "scheduled_start_utc": "2026-08-01T07:00:09.133000+00:00",
+          "tournament_id": 35627,
+          "tournament_name": "Tournament A17. League 350-400",
+          "league_band": "350-400",
+          "player_1_id": 828,
+          "player_1_name": "Jiri Svec",
+          "player_2_id": 1475,
+          "player_2_name": "Jaroslav Martinek",
+          "player_1_sets": 3,
+          "player_2_sets": 0,
           "winner_player_id": 828,
           "winner_player_name": "Jiri Svec"
         }
@@ -78491,13 +80336,13 @@
       "player_low_name": "Jiri Svec",
       "player_high_id": 886,
       "player_high_name": "Vaclav Hruska",
-      "total_matches": 4,
+      "total_matches": 5,
       "low_player_wins": 1,
-      "high_player_wins": 3,
-      "low_player_sets": 6,
-      "high_player_sets": 11,
+      "high_player_wins": 4,
+      "low_player_sets": 7,
+      "high_player_sets": 14,
       "first_meeting_utc": "2026-07-18T15:00:10.243000+00:00",
-      "last_meeting_utc": "2026-07-29T20:30:20.141000+00:00",
+      "last_meeting_utc": "2026-08-01T16:30:09.457000+00:00",
       "meetings": [
         {
           "match_id": 298025,
@@ -78548,6 +80393,21 @@
           "match_id": 300208,
           "scheduled_start_utc": "2026-07-29T20:30:20.141000+00:00",
           "tournament_id": 35569,
+          "tournament_name": "Tournament A17. League 400-450",
+          "league_band": "400-450",
+          "player_1_id": 828,
+          "player_1_name": "Jiri Svec",
+          "player_2_id": 886,
+          "player_2_name": "Vaclav Hruska",
+          "player_1_sets": 1,
+          "player_2_sets": 3,
+          "winner_player_id": 886,
+          "winner_player_name": "Vaclav Hruska"
+        },
+        {
+          "match_id": 300716,
+          "scheduled_start_utc": "2026-08-01T16:30:09.457000+00:00",
+          "tournament_id": 35629,
           "tournament_name": "Tournament A17. League 400-450",
           "league_band": "400-450",
           "player_1_id": 828,
@@ -81756,6 +83616,36 @@
         }
       ]
     },
+    "854:1634": {
+      "player_low_id": 854,
+      "player_low_name": "Lukas Jindrak",
+      "player_high_id": 1634,
+      "player_high_name": "Jakub Kycelt",
+      "total_matches": 1,
+      "low_player_wins": 0,
+      "high_player_wins": 1,
+      "low_player_sets": 0,
+      "high_player_sets": 3,
+      "first_meeting_utc": "2026-08-01T16:00:14.790000+00:00",
+      "last_meeting_utc": "2026-08-01T16:00:14.790000+00:00",
+      "meetings": [
+        {
+          "match_id": 300651,
+          "scheduled_start_utc": "2026-08-01T16:00:14.790000+00:00",
+          "tournament_id": 35621,
+          "tournament_name": "Tournament A12. League 1000-1100",
+          "league_band": "1000-1100",
+          "player_1_id": 854,
+          "player_1_name": "Lukas Jindrak",
+          "player_2_id": 1634,
+          "player_2_name": "Jakub Kycelt",
+          "player_1_sets": 0,
+          "player_2_sets": 3,
+          "winner_player_id": 1634,
+          "winner_player_name": "Jakub Kycelt"
+        }
+      ]
+    },
     "854:1664": {
       "player_low_id": 854,
       "player_low_name": "Lukas Jindrak",
@@ -81978,6 +83868,51 @@
           "player_2_sets": 3,
           "winner_player_id": 1860,
           "winner_player_name": "Dmytro Opanasiuk"
+        }
+      ]
+    },
+    "854:879": {
+      "player_low_id": 854,
+      "player_low_name": "Lukas Jindrak",
+      "player_high_id": 879,
+      "player_high_name": "Jiri Ruzicka",
+      "total_matches": 2,
+      "low_player_wins": 2,
+      "high_player_wins": 0,
+      "low_player_sets": 6,
+      "high_player_sets": 1,
+      "first_meeting_utc": "2026-08-01T15:30:18.421000+00:00",
+      "last_meeting_utc": "2026-08-01T17:07:27.714000+00:00",
+      "meetings": [
+        {
+          "match_id": 300650,
+          "scheduled_start_utc": "2026-08-01T15:30:18.421000+00:00",
+          "tournament_id": 35621,
+          "tournament_name": "Tournament A12. League 1000-1100",
+          "league_band": "1000-1100",
+          "player_1_id": 854,
+          "player_1_name": "Lukas Jindrak",
+          "player_2_id": 879,
+          "player_2_name": "Jiri Ruzicka",
+          "player_1_sets": 3,
+          "player_2_sets": 1,
+          "winner_player_id": 854,
+          "winner_player_name": "Lukas Jindrak"
+        },
+        {
+          "match_id": 300653,
+          "scheduled_start_utc": "2026-08-01T17:07:27.714000+00:00",
+          "tournament_id": 35621,
+          "tournament_name": "Tournament A12. League 1000-1100",
+          "league_band": "1000-1100",
+          "player_1_id": 854,
+          "player_1_name": "Lukas Jindrak",
+          "player_2_id": 879,
+          "player_2_name": "Jiri Ruzicka",
+          "player_1_sets": 3,
+          "player_2_sets": 0,
+          "winner_player_id": 854,
+          "winner_player_name": "Lukas Jindrak"
         }
       ]
     },
@@ -84843,6 +86778,36 @@
           "player_2_sets": 2,
           "winner_player_id": 879,
           "winner_player_name": "Jiri Ruzicka"
+        }
+      ]
+    },
+    "879:1634": {
+      "player_low_id": 879,
+      "player_low_name": "Jiri Ruzicka",
+      "player_high_id": 1634,
+      "player_high_name": "Jakub Kycelt",
+      "total_matches": 1,
+      "low_player_wins": 0,
+      "high_player_wins": 1,
+      "low_player_sets": 0,
+      "high_player_sets": 3,
+      "first_meeting_utc": "2026-08-01T14:30:17.464000+00:00",
+      "last_meeting_utc": "2026-08-01T14:30:17.464000+00:00",
+      "meetings": [
+        {
+          "match_id": 300648,
+          "scheduled_start_utc": "2026-08-01T14:30:17.464000+00:00",
+          "tournament_id": 35621,
+          "tournament_name": "Tournament A12. League 1000-1100",
+          "league_band": "1000-1100",
+          "player_1_id": 879,
+          "player_1_name": "Jiri Ruzicka",
+          "player_2_id": 1634,
+          "player_2_name": "Jakub Kycelt",
+          "player_1_sets": 0,
+          "player_2_sets": 3,
+          "winner_player_id": 1634,
+          "winner_player_name": "Jakub Kycelt"
         }
       ]
     },
@@ -87801,6 +89766,51 @@
         }
       ]
     },
+    "886:1224": {
+      "player_low_id": 886,
+      "player_low_name": "Vaclav Hruska",
+      "player_high_id": 1224,
+      "player_high_name": "Stanislav Mazanek",
+      "total_matches": 2,
+      "low_player_wins": 0,
+      "high_player_wins": 2,
+      "low_player_sets": 2,
+      "high_player_sets": 6,
+      "first_meeting_utc": "2026-08-01T11:00:30.512000+00:00",
+      "last_meeting_utc": "2026-08-01T14:30:24.668000+00:00",
+      "meetings": [
+        {
+          "match_id": 300705,
+          "scheduled_start_utc": "2026-08-01T11:00:30.512000+00:00",
+          "tournament_id": 35628,
+          "tournament_name": "Tournament A17. League 400-450",
+          "league_band": "400-450",
+          "player_1_id": 886,
+          "player_1_name": "Vaclav Hruska",
+          "player_2_id": 1224,
+          "player_2_name": "Stanislav Mazanek",
+          "player_1_sets": 1,
+          "player_2_sets": 3,
+          "winner_player_id": 1224,
+          "winner_player_name": "Stanislav Mazanek"
+        },
+        {
+          "match_id": 300712,
+          "scheduled_start_utc": "2026-08-01T14:30:24.668000+00:00",
+          "tournament_id": 35629,
+          "tournament_name": "Tournament A17. League 400-450",
+          "league_band": "400-450",
+          "player_1_id": 886,
+          "player_1_name": "Vaclav Hruska",
+          "player_2_id": 1224,
+          "player_2_name": "Stanislav Mazanek",
+          "player_1_sets": 1,
+          "player_2_sets": 3,
+          "winner_player_id": 1224,
+          "winner_player_name": "Stanislav Mazanek"
+        }
+      ]
+    },
     "886:1239": {
       "player_low_id": 886,
       "player_low_name": "Vaclav Hruska",
@@ -87836,13 +89846,13 @@
       "player_low_name": "Vaclav Hruska",
       "player_high_id": 1341,
       "player_high_name": "Michal Syroha",
-      "total_matches": 3,
-      "low_player_wins": 1,
-      "high_player_wins": 2,
-      "low_player_sets": 7,
-      "high_player_sets": 8,
+      "total_matches": 5,
+      "low_player_wins": 2,
+      "high_player_wins": 3,
+      "low_player_sets": 12,
+      "high_player_sets": 13,
       "first_meeting_utc": "2026-07-18T08:00:40.847000+00:00",
-      "last_meeting_utc": "2026-07-29T18:00:21.149000+00:00",
+      "last_meeting_utc": "2026-08-01T15:30:09.007000+00:00",
       "meetings": [
         {
           "match_id": 297947,
@@ -87888,6 +89898,81 @@
           "player_2_sets": 2,
           "winner_player_id": 886,
           "winner_player_name": "Vaclav Hruska"
+        },
+        {
+          "match_id": 300703,
+          "scheduled_start_utc": "2026-08-01T10:00:16.536000+00:00",
+          "tournament_id": 35628,
+          "tournament_name": "Tournament A17. League 400-450",
+          "league_band": "400-450",
+          "player_1_id": 886,
+          "player_1_name": "Vaclav Hruska",
+          "player_2_id": 1341,
+          "player_2_name": "Michal Syroha",
+          "player_1_sets": 2,
+          "player_2_sets": 3,
+          "winner_player_id": 1341,
+          "winner_player_name": "Michal Syroha"
+        },
+        {
+          "match_id": 300714,
+          "scheduled_start_utc": "2026-08-01T15:30:09.007000+00:00",
+          "tournament_id": 35629,
+          "tournament_name": "Tournament A17. League 400-450",
+          "league_band": "400-450",
+          "player_1_id": 886,
+          "player_1_name": "Vaclav Hruska",
+          "player_2_id": 1341,
+          "player_2_name": "Michal Syroha",
+          "player_1_sets": 3,
+          "player_2_sets": 2,
+          "winner_player_id": 886,
+          "winner_player_name": "Vaclav Hruska"
+        }
+      ]
+    },
+    "886:1373": {
+      "player_low_id": 886,
+      "player_low_name": "Vaclav Hruska",
+      "player_high_id": 1373,
+      "player_high_name": "Miloslav Lubas",
+      "total_matches": 2,
+      "low_player_wins": 0,
+      "high_player_wins": 2,
+      "low_player_sets": 2,
+      "high_player_sets": 6,
+      "first_meeting_utc": "2026-08-01T12:30:08.539000+00:00",
+      "last_meeting_utc": "2026-08-01T13:00:10.692000+00:00",
+      "meetings": [
+        {
+          "match_id": 300708,
+          "scheduled_start_utc": "2026-08-01T12:30:08.539000+00:00",
+          "tournament_id": 35628,
+          "tournament_name": "Tournament A17. League 400-450",
+          "league_band": "400-450",
+          "player_1_id": 886,
+          "player_1_name": "Vaclav Hruska",
+          "player_2_id": 1373,
+          "player_2_name": "Miloslav Lubas",
+          "player_1_sets": 0,
+          "player_2_sets": 3,
+          "winner_player_id": 1373,
+          "winner_player_name": "Miloslav Lubas"
+        },
+        {
+          "match_id": 300709,
+          "scheduled_start_utc": "2026-08-01T13:00:10.692000+00:00",
+          "tournament_id": 35628,
+          "tournament_name": "Tournament A17. League 400-450",
+          "league_band": "400-450",
+          "player_1_id": 886,
+          "player_1_name": "Vaclav Hruska",
+          "player_2_id": 1373,
+          "player_2_name": "Miloslav Lubas",
+          "player_1_sets": 2,
+          "player_2_sets": 3,
+          "winner_player_id": 1373,
+          "winner_player_name": "Miloslav Lubas"
         }
       ]
     },
@@ -89921,13 +92006,13 @@
       "player_low_name": "Tibor Kolenic",
       "player_high_id": 1377,
       "player_high_name": "Mihail Trinta",
-      "total_matches": 9,
-      "low_player_wins": 2,
-      "high_player_wins": 7,
-      "low_player_sets": 15,
-      "high_player_sets": 21,
+      "total_matches": 11,
+      "low_player_wins": 3,
+      "high_player_wins": 8,
+      "low_player_sets": 19,
+      "high_player_sets": 26,
       "first_meeting_utc": "2026-07-13T10:30:15.178000+00:00",
-      "last_meeting_utc": "2026-07-31T06:30:13.909000+00:00",
+      "last_meeting_utc": "2026-08-01T13:00:20.587000+00:00",
       "meetings": [
         {
           "match_id": 297011,
@@ -90060,6 +92145,36 @@
           "player_2_id": 1377,
           "player_2_name": "Mihail Trinta",
           "player_1_sets": 2,
+          "player_2_sets": 3,
+          "winner_player_id": 1377,
+          "winner_player_name": "Mihail Trinta"
+        },
+        {
+          "match_id": 300676,
+          "scheduled_start_utc": "2026-08-01T12:30:34.747000+00:00",
+          "tournament_id": 35624,
+          "tournament_name": "Tournament A14. League 550-600",
+          "league_band": "550-600",
+          "player_1_id": 897,
+          "player_1_name": "Tibor Kolenic",
+          "player_2_id": 1377,
+          "player_2_name": "Mihail Trinta",
+          "player_1_sets": 3,
+          "player_2_sets": 2,
+          "winner_player_id": 897,
+          "winner_player_name": "Tibor Kolenic"
+        },
+        {
+          "match_id": 300677,
+          "scheduled_start_utc": "2026-08-01T13:00:20.587000+00:00",
+          "tournament_id": 35624,
+          "tournament_name": "Tournament A14. League 550-600",
+          "league_band": "550-600",
+          "player_1_id": 897,
+          "player_1_name": "Tibor Kolenic",
+          "player_2_id": 1377,
+          "player_2_name": "Mihail Trinta",
+          "player_1_sets": 1,
           "player_2_sets": 3,
           "winner_player_id": 1377,
           "winner_player_name": "Mihail Trinta"
@@ -90321,6 +92436,36 @@
         }
       ]
     },
+    "897:1520": {
+      "player_low_id": 897,
+      "player_low_name": "Tibor Kolenic",
+      "player_high_id": 1520,
+      "player_high_name": "Tomas Regner",
+      "total_matches": 1,
+      "low_player_wins": 0,
+      "high_player_wins": 1,
+      "low_player_sets": 1,
+      "high_player_sets": 3,
+      "first_meeting_utc": "2026-08-01T10:00:35.373000+00:00",
+      "last_meeting_utc": "2026-08-01T10:00:35.373000+00:00",
+      "meetings": [
+        {
+          "match_id": 300671,
+          "scheduled_start_utc": "2026-08-01T10:00:35.373000+00:00",
+          "tournament_id": 35624,
+          "tournament_name": "Tournament A14. League 550-600",
+          "league_band": "550-600",
+          "player_1_id": 897,
+          "player_1_name": "Tibor Kolenic",
+          "player_2_id": 1520,
+          "player_2_name": "Tomas Regner",
+          "player_1_sets": 1,
+          "player_2_sets": 3,
+          "winner_player_id": 1520,
+          "winner_player_name": "Tomas Regner"
+        }
+      ]
+    },
     "897:1545": {
       "player_low_id": 897,
       "player_low_name": "Tibor Kolenic",
@@ -90371,13 +92516,13 @@
       "player_low_name": "Tibor Kolenic",
       "player_high_id": 1607,
       "player_high_name": "David Horak",
-      "total_matches": 3,
+      "total_matches": 4,
       "low_player_wins": 0,
-      "high_player_wins": 3,
-      "low_player_sets": 5,
-      "high_player_sets": 9,
+      "high_player_wins": 4,
+      "low_player_sets": 6,
+      "high_player_sets": 12,
       "first_meeting_utc": "2026-07-19T15:30:10.293000+00:00",
-      "last_meeting_utc": "2026-07-29T17:00:45.082000+00:00",
+      "last_meeting_utc": "2026-08-01T11:00:31.392000+00:00",
       "meetings": [
         {
           "match_id": 298198,
@@ -90420,6 +92565,21 @@
           "player_2_id": 1607,
           "player_2_name": "David Horak",
           "player_1_sets": 2,
+          "player_2_sets": 3,
+          "winner_player_id": 1607,
+          "winner_player_name": "David Horak"
+        },
+        {
+          "match_id": 300673,
+          "scheduled_start_utc": "2026-08-01T11:00:31.392000+00:00",
+          "tournament_id": 35624,
+          "tournament_name": "Tournament A14. League 550-600",
+          "league_band": "550-600",
+          "player_1_id": 897,
+          "player_1_name": "Tibor Kolenic",
+          "player_2_id": 1607,
+          "player_2_name": "David Horak",
+          "player_1_sets": 1,
           "player_2_sets": 3,
           "winner_player_id": 1607,
           "winner_player_name": "David Horak"
@@ -96791,13 +98951,13 @@
       "player_low_name": "Miroslav Barta",
       "player_high_id": 1239,
       "player_high_name": "Ladislav Havel",
-      "total_matches": 6,
-      "low_player_wins": 4,
+      "total_matches": 7,
+      "low_player_wins": 5,
       "high_player_wins": 2,
-      "low_player_sets": 14,
-      "high_player_sets": 10,
+      "low_player_sets": 17,
+      "high_player_sets": 12,
       "first_meeting_utc": "2026-07-11T15:00:05.570000+00:00",
-      "last_meeting_utc": "2026-07-27T17:31:41.157000+00:00",
+      "last_meeting_utc": "2026-08-01T06:30:36.999000+00:00",
       "meetings": [
         {
           "match_id": 296533,
@@ -96888,6 +99048,21 @@
           "player_2_sets": 1,
           "winner_player_id": 951,
           "winner_player_name": "Miroslav Barta"
+        },
+        {
+          "match_id": 300664,
+          "scheduled_start_utc": "2026-08-01T06:30:36.999000+00:00",
+          "tournament_id": 35623,
+          "tournament_name": "Tournament A14. League 450-500",
+          "league_band": "450-500",
+          "player_1_id": 951,
+          "player_1_name": "Miroslav Barta",
+          "player_2_id": 1239,
+          "player_2_name": "Ladislav Havel",
+          "player_1_sets": 3,
+          "player_2_sets": 2,
+          "winner_player_id": 951,
+          "winner_player_name": "Miroslav Barta"
         }
       ]
     },
@@ -96896,13 +99071,13 @@
       "player_low_name": "Miroslav Barta",
       "player_high_id": 1285,
       "player_high_name": "Jan Pleskot",
-      "total_matches": 2,
-      "low_player_wins": 0,
-      "high_player_wins": 2,
-      "low_player_sets": 1,
-      "high_player_sets": 6,
+      "total_matches": 4,
+      "low_player_wins": 1,
+      "high_player_wins": 3,
+      "low_player_sets": 4,
+      "high_player_sets": 11,
       "first_meeting_utc": "2026-07-21T16:30:07.301000+00:00",
-      "last_meeting_utc": "2026-07-21T17:00:15.339000+00:00",
+      "last_meeting_utc": "2026-08-01T09:30:12.763000+00:00",
       "meetings": [
         {
           "match_id": 298496,
@@ -96933,6 +99108,36 @@
           "player_2_sets": 3,
           "winner_player_id": 1285,
           "winner_player_name": "Jan Pleskot"
+        },
+        {
+          "match_id": 300667,
+          "scheduled_start_utc": "2026-08-01T08:00:13.923000+00:00",
+          "tournament_id": 35623,
+          "tournament_name": "Tournament A14. League 450-500",
+          "league_band": "450-500",
+          "player_1_id": 951,
+          "player_1_name": "Miroslav Barta",
+          "player_2_id": 1285,
+          "player_2_name": "Jan Pleskot",
+          "player_1_sets": 0,
+          "player_2_sets": 3,
+          "winner_player_id": 1285,
+          "winner_player_name": "Jan Pleskot"
+        },
+        {
+          "match_id": 300670,
+          "scheduled_start_utc": "2026-08-01T09:30:12.763000+00:00",
+          "tournament_id": 35623,
+          "tournament_name": "Tournament A14. League 450-500",
+          "league_band": "450-500",
+          "player_1_id": 951,
+          "player_1_name": "Miroslav Barta",
+          "player_2_id": 1285,
+          "player_2_name": "Jan Pleskot",
+          "player_1_sets": 3,
+          "player_2_sets": 2,
+          "winner_player_id": 951,
+          "winner_player_name": "Miroslav Barta"
         }
       ]
     },
