@@ -1,0 +1,96 @@
+{
+  "schema_version": "2.0.0",
+  "generated_at_utc": "2026-08-17T10:08:34.781122+00:00",
+  "source_snapshot_id": "506514ed27ceb2939b74a954daea1c60137f3df34b568773faf86855e9ce85d8",
+  "history_first_date_utc": "2022-01-01T09:00:00+00:00",
+  "history_last_date_utc": "2026-08-17T09:30:29.149000+00:00",
+  "pair_count": 28616,
+  "shard_count": 16,
+  "sharding": {
+    "strategy": "sha256(pair_key) mod shard_count",
+    "shard_count": 16,
+    "shard_id_format": "two-digit zero-padded decimal"
+  },
+  "shards": [
+    {
+      "shard_id": "00",
+      "path": "shards/00.json",
+      "pair_count": 1802
+    },
+    {
+      "shard_id": "01",
+      "path": "shards/01.json",
+      "pair_count": 1757
+    },
+    {
+      "shard_id": "02",
+      "path": "shards/02.json",
+      "pair_count": 1858
+    },
+    {
+      "shard_id": "03",
+      "path": "shards/03.json",
+      "pair_count": 1759
+    },
+    {
+      "shard_id": "04",
+      "path": "shards/04.json",
+      "pair_count": 1725
+    },
+    {
+      "shard_id": "05",
+      "path": "shards/05.json",
+      "pair_count": 1825
+    },
+    {
+      "shard_id": "06",
+      "path": "shards/06.json",
+      "pair_count": 1776
+    },
+    {
+      "shard_id": "07",
+      "path": "shards/07.json",
+      "pair_count": 1773
+    },
+    {
+      "shard_id": "08",
+      "path": "shards/08.json",
+      "pair_count": 1810
+    },
+    {
+      "shard_id": "09",
+      "path": "shards/09.json",
+      "pair_count": 1707
+    },
+    {
+      "shard_id": "10",
+      "path": "shards/10.json",
+      "pair_count": 1804
+    },
+    {
+      "shard_id": "11",
+      "path": "shards/11.json",
+      "pair_count": 1789
+    },
+    {
+      "shard_id": "12",
+      "path": "shards/12.json",
+      "pair_count": 1797
+    },
+    {
+      "shard_id": "13",
+      "path": "shards/13.json",
+      "pair_count": 1887
+    },
+    {
+      "shard_id": "14",
+      "path": "shards/14.json",
+      "pair_count": 1840
+    },
+    {
+      "shard_id": "15",
+      "path": "shards/15.json",
+      "pair_count": 1707
+    }
+  ]
+}
