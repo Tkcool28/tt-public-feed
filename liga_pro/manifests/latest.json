@@ -1,36 +1,40 @@
 {
-  "committed_at_utc": "2026-09-22T17:47:26.733995+00:00",
-  "corrected_match_count": 123,
-  "created_at_utc": "2026-09-22T17:47:18.632902+00:00",
+  "committed_at_utc": "2026-09-23T05:47:20.397445+00:00",
+  "corrected_match_count": 84,
+  "created_at_utc": "2026-09-23T05:47:11.686580+00:00",
   "duplicate_match_id_count": 0,
-  "fetched_at_utc": "2026-09-22T17:42:04.556691+00:00",
-  "finished_match_count": 2870,
+  "fetched_at_utc": "2026-09-23T05:42:04.587329+00:00",
+  "finished_match_count": 2952,
   "history_first_date_utc": "2022-01-01",
   "history_latest_date_utc": "2026-09-23",
   "history_total_unique_matches": 286677,
-  "new_match_count": 196,
-  "normalized_match_count": 3111,
+  "new_match_count": 0,
+  "normalized_match_count": 3112,
   "partitions_changed": [
     "2026-09-22",
     "2026-09-23"
   ],
-  "partitions_created": [
-    "2026-09-23"
-  ],
+  "partitions_created": [],
   "partitions_deleted": [],
-  "plan_id": "plan-e112a84019d1b87b",
-  "quarantined_match_count": 5,
-  "raw_match_count": 3111,
-  "relocated_match_count": 0,
-  "relocations": [],
-  "run_id": "plan-e112a84019d1b87b",
+  "plan_id": "plan-ed68a1514802c703",
+  "quarantined_match_count": 0,
+  "raw_match_count": 3112,
+  "relocated_match_count": 1,
+  "relocations": [
+    {
+      "from_date_utc": "2026-09-23",
+      "match_id": "310990",
+      "to_date_utc": "2026-09-22"
+    }
+  ],
+  "run_id": "plan-ed68a1514802c703",
   "schema_version": "2.0.0",
-  "snapshot_sha256": "2d42834eef1ff8cac62f575c235246c36f1a60de4b82a0d5c6247ae95352d53b",
+  "snapshot_sha256": "eccedbe0c89f071811b9d8b6aa84309642c5f7bd5be329dcadedddb227edb29e",
   "source": "api.league-pro.com",
-  "source_snapshot_id": "8b85e2cb09391e177e05c212296782df5fbbe4b17b23d98de2a54174d35def2f",
-  "unchanged_match_count": 2792,
-  "upcoming_match_count": 241,
-  "updated_match_count": 123,
+  "source_snapshot_id": "b48eff7e795a647ef35bc8d3438f75710a1e882e95edda220e9a351a94917d58",
+  "unchanged_match_count": 3028,
+  "upcoming_match_count": 160,
+  "updated_match_count": 84,
   "validation_errors": [],
   "validation_status": "PASS"
 }
