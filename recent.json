@@ -1,5 +1,128 @@
 [
   {
+    "snapshot_id": "0dcc48643ce5a52dc646c1c3cc47f7d9fd6b9547b1c7a3d2da210afd5a7761df",
+    "fetched_at_utc": "2026-09-28T17:40:08.308685+00:00",
+    "fetched_at_mountain": "2026-09-28T11:40:08.308685-06:00",
+    "primary_source": "parlayapi",
+    "source_status": "ok",
+    "event_count": 2,
+    "bookmaker_count": 1,
+    "draftkings_event_count": 0,
+    "tt_elite_event_count": 0,
+    "events_found": true,
+    "source_coverage_note": null,
+    "events": [
+      {
+        "source": "parlayapi",
+        "source_event_id": "b024ea9197fe047ff8d94c9a0da9bf3f",
+        "sport_key": "table_tennis",
+        "sport_title": "Table Tennis",
+        "league": "Table Tennis",
+        "commence_time_utc": "2026-09-28T17:35:00Z",
+        "commence_time_mountain": "2026-09-28T11:35:00-06:00",
+        "home_team": "Dmytro Neborak",
+        "away_team": "Denys Shcherbak",
+        "bookmakers": [
+          {
+            "bookmaker_key": "bovada",
+            "bookmaker_name": "Bovada",
+            "bookmaker_last_update": "2026-09-28T17:40:07Z",
+            "source_provider": "parlayapi",
+            "outcomes": [
+              {
+                "outcome_name": "Dmytro Neborak",
+                "decimal_price": 1.244,
+                "american_price": -410
+              },
+              {
+                "outcome_name": "Denys Shcherbak",
+                "decimal_price": 3.6,
+                "american_price": 260
+              }
+            ]
+          }
+        ],
+        "bookmaker_count": 1,
+        "draftkings": null,
+        "consensus": null,
+        "source_reference_price": {
+          "label": "source_reference_price",
+          "bookmaker_key": "bovada",
+          "bookmaker_name": "Bovada",
+          "provider": "parlayapi",
+          "outcomes": [
+            {
+              "outcome_name": "Dmytro Neborak",
+              "decimal_price": 1.244,
+              "american_price": -410
+            },
+            {
+              "outcome_name": "Denys Shcherbak",
+              "decimal_price": 3.6,
+              "american_price": 260
+            }
+          ]
+        },
+        "is_tt_elite": false
+      },
+      {
+        "source": "parlayapi",
+        "source_event_id": "ce31d2cceb8ed2730b0330414258f2cb",
+        "sport_key": "table_tennis",
+        "sport_title": "Table Tennis",
+        "league": "Table Tennis",
+        "commence_time_utc": "2026-09-28T17:35:00Z",
+        "commence_time_mountain": "2026-09-28T11:35:00-06:00",
+        "home_team": "Oleksii Korobov",
+        "away_team": "Volodymyr Hainiuk",
+        "bookmakers": [
+          {
+            "bookmaker_key": "bovada",
+            "bookmaker_name": "Bovada",
+            "bookmaker_last_update": "2026-09-28T17:40:07Z",
+            "source_provider": "parlayapi",
+            "outcomes": [
+              {
+                "outcome_name": "Oleksii Korobov",
+                "decimal_price": 1.435,
+                "american_price": -230
+              },
+              {
+                "outcome_name": "Volodymyr Hainiuk",
+                "decimal_price": 2.6,
+                "american_price": 160
+              }
+            ]
+          }
+        ],
+        "bookmaker_count": 1,
+        "draftkings": null,
+        "consensus": null,
+        "source_reference_price": {
+          "label": "source_reference_price",
+          "bookmaker_key": "bovada",
+          "bookmaker_name": "Bovada",
+          "provider": "parlayapi",
+          "outcomes": [
+            {
+              "outcome_name": "Oleksii Korobov",
+              "decimal_price": 1.435,
+              "american_price": -230
+            },
+            {
+              "outcome_name": "Volodymyr Hainiuk",
+              "decimal_price": 2.6,
+              "american_price": 160
+            }
+          ]
+        },
+        "is_tt_elite": false
+      }
+    ],
+    "consensus_note": "single-source feed (Bovada via ParlayAPI): prices labeled source_reference_price, NOT consensus.",
+    "content_fingerprint": "a7d3f0f3422fd0c53ada1e8cb56d0e4ef38037ae0526ce08d3a5865f63da978d"
+  },
+  {
     "snapshot_id": "552bfe38fdafad1dbd4cac3d8d7b607be2874eafce69064c1dae15f7636f91ef",
     "fetched_at_utc": "2026-09-28T05:40:07.568531+00:00",
     "fetched_at_mountain": "2026-09-27T23:40:07.568531-06:00",
