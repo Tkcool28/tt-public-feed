@@ -1,10 +1,10 @@
 {
   "schema_version": "2.0.0",
-  "generated_at_utc": "2026-10-20T05:42:04.588932+00:00",
-  "source_snapshot_id": "27c413a52a6266cb246851530bb268120fbb0cfef493e6cce0ee997cecf6d03f",
+  "generated_at_utc": "2026-10-20T17:42:04.586776+00:00",
+  "source_snapshot_id": "8358c6446c8d424c1ae6a440a71936bc730dfca0bd7c32e4f8b7ff9830cfccc2",
   "history_first_date_utc": "2022-01-01T09:00:00+00:00",
-  "history_last_date_utc": "2026-10-20T03:30:12.295000+00:00",
-  "pair_count": 29324,
+  "history_last_date_utc": "2026-10-20T17:30:34.357000+00:00",
+  "pair_count": 29335,
   "shard_count": 16,
   "sharding": {
     "strategy": "sha256(pair_key) mod shard_count",
@@ -20,7 +20,7 @@
     {
       "shard_id": "01",
       "path": "shards/01.json",
-      "pair_count": 1814
+      "pair_count": 1817
     },
     {
       "shard_id": "02",
@@ -55,12 +55,12 @@
     {
       "shard_id": "08",
       "path": "shards/08.json",
-      "pair_count": 1848
+      "pair_count": 1849
     },
     {
       "shard_id": "09",
       "path": "shards/09.json",
-      "pair_count": 1743
+      "pair_count": 1745
     },
     {
       "shard_id": "10",
@@ -70,17 +70,17 @@
     {
       "shard_id": "11",
       "path": "shards/11.json",
-      "pair_count": 1834
+      "pair_count": 1835
     },
     {
       "shard_id": "12",
       "path": "shards/12.json",
-      "pair_count": 1839
+      "pair_count": 1841
     },
     {
       "shard_id": "13",
       "path": "shards/13.json",
-      "pair_count": 1924
+      "pair_count": 1925
     },
     {
       "shard_id": "14",
@@ -90,7 +90,7 @@
     {
       "shard_id": "15",
       "path": "shards/15.json",
-      "pair_count": 1744
+      "pair_count": 1745
     }
   ]
 }
