@@ -1,10 +1,10 @@
 {
   "schema_version": "2.0.0",
-  "generated_at_utc": "2026-10-26T05:42:04.601749+00:00",
-  "source_snapshot_id": "4edd732348ccc14dc3f8fb7f3408e270997e2fc0854c0be3da002d5332c312bc",
+  "generated_at_utc": "2026-10-26T17:42:04.642868+00:00",
+  "source_snapshot_id": "6781e7968cf59a02b8530248a6977da53b50fc61b8de25bf51c9ca1a3a3aee5a",
   "history_first_date_utc": "2022-01-01T09:00:00+00:00",
-  "history_last_date_utc": "2026-10-26T04:30:16.206000+00:00",
-  "pair_count": 29391,
+  "history_last_date_utc": "2026-10-26T17:00:23.519000+00:00",
+  "pair_count": 29405,
   "shard_count": 16,
   "sharding": {
     "strategy": "sha256(pair_key) mod shard_count",
@@ -20,12 +20,12 @@
     {
       "shard_id": "01",
       "path": "shards/01.json",
-      "pair_count": 1821
+      "pair_count": 1823
     },
     {
       "shard_id": "02",
       "path": "shards/02.json",
-      "pair_count": 1902
+      "pair_count": 1903
     },
     {
       "shard_id": "03",
@@ -35,12 +35,12 @@
     {
       "shard_id": "04",
       "path": "shards/04.json",
-      "pair_count": 1769
+      "pair_count": 1771
     },
     {
       "shard_id": "05",
       "path": "shards/05.json",
-      "pair_count": 1871
+      "pair_count": 1872
     },
     {
       "shard_id": "06",
@@ -50,7 +50,7 @@
     {
       "shard_id": "07",
       "path": "shards/07.json",
-      "pair_count": 1823
+      "pair_count": 1825
     },
     {
       "shard_id": "08",
@@ -60,7 +60,7 @@
     {
       "shard_id": "09",
       "path": "shards/09.json",
-      "pair_count": 1747
+      "pair_count": 1748
     },
     {
       "shard_id": "10",
@@ -75,22 +75,22 @@
     {
       "shard_id": "12",
       "path": "shards/12.json",
-      "pair_count": 1843
+      "pair_count": 1844
     },
     {
       "shard_id": "13",
       "path": "shards/13.json",
-      "pair_count": 1926
+      "pair_count": 1928
     },
     {
       "shard_id": "14",
       "path": "shards/14.json",
-      "pair_count": 1885
+      "pair_count": 1886
     },
     {
       "shard_id": "15",
       "path": "shards/15.json",
-      "pair_count": 1749
+      "pair_count": 1750
     }
   ]
 }
