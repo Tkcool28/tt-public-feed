@@ -1,7 +1,7 @@
 {
   "first_available_date_utc": "2022-01-01",
-  "generated_at_utc": "2026-11-06T06:42:04.617174+00:00",
-  "latest_available_date_utc": "2026-11-06",
+  "generated_at_utc": "2026-11-06T18:42:01.782000+00:00",
+  "latest_available_date_utc": "2026-11-07",
   "partitions": [
     {
       "cancelled_or_abandoned_count": 0,
@@ -21245,19 +21245,31 @@
     },
     {
       "cancelled_or_abandoned_count": 0,
-      "completed_count": 30,
+      "completed_count": 145,
       "date_utc": "2026-11-06",
-      "file_sha256": "b0cbf8e57fb79248e5e712aaeadf74c42b17224f117f0012663aad9ff666225a",
-      "last_updated_at_utc": "2026-11-06T06:42:04.617174+00:00",
-      "maximum_match_id": 319945,
+      "file_sha256": "6d91d7d4cc55af22d36ab95916fc0b47ca3610f6b7c9bc255153f84c1827e62d",
+      "last_updated_at_utc": "2026-11-06T18:42:01.782000+00:00",
+      "maximum_match_id": 319959,
       "minimum_match_id": 319656,
       "path": "liga_pro/history/2026/11/2026-11-06.csv",
+      "row_count": 196,
+      "scheduled_count": 46
+    },
+    {
+      "cancelled_or_abandoned_count": 0,
+      "completed_count": 0,
+      "date_utc": "2026-11-07",
+      "file_sha256": "ac38150784976ef0a6d66552451f81b28a64a24c1a4a15f2cc358c26d0b3756d",
+      "last_updated_at_utc": "2026-11-06T18:42:01.782000+00:00",
+      "maximum_match_id": 320141,
+      "minimum_match_id": 319928,
+      "path": "liga_pro/history/2026/11/2026-11-07.csv",
       "row_count": 190,
-      "scheduled_count": 160
+      "scheduled_count": 190
     }
   ],
   "schema_version": "2.0.0",
   "source": "api.league-pro.com",
-  "total_partition_count": 1771,
-  "total_unique_match_count": 295301
+  "total_partition_count": 1772,
+  "total_unique_match_count": 295497
 }
